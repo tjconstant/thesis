@@ -1,0 +1,11 @@
+\documentclass[11pt,a4paper]{standalone}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\author{Tom Constant}
+\usepackage{tikz}
+\begin{document}
+\input{fieldplot-SPPonZigzag.tex}
+\end{document}

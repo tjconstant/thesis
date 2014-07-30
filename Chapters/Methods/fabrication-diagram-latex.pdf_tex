@@ -1,0 +1,71 @@
+%% Creator: Inkscape inkscape 0.48.3.1, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'fabrication-diagram-latex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{648.6239624bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.17583673)%
+    \put(0,0){\includegraphics[width=\unitlength]{fabrication-diagram-latex.pdf}}%
+    \put(0.1400256,1.08126633){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{electron beam}}}%
+    \put(0.26829715,0.96039507){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{PMMA}}}%
+    \put(0.14372575,0.91352662){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Silicon Substrate}}}%
+    \put(0.74808208,1.10470056){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Reactive Ion Etch}}}%
+    \put(0.42970375,0.88762563){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{3. Produced Master in Silicon}}}%
+    \put(0.17814877,0.67323608){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{4. Thermal Evaporation of Silver}}}%
+    \put(0.78508349,0.53241211){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Glue}}}%
+    \put(0.82085152,0.62491563){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Glass Superstrate}}}%
+    \put(0.40643574,0.16733155){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Template Strip}}}%
+    \put(0.6469449,0.20926648){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Fabricated Grating}}}%
+    \put(0.86242473,0.22049352){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Glass Substrate}}}%
+    \put(0.18383991,1.15526915){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1. Electron Beam Lithography}}}%
+    \put(0.67528374,1.15896929){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{2. Reactive Ion Etch}}}%
+    \put(0.67519701,0.67155945){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{5. Superstrate Adhesion}}}%
+    \put(0.18472881,0.31897492){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{6. Template Strip}}}%
+    \put(0.67599919,0.31897492){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{7. Final Sample 
+Produced}}}%
+  \end{picture}%
+\endgroup%

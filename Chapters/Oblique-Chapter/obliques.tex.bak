@@ -1,0 +1,72 @@
+
+%\chapter{Optical response of oblique bigratings}
+
+\section{what is an oblique grating, and why do i care?}
+An oblique bigrating is formed from two monogratings of differing pitches, crossed at an angle that is not $90^\circ$ nor $60^\circ$. The reciprocal space map for such a grating is shown in figure \ref{}, and constitutes the lowest symmetry lattice set of all the two-dimensional Bravais lattices.
+\begin{figure}
+\centering \input{figure-75degObliqueLattice}\input{figure-60degObliqueLattice}
+\caption{Example reciprocal lattices for two oblique gratings. $\lambda_{gx}= 600$ nm, $\lambda_{gv}=400$ nm and the angles between the two periodicities are (a) $\alpha = 75^\circ$ and (b) $\alpha= 60^\circ$. }
+\end{figure} 
+Consequently, the SPP propagation on such a grating is not constrained by many symmetry considerations which dictated the characteristics of SPPs on highly symmetric gratings. The modes exhibit strong polarization conversion and the interaction of the modes to form band-gaps do not occur at points of any significance other than that they exist where counter-propagating modes meet.
+\section{coupling conditions and mode interaction for square-profile gratings}
+A square profile grating such as those fabricated using EBL contain little or no even-Fourier components in their surface profile. Consequently, a plane wave  incident on any such grating may be modified by values of $\pm m\mathbf{k}_g$ , where $m$ is odd, by direct scattering events, as the plane wave scatters from the surface profile containing odd-Fourier components. A direct scattering event, where the plane wave is modified by $\pm n\mathbf{k}_g$, where $n$ is even, are not possible. There does exist, however, the oppertunity for the plane wave to be modified by a total value of $\pm n\mathbf{k}_g$ through multiple-scattering processes, summing the contributions from  $\pm m\mathbf{k}_g$ scattering events. These multiple scattering events are found in experiment to be so weak, they are rarely observed. 
+
+These scattering efficiencies also relate to the strength of interaction between counter-propagating SPP modes. Modes that are separated by a direct scattering event tend to interact strongly, while little, if any, interaction is observed for modes sperated by a multiple-scattering process.  The coupling of light does not effect the eigenmodes of the scattered SPPs, and so the band-gap character of a uncoupled mode can be evident if the mode interacts strongly with awell coupled SPP mode. IN this instance, it is not uncommon for the well coupled SPP to excite the uncoupled (to light)  SPP, and baggaps can be fully realized.
+
+\section{Identifying zero group velocity at BZ boundaries using equi-energy contours}
+The formation of photonic bandgaps on an oblique bigrating are of interest, as on a surface with such broken symmetry the locations in k-space of  SPP standing wavesneed not occur at the BZ boundary. To show this clearly, we must identify how photonic bandgaps are illustrated in the recorded equi-energy contours scatterometry results.
+The equi-energy image obtained using scatterometry maps k-space at a single frequency, with SPP bands seen as a anomalous discontinuity of the reflected light. 
+The group velocity of a general propagating wave is defined as,
+\begin{equation}
+\mathbf{v}_g = \nabla_k\: \omega(\mathbf{k})
+\end{equation}
+Where $\mathbf{v}_g$ is the group velocity, $\omega(\mathbf{k})$ is the angular frequency of the wave as a function of wavevector, $\mathbf{k}$, and $\nabla_k$ is the gradient operator with respect to k. For a small change in frequency $d\omega$, the corresponding small movement in k-space, $d\mathbf{k}$, is related to this group velocity simply by,
+\begin{equation}
+d\omega = \nabla_k\: \omega(\mathbf{k}) \cdot d\mathbf{k}
+\end{equation}
+For an equi-energy contour, there must be no change in frequency, $d\omega=0$. Setting $d\omega=0$ restricts the values of $d\mathbf{k}$ to those values that move along a contour of equal frequency. It is then apparent that in the resultant expression,
+\begin{equation}
+\mathbf{v}_g \cdot d\mathbf{k} = 0
+\end{equation}
+That $\mathbf{v}_g \perp d\mathbf{k}$.
+This is true for any general contour of constant frequency. If the group velocity in one direction falls to zero at a boundary, such as at the BZ boundary,  the iso-frequency SPP contour will intersect that boundary perpendicularly.
+
+Plasmonic bandgaps on surface relief gratings are covered in section \ref{}. To briefly recap, when a SPP meets an equivalent, counter-propagating SPP a standing wave forms. There are generally two possible arrangements of the electric field  for a SPP standing wave on a grating, which will generally differ in energy. This leads to a upper and lower energy band, with an energy range between where there are no possible solutions for a SPP, and SPP propagation is forbidden. This is a plasmonic band-gap
+The energy gap size is dependant on the two possible field distributions, and so is linked intimately to the surface geometry. The surface profile also provides the scattering mechanism by which SPPs Bragg scatter to meet counter-propagating SPPs and form these standing waves. The strength of this scattering, and so the amplitude of the Bragg scattered SPP, was discussed earlier \ref{} and also effects the band-gap size.
+\begin{figure}
+\caption{equi-energy results for rectangular grating}
+\end{figure}
+An example equi-energy surface for a rectangular bigrating is shown in figure \ref{}, obtained using imaging scatterometry. Using the established notation (section \ref{}), the grating parameters are designed as $\alpha=90^\circ$, $\lambda_{gx}=600 $nm, $\lambda_{gv}\equiv\lambda_{gy}=400 $nm  The wavelength of the illuminating light is $550 \pm 5$ nm, with the blue circles indicating the calculated positions of diffracted light cones. The polarization is set as to couple strongly to the ($\pm 1,0$) SPPs, which are measured as dark contours following the ($\pm 1,0$) diffracted light circles. In this scattergram, the ($\pm 2,0$) SPP are also weakly coupled, while the ($0,\pm 1$) require a rotation of the polarization to be observed. The ($\pm 1, \pm 1$) and the ($\pm 1, \mp 1$) SPPs require multiple scattering events to couple to the incident field, and are so weakly coupled they are not observed experimentally.
+The figure shows bandgaps occurring at the boundary of the first BZ in the $\mathbf{k}_{gy}$ direction. The SPP contour intersects the BZ (red lines) perpendicularly, which as discussed previously, requires that the group velocity in the $\mathbf{k}_{gy}$ direction is zero and standing waves in that direction have formed at the boundary.  This is where the ($\pm 1, 0$) SPPs has crossed and interacted with a ($\pm 1, \pm 1$) or ($\pm 1, \mp 1$) SPP, forming two standing waves with a high and low energy solution. While these SPPs are not coupled to strongly by the incident field, the SPPs themselves only require a single scattering event to Bragg scatter cross, leading to the discontinuities observed in the ($\pm 1,0$) SPP contours. 
+Figure \ref{} also shows the FEM modelled results of the bandgap area in k-space, showing good agreement between the two. The two field distributions for the two possible standingwaves are shown also. 
+ 
+
+\section{symmetry considerations: BZ boundaries}
+A Brillioun Zone boundary in reciprocal space outlines a unit cell in the reciprocal lattice and contains in the boundary points of high-symmetry. One way to determine a boundary that contains the maximum amount of high-symmetry points is to connect the perpendicular bisectors of the vectors connecting the nearest neighbours to one lattice point, a method known and the Wigner-Seitz method. The area mapped out by this method, for the highly-symmetric cases of square, rectangular or hexagonal lattices, is exactly equivalent to the area we call the Brillioun Zone, and no other choice of unit cell contains as many points of high-symmetry in the boundary.
+
+In the oblique case, we may again use the Wigner-Seitz method to construct a perfectly valid Brillioun Zone. However, this zone is not a unique choice, we can easily contain the points of high-symmetry using instead a trapezoidal shape, as shown in figure \ref{}.
+
+\begin{figure}
+\centering \input{figure-possibleBZoblique.tex}
+\caption{Two possible Brillioun Zones for an oblique lattice. The Wigner-Seitz cell (\color{red}red\color{black}) and a simple trapezium (\color{blue}blue\color{black}) contain in their boundaries the points of high symmetry labelled $i_1,i_2,i_3$.}
+\end{figure}
+
+The arbitrary choice of BZ in the oblique case highlights that the properties of physical phenomena on the lattice are determined, not by the BZ, but by the symmetry operations of the lattice.
+
+Neumann’s principle with respect to our system requires that the physical properties of phenomena associated with the grating possess the same symmetry as the point symmetry group of the grating [reference]. While we could discuss specific propagation properties of the surface modes with respect to its lattice, let us instead generalize these concepts to some arbitrary vector field and see what restrictions the symmetry of the grating places upon it.
+In the case of a rectangular grating, the mirror and translational symmetry results in any point on the BZ boundary hosting vectors of equal magnitude but opposite direction (figure 4c). These vectors sum to give a magnitude of zero in the direction perpendicular to the zone boundary. Whether this vector field represents the SPP’s momentum, group velocity or Poyniting vector, the conclusion is the same: a standing wave forms perpendicular to the BZ boundary.
+\begin{figure}
+\centering \input{figure-symmetryofrecandoblique1.tex}
+\caption{Applying the symmetry operations of the rectangular BZ, an arbitrary vector, r (lying on the BZ boundary) corresponds to seven other vectors of known magnitude and direction. The summation of these vectors leads to no perpendicular component of the vector at the BZ boundary. (d) In the oblique case, there is no such condition, the C2 rotation operation only placing constraints on three additional vectors.}
+\end{figure}
+In the plasmonic case, a SPP has Bragg-scattered and interfered with a counter-propagating SPP. The interference between these two SPPs, which by symmetry can be equal in magnitude and opposite in direction, forms a standing wave. The symmetry considerations we have outlined show us that this is possible, with no restrictions on a ‘mirrored’ SPP occupying the same position and, importantly, that their vector properties will have equal magnitudes and so interfere completely. The two possible field arrangements for SPP standing waves on gratings lead to two solutions of different energies with a forbidden band of no propagating waves between the two: a photonic band gap [reference]. These are observed experimentally as discontinuities of the SPP curves at the BZ boundary, and are well understood [reference]. 
+
+We observe such a band gap using in the imaging scatterometry data for a rectangular bi-grating (figure 4a). The SPP equi-energy contour in figure 1 is for a wavelength of 550 nm, and intersects the BZ boundary perpendicularly, indicating zero component of group velocity across the BZ boundary (The group velocity vector’s direction on a equi-energy contour is normal to the SPP equi-energy curve. A SPP curve hitting a BZ boundary perpendicularly shows that there is no group velocity across the boundary). The SPP associated with the (0,+-1) diffracted light lines becomes discontinuous across the BZ boundary, as expected.
+\begin{figure}
+\caption{Bandgaps}
+\end{figure}
+Using the same approach, we apply the symmetry operations of the oblique lattice to an arbitrary vector field (figure 4d). With no mirror symmetry, the oblique lattice possess only translational and a two-fold rotation symmetry operations (a two fold rotation operation is equivalent in two dimensions to an inversion operation). As shown in figure 4d, there are no special conditions on the vectors lying along the BZ formed using the Weigner-Setiz method, and no condition for the vectors to cancel perfectly. Standing waves do not necessarily occur at the Brillion zone boundary. 
+
+This leads to the observation that the band-gaps observed do not form at the BZ boundaries, but simply where the SPP meets a Bragg scattered counter-propagating SPP. Figure 4b shows the equi-energy surface for an oblique bi-grating obtained experimentally unsing imaging scatterometry. The SPP equi-energy curves clearly do not band gap at the BZ boundaries, passing through the boundary unperturbed. The SPP equi-energy curves do, however, display band gaps in other locations in momentum space. Highlighted in figure 2, a band gap has formed as a result of the interaction between the (-1,-1) and the (-1,0) SPPs. In the special case of an oblique lattice, these intersections are not required to occur at the same momenta as the BZ.
+The mid-points of BZ boundaries are of high symmetry in both rectangular and oblique cases, and do allow the total cancellation of our vector field. However, as isolated singularities these effects are not seen in our oblique grating results.
+

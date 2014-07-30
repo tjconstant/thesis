@@ -1,0 +1,26 @@
+\begin{pspicture}[](9,3)
+
+\pnode(1,1){S}
+\pnode(2,1){C}
+\pnode(3,1){ND}
+\pnode(4,1){Pol}
+\pnode(5,1){BS}
+\pnode(9,1){Grating}
+\pnode(8,2){D2}
+\pnode(5,2){D1}
+
+\optbox[position=start,innerlabel, allowbeaminside=false,compname=laser](S)(C){HeNe}
+\optbox[compname=chopper,optboxwidth=0.4](S)(ND){C}
+\optplate(C)(Pol){ND}
+\optplate(ND)(BS){Pol}
+\lens[optional](BS)(Grating){L}
+\beamsplitter[compname=BS,bsstyle=plate,labelangle=-90](Pol)(BS)(D1){BS}
+\optgrating[compname=grating,labelangle=-90](BS)(Grating)(D2){Sample}
+\optdetector[compname=D2,dettype=diode](Grating)(D2){D2}
+\optdetector[compname=D1,dettype=diode](BS)(D1){D1}
+
+\addtopsstyle{Beam}{fillstyle=solid, fillcolor=red,opacity=0.35,linestyle}
+\drawwidebeam[beamwidth=0.1,ArrowInside=->,arrowscale=1.3,linecolor=red](S){grating}{D2}
+\drawwidebeam[beamwidth=0.1,ArrowInside=->,arrowscale=1,linecolor=red](S){BS}{D1}
+\rput(9.5,0.8){\Large{$\circlearrowright$}}
+\end{pspicture}

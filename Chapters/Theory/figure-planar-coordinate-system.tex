@@ -1,0 +1,25 @@
+\begin{pspicture}[](8,5) %start optics diagram (8x5) grid
+	\pnode(4,2){C} %labeled nodes are the positions in the (8x5) grid
+	\pnode(0.5,5){i} %labeled nodes are the positions in the (8x5) grid
+	\pnode(7.5,5){r} %labeled nodes are the positions in the (8x5) grid
+	\pnode(8,0.5){t}
+	
+	\addtopsstyle{ExtendedMirror}{hatchcolor=lightgray}
+	\polarization[labeloffset=0.6](i)(C){$\mathbf{E}_0$}
+	\mirror[mirrorwidth=8,mirrortype=extended,mirrordepth=2](i)(C)(r)
+	\polarization[labeloffset=0.6](C)(r){$\mathbf{E}_1$}
+	\polarization[labeloffset=0.6](C)(t){$\mathbf{E}_2$}
+	\psline[linestyle=dashed](4,5)(4,0)
+	\drawbeam[beam,ArrowInside=->,arrowscale=1](i){1}{2}{3}{(r)}
+	\drawbeam[beam,ArrowInside=->,arrowscale=1](C){4}{(t)}
+	%\psarcAB(C)(4,3)(3,2)
+	\psline{->}(0.5,0.5)(0.5,1.25)
+	\psline{->}(0.5,0.5)(1.25,0.5)
+	\rput(1.5,0.5){$\mathbf{\hat{x}}$}
+	\rput(0.5,1.5){$\mathbf{\hat{z}}$}
+	\rput(7.5,1.5){$\varepsilon_2$}
+	\rput(7.5,2.5){$\varepsilon_1$}
+	\rput(1.55,4.65){\green $\mathbf{k}_0$}
+	\rput(6.45,4.65){\green $\mathbf{k}_1$}
+	\rput(6.75,0.55){\green $\mathbf{k}_2$}
+\end{pspicture}

@@ -1,0 +1,9 @@
+\documentclass[11pt,a4paper]{standalone}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{tikz}
+\begin{document}
+\input{figure-linear-theta.tex}
+\end{document}

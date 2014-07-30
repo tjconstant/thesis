@@ -1,0 +1,91 @@
+\BOOKMARK [0][]{chapter*.1}{Contents}{}% 1
+\BOOKMARK [0][]{chapter*.2}{List of Figures}{}% 2
+\BOOKMARK [0][]{chapter.1}{1 Introduction}{}% 3
+\BOOKMARK [1][]{section.1.1}{1.1 History}{chapter.1}% 4
+\BOOKMARK [1][]{section.1.2}{1.2 Scope and Outline of This Work}{chapter.1}% 5
+\BOOKMARK [0][]{chapter.2}{2 Background Theory}{}% 6
+\BOOKMARK [1][]{section.2.1}{2.1 Introduction}{chapter.2}% 7
+\BOOKMARK [1][]{section.2.2}{2.2 Surface Polaritons on Planar Surfaces}{chapter.2}% 8
+\BOOKMARK [1][]{section.2.3}{2.3 Dispersion of SPPs on Planar Surfaces}{chapter.2}% 9
+\BOOKMARK [2][]{subsection.2.3.1}{2.3.1 Penetration Depth}{section.2.3}% 10
+\BOOKMARK [2][]{subsection.2.3.2}{2.3.2 Propagation Length}{section.2.3}% 11
+\BOOKMARK [1][]{section.2.4}{2.4 Surface Plasmon Polaritons on Diffraction Gratings}{chapter.2}% 12
+\BOOKMARK [2][]{subsection.2.4.1}{2.4.1 Diffraction Gratings}{section.2.4}% 13
+\BOOKMARK [2][]{subsection.2.4.2}{2.4.2 Coupling Surface Plasmons to Light by Coherent Scattering}{section.2.4}% 14
+\BOOKMARK [2][]{subsection.2.4.3}{2.4.3 Surface Plasmon Polaritons on Bigratings}{section.2.4}% 15
+\BOOKMARK [2][]{subsection.2.4.4}{2.4.4 Coupling Strength of Light to SPPs on Gratings}{section.2.4}% 16
+\BOOKMARK [2][]{subsection.2.4.5}{2.4.5 Plasmonic Band Gaps}{section.2.4}% 17
+\BOOKMARK [3][]{subsubsection.2.4.5.1}{2.4.5.1 Coupling Light to Band Edges}{subsection.2.4.5}% 18
+\BOOKMARK [2][]{subsection.2.4.6}{2.4.6 Polarisation Conversion}{section.2.4}% 19
+\BOOKMARK [0][]{chapter.3}{3 Theoretical Methods}{}% 20
+\BOOKMARK [1][]{section.3.1}{3.1 Introduction}{chapter.3}% 21
+\BOOKMARK [1][]{section.3.2}{3.2 The Differential Method of Chandezon et al.}{chapter.3}% 22
+\BOOKMARK [1][]{section.3.3}{3.3 The Finite Element Method}{chapter.3}% 23
+\BOOKMARK [2][]{subsection.3.3.1}{3.3.1 Solving Maxwell's Equations in the Mesh}{section.3.3}% 24
+\BOOKMARK [2][]{subsection.3.3.2}{3.3.2 Adaptive Meshing}{section.3.3}% 25
+\BOOKMARK [2][]{subsection.3.3.3}{3.3.3 Solution Evaluation and Convergence}{section.3.3}% 26
+\BOOKMARK [2][]{subsection.3.3.4}{3.3.4 Model Boundary Conditions}{section.3.3}% 27
+\BOOKMARK [2][]{subsection.3.3.5}{3.3.5 Floquet Type Excitation}{section.3.3}% 28
+\BOOKMARK [0][]{chapter.4}{4 Experimental Methodology}{}% 29
+\BOOKMARK [1][]{section.4.1}{4.1 Sample Fabrication}{chapter.4}% 30
+\BOOKMARK [2][]{subsection.4.1.1}{4.1.1 Electron Beam Lithography}{section.4.1}% 31
+\BOOKMARK [2][]{subsection.4.1.2}{4.1.2 Thermal Evaporation}{section.4.1}% 32
+\BOOKMARK [2][]{subsection.4.1.3}{4.1.3 Template Stripping}{section.4.1}% 33
+\BOOKMARK [2][]{subsection.4.1.4}{4.1.4 Polymer Replication}{section.4.1}% 34
+\BOOKMARK [1][]{section.4.2}{4.2 Angle Scans }{chapter.4}% 35
+\BOOKMARK [2][]{subsection.4.2.1}{4.2.1 Monochromator}{section.4.2}% 36
+\BOOKMARK [2][]{subsection.4.2.2}{4.2.2 Fixed Wavelength Scans}{section.4.2}% 37
+\BOOKMARK [2][]{subsection.4.2.3}{4.2.3 Embedded Samples}{section.4.2}% 38
+\BOOKMARK [1][]{section.4.3}{4.3 Iso-Frequency Contour Measurement Using Scatterometry }{chapter.4}% 39
+\BOOKMARK [2][]{subsection.4.3.1}{4.3.1 Scatterometry}{section.4.3}% 40
+\BOOKMARK [2][]{subsection.4.3.2}{4.3.2 Principle of Operation}{section.4.3}% 41
+\BOOKMARK [2][]{subsection.4.3.3}{4.3.3 Sample Preparation}{section.4.3}% 42
+\BOOKMARK [2][]{subsection.4.3.4}{4.3.4 The Role of Polarisation}{section.4.3}% 43
+\BOOKMARK [2][]{subsection.4.3.5}{4.3.5 Corrections and Momentum-Space Deformation}{section.4.3}% 44
+\BOOKMARK [2][]{subsection.4.3.6}{4.3.6 Example Dataset}{section.4.3}% 45
+\BOOKMARK [0][]{chapter.5}{5 Optical Response of Metallic Rectangular Bigratings}{}% 46
+\BOOKMARK [1][]{section.5.1}{5.1 Introduction}{chapter.5}% 47
+\BOOKMARK [1][]{section.5.2}{5.2 The Rectangular Bigrating}{chapter.5}% 48
+\BOOKMARK [1][]{section.5.3}{5.3 Dispersion of SPPs on Rectangular Bigratings}{chapter.5}% 49
+\BOOKMARK [2][]{subsection.5.3.1}{5.3.1 Scattering Components on Lamellar Gratings}{section.5.3}% 50
+\BOOKMARK [2][]{subsection.5.3.2}{5.3.2 Experimental Mapping of SPP Dispersion}{section.5.3}% 51
+\BOOKMARK [2][]{subsection.5.3.3}{5.3.3 Band Gap Observation Using Scatterometry}{section.5.3}% 52
+\BOOKMARK [1][]{section.5.4}{5.4 Polarisation Conversion on Rectangular Symmetry}{chapter.5}% 53
+\BOOKMARK [1][]{section.5.5}{5.5 Controlling SPP Anisotropy Using Rectangular Bigratings}{chapter.5}% 54
+\BOOKMARK [1][]{section.5.6}{5.6 Conclusions}{chapter.5}% 55
+\BOOKMARK [0][]{chapter.6}{6 Optical Response of Metallic Oblique Bigratings}{}% 56
+\BOOKMARK [1][]{section.6.1}{6.1 Introduction}{chapter.6}% 57
+\BOOKMARK [1][]{section.6.2}{6.2 The Oblique Grating}{chapter.6}% 58
+\BOOKMARK [1][]{section.6.3}{6.3 Coupling of Light and SPP Mode Interaction on Oblique Gratings}{chapter.6}% 59
+\BOOKMARK [1][]{section.6.4}{6.4 Polarisation Conversion}{chapter.6}% 60
+\BOOKMARK [1][]{section.6.5}{6.5 SPPs at the BZ Boundary of Oblique Bigratings}{chapter.6}% 61
+\BOOKMARK [1][]{section.6.6}{6.6 Conclusions}{chapter.6}% 62
+\BOOKMARK [0][]{chapter.7}{7 Optical Response of Metallic Zigzag Bigratings}{}% 63
+\BOOKMARK [1][]{section.7.1}{7.1 Background}{chapter.7}% 64
+\BOOKMARK [1][]{section.7.2}{7.2 The Zigzag Grating}{chapter.7}% 65
+\BOOKMARK [1][]{section.7.3}{7.3 The Coupling of Plane Polarised Light to SPPs on Zigzag Gratings}{chapter.7}% 66
+\BOOKMARK [2][]{subsection.7.3.1}{7.3.1 Theory}{section.7.3}% 67
+\BOOKMARK [2][]{subsection.7.3.2}{7.3.2 Samples}{section.7.3}% 68
+\BOOKMARK [2][]{subsection.7.3.3}{7.3.3 Transverse Electric Coupling}{section.7.3}% 69
+\BOOKMARK [2][]{subsection.7.3.4}{7.3.4 Transverse Magnetic Coupling}{section.7.3}% 70
+\BOOKMARK [1][]{section.7.4}{7.4 Band Structure of SPPs on a Zigzag Grating}{chapter.7}% 71
+\BOOKMARK [2][]{subsection.7.4.1}{7.4.1 Band-Gaps at kx=0}{section.7.4}% 72
+\BOOKMARK [2][]{subsection.7.4.2}{7.4.2 Band-Gaps at the First Brillouin Zone Boundary}{section.7.4}% 73
+\BOOKMARK [1][]{section.7.5}{7.5 Anisotropic Propagation of SPP Modes for Self Collimation}{chapter.7}% 74
+\BOOKMARK [1][]{section.7.6}{7.6 Conclusions}{chapter.7}% 75
+\BOOKMARK [0][]{chapter.8}{8 Optical Response of Asymmetric Zigzag Bigratings}{}% 76
+\BOOKMARK [1][]{section.8.1}{8.1 Introduction}{chapter.8}% 77
+\BOOKMARK [1][]{section.8.2}{8.2 The Asymmetric Zigzag Grating}{chapter.8}% 78
+\BOOKMARK [1][]{section.8.3}{8.3 The Coupling of Polarised Light to SPPs on an Asymmetric Zigzag Grating}{chapter.8}% 79
+\BOOKMARK [2][]{subsection.8.3.1}{8.3.1 Theory}{section.8.3}% 80
+\BOOKMARK [2][]{subsection.8.3.2}{8.3.2 Results}{section.8.3}% 81
+\BOOKMARK [1][]{section.8.4}{8.4 Band Structure of SPPs on an Asymmetric Zigzag Grating}{chapter.8}% 82
+\BOOKMARK [2][]{subsection.8.4.1}{8.4.1 Band Gaps at kx=0}{section.8.4}% 83
+\BOOKMARK [2][]{subsection.8.4.2}{8.4.2 Band Gaps at the 1st BZ Boundary}{section.8.4}% 84
+\BOOKMARK [3][]{subsubsection.8.4.2.1}{8.4.2.1 Coupling of Light to the Band Edges}{subsection.8.4.2}% 85
+\BOOKMARK [3][]{subsubsection.8.4.2.2}{8.4.2.2 A Full Surface Plasmon Band Gap}{subsection.8.4.2}% 86
+\BOOKMARK [1][]{section.8.5}{8.5 Conclusions}{chapter.8}% 87
+\BOOKMARK [0][]{chapter.9}{9 Conclusions}{}% 88
+\BOOKMARK [1][]{section.9.1}{9.1 Summary of Thesis}{chapter.9}% 89
+\BOOKMARK [1][]{section.9.2}{9.2 Future Work}{chapter.9}% 90
+\BOOKMARK [0][]{chapter*.3}{Publications}{}% 91

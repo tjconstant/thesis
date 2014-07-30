@@ -1,0 +1,216 @@
+\documentclass[]{standalone}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\usepackage{auto-pst-pdf}%for converting pstricks diagrams for compilation in pdflatex
+\usepackage{pst-optexp} %for optics diagrams using pstricks
+\usepackage{wasysym} %for the sun symbol used for light source
+%\usepackage{subfig}
+%\usepackage[para,symbol*]{footmisc}
+\usepackage{tikz}
+%\usepackage{color}
+\usepackage{import}
+\usepackage{pst-solides3d}
+\usepackage{rotating}
+\usepackage{todonotes}
+\renewcommand{\arraystretch}{1.5}
+
+\begin{document}
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis magna nec enim fringilla hendrerit. Suspendisse venenatis arcu ac nunc gravida at euismod elit varius. Aenean euismod, massa at mattis congue, nunc nisi posuere ligula, sit amet condimentum nibh nibh et velit. Etiam viverra eros ut mauris tempus adipiscing. Vivamus nec ipsum vel enim ultricies laoreet. Sed quis arcu vel metus venenatis egestas. Aliquam eu porta felis. Mauris ac congue diam. Nam odio massa, pretium et mattis bibendum, consequat nec mi. Nam rhoncus est quis lacus auctor sit amet tristique orci pharetra. Phasellus suscipit molestie vestibulum. Pellentesque egestas libero ac elit dignissim tempus. Vestibulum ut neque in lacus bibendum consequat a ac mi. In at velit vel neque volutpat condimentum et at dui.
+
+Nam ultricies congue tincidunt. Etiam in lectus at purus fringilla fermentum id id ipsum. Nam at lectus eros. Morbi luctus tincidunt elit, id facilisis lorem blandit sed. Integer vehicula ante nec diam pulvinar pharetra viverra nulla ornare. Aliquam fringilla .
+
+\begin{figure}[h] %figure enviroment(not needed, just for nice layout of the examples)
+\begin{center}
+
+\begin{pspicture}[](8,6) %start optics diagram (8x6) grid
+
+\pnode(3,6){S1} %labeled nodes are the positions in the (8x6) grid
+\pnode(3,5){L1}
+\pnode(3,4){Pol}
+\pnode(3,3){L2}
+\pnode(3,2){P1}
+\pnode(3,1){BS1}
+
+\pnode(1,1){M1}
+\pnode(1.521,1){Sample}
+\pnode(4,1){L3}
+\pnode(5,1){F1}
+\pnode(6,1){L4}
+\pnode(7,1){CCD}
+
+%components in form \name[options](node1)(node1){label on diagram}
+
+\lens[compname=L1,labeloffset=-1](S1)(Pol){L1}
+\optplate[compname=Pol,labeloffset=-1](L1)(L2){Pol}
+\lens[compname=L2,position=0.5,labeloffset=-1](Pol)(P1){L2}
+\pinhole[compname=P1,phwidth=0.1,labeloffset=-1](L2)(BS1){P1}
+\mirror[compname=BS1,bsstyle=plate,labelangle=-45](P1)(BS1)(M1){BS}
+\mirror[compname=M1,mirrorradius=1,mirrortype=extended, mirrorwidth=1.7](BS1)(M1)(BS1){M1}
+\pinhole[position=0.5,phwidth=0.1](BS1)(F1){P2}
+\mirror[compname=Sample,mirrortype=extended, mirrorwidth=0.25,labelangle=-80,labeloffset=1.1](M1)(Sample)(M1){G}
+\lens[compname=L3,position=0.8](BS1)(F1){L3}
+\optplate[compname=F1,position=0.7,optional](L3)(L4){F}
+\lens[compname=L4](F1)(CCD){L4}
+\optbox[compname=CCD,position=end,labeloffset=0,optboxwidth=1](L4)(CCD){CCD}
+
+\rput(S1){\Large{\sun}} %the sun symbol (not in opt-exp but nice anyways)
+
+
+%add the beam, in the form \drawwidebeam[options](source){go through this node}{then this one}{then this one}
+
+\addtopsstyle{Beam}{fillstyle=solid, fillcolor=green,opacity=0.05,linestyle}
+\drawwidebeam[beamdiv=25, ArrowInside=->,arrowscale=1.3](S1){L1}{L2}{P1}{BS1}{M1}{Sample}{M1}{L3}{L4}{CCD}
+
+
+\end{pspicture}
+\end{center}
+\caption{Imaging Scatterometer (Secondary Beam) }
+\end{figure}
+
+Sem eget sem aliquam ac rutrum urna vulputate. Donec elementum purus id quam sagittis eget facilisLorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis magna nec enim fringilla hendrerit. Suspendisse venenatis arcu ac nunc gravida at euismod elit varius. Aenean euismod, massa at mattis congue, nunc nisi posuere ligula, sit amet condimentum nibh nibh et velit. Etiam viverra eros ut mauris tempus adipiscing. Vivamus nec ipsum vel enim ultricies laoreet. Sed quis arcu vel metus venenatis egestas. Aliquam eu porta felis. Mauris ac congue diam. Nam odio massa, pretium et mattis bibendum, consequat nec mi. Nam rhoncus est quis lacus auctor sit amet tristique orci pharetra. Phasellus suscipit molestie vestibulum. Pellentesque egestas libero ac elit dignissim tempus. Vestibulum ut neque in lacus bibendum consequat a ac mi. In at velit vel neque volutpat condimentum et at dui.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis magna nec enim fringilla hendrerit. 
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.5\textwidth]{test.jpg}
+\caption{Heidi}
+\end{center}
+\end{figure}
+Suspendisse venenatis arcu ac nunc gravida at euismod elit varius. Aenean euismod, massa at mattis congue, nunc nisi posuere ligula, sit amet condimentum nibh nibh et velit. Etiam viverra eros ut mauris tempus adipiscing. Vivamus nec ipsum vel enim ultricies laoreet. Sed quis arcu vel metus venenatis egestas. Aliquam eu porta felis. Mauris ac congue diam. Nam odio massa, pretium et mattis bibendum, consequat nec mi. Nam rhoncus est quis lacus auctor sit amet tristique orci pharetra. Phasellus suscipit molestie vestibulum. Pellentesque egestas libero ac elit dignissim tempus. Vestibulum ut neque in lacus bibendum consequat a ac mi. In at velit vel neque volutpat condimentum et at dui.is nisl semper. Sed mattis diam ut turpis pretium semper. Ut venenatis eros at velit rhoncus vehicula.
+
+Nulla facilisi. Ut ac neque nisl. Proin sed odio faucibus lorem accumsan pretium nec a magna. Nulla convallis justo ut turpis dictum ut elementum justo imperdiet. Phasellus tortor turpis, commodo non rhoncus quis, ultricies eget ligula. Aliquam condimentum, neque at elementum dictum, justo erat blandit purus, in tincidunt lacus dolor quis leo. In luctus faucibus arcu vitae volutpat. Vestibulum vehicula eros lacinia erat ornare sed aliquam tellus feugiatLorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis magna nec enim fringilla hendrerit. Suspendisse venenatis arcu ac nunc gravida at euismod elit varius. Aenean euismod, massa at mattis congue, nunc nisi posuere ligula, sit amet condimentum nibh nibh et velit. Etiam viverra eros ut mauris tempus adipiscing. Vivamus nec ipsum vel enim ultricies laoreet. Sed quis arcu vel metus venenatis egestas. Aliquam eu porta felis. Mauris ac congue diam. Nam odio massa, pretium et mattis bibendum, consequat nec mi. Nam rhoncus est quis lacus auctor sit amet tristique orci pharetra. Phasellus suscipit molestie vestibulum. Pellentesque egestas libero ac elit dignissim tempus. Vestibulum ut neque in lacus bibendum consequat a ac mi. In at velit vel neque volutpat condimentum et at dui.. Nulla erat felis, semper a placerat id, pretium nec nibh. Nunc viverra, nisi nec dignissim placerat, quam lacus convallis magna, eu fringilla est massa eu magna.
+
+\begin{figure}
+\begin{center}
+
+
+\begin{pspicture}[](11,6)
+
+\pnode(0,3){S1}
+\pnode(0,2){M1}
+\pnode(1,3){Monoc}
+\pnode(2,4){M2}
+\pnode(3,2){M3}
+\pnode(2,3){M4}
+\pnode(4,3){P1}
+\pnode(5,3){Chopper}
+\pnode(6,3){Pol}
+\pnode(7,3){L1}
+\pnode(8,3){BS}
+\pnode(8,4){D1}
+\pnode(10,3){Grating}
+\pnode(9,5){D2}
+
+\mirror[mirrorradius=1.1,mirrortype=extended](S1)(M1)(Monoc){M1}
+\optbox[innerlabel,allowbeaminside=false](M1)(M2){MC}
+\mirror[mirrorradius=1.87,mirrortype=extended](Monoc)(M2)(M3){M2}
+\mirror[mirrorradius=0.9,mirrortype=extended](M2)(M3)(M4){M3}
+\mirror[labelangle=90,mirrortype=extended,mirrorwidth=0.3](M3)(M4)(L1){M4}
+\pinhole[compname=pinhole,phwidth=0.1,innerheight=0.18,labelangle=180, compshift=0.05](M4)(Chopper){P}
+\optbox[compname=chopper,optboxwidth=0.4,compshift=0.05](M4)(Pol){C}
+\optplate[compname=pol,compshift=0.05](Chopper)(L1){Pol}
+\lens[n=1.2,compname=L1](Pol)(BS){L}
+\beamsplitter[compname=BS,bsstyle=plate,labelangle=-90](L1)(BS)(D1){BS}
+\optdetector[compname=D1](BS)(D1){D1}
+\optgrating[compname=grating,compshift=0.05](BS)(Grating)(D2){Sample}
+\optdetector[compname=D2](Grating)(D2){D2}
+\optplate[compname=pol2](Grating)(D2){Pol}
+\rput(S1){\Large{\sun}}
+\rput(10.6,3){\Large{$\circlearrowright$}}
+
+\addtopsstyle{Beam}{fillstyle=solid, fillcolor=green,opacity=0.05,linestyle}
+\drawwidebeam[beamdiv=14,ArrowInside=->,arrowscale=1.3](S1){1}{2}{3}{4}{5}{6}{7}{L1}{grating}{D2}
+\drawwidebeam[beamdiv=14,ArrowInside=->,arrowscale=1](S1){1}{2}{3}{4}{5}{6}{7}{L1}{BS}{D1}
+
+\addtopsstyle{Beam}{fillstyle=solid, fillcolor=blue,opacity=0.05,linestyle}
+\drawwidebeam[beamdiv=14,ArrowInside=->,arrowscale=2,linecolor=blue](S1){1}{2}
+
+
+\end{pspicture}
+
+\end{center}
+\caption{Monochromator}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+
+\begin{pspicture}[](9,3)
+
+\pnode(1,1){S}
+\pnode(2,1){C}
+\pnode(3,1){ND}
+\pnode(4,1){Pol}
+\pnode(5,1){BS}
+\pnode(9,1){Grating}
+\pnode(8,2){D2}
+\pnode(5,2){D1}
+
+\optbox[position=start,innerlabel, allowbeaminside=false,compname=laser](S)(C){HeNe}
+\optbox[compname=chopper,optboxwidth=0.4](S)(ND){C}
+\optplate(C)(Pol){ND}
+\optplate(ND)(BS){Pol}
+\lens[optional](BS)(Grating){L}
+\beamsplitter[compname=BS,bsstyle=plate,labelangle=-90](Pol)(BS)(D1){BS}
+\optgrating[compname=grating,labelangle=-90](BS)(Grating)(D2){Sample}
+\optdetector[compname=D2,dettype=diode](Grating)(D2){D2}
+\optdetector[compname=D1,dettype=diode](BS)(D1){D1}
+
+\addtopsstyle{Beam}{fillstyle=solid, fillcolor=red,opacity=0.35,linestyle}
+\drawwidebeam[beamwidth=0.1,ArrowInside=->,arrowscale=1.3,linecolor=red](S){grating}{D2}
+\drawwidebeam[beamwidth=0.1,ArrowInside=->,arrowscale=1,linecolor=red](S){BS}{D1}
+\rput(9.5,0.8){\Large{$\circlearrowright$}}
+\end{pspicture}
+
+\end{center}
+
+\caption{Fixed wavelength angle scan kit}
+\end{figure}
+
+\begin{figure}
+
+\begin{center}
+
+\begin{pspicture}[](9,5)
+
+\pnode(2,4){S}
+\pnode(9,4){M1}
+\pnode(9,2){M2}
+\pnode(8,2){A}
+\pnode(7,2){L1}
+\pnode(6,2){Dif}
+\pnode(5,2){L2}
+\pnode(4,2){BS}
+\pnode(2.5,1){Sample}
+\pnode(0.5,2){M3}
+\pnode(4,0){M4}
+\pnode(1,0){M5}
+
+\optbox[position=start, innerlabel,optboxwidth=2](S)(M1){HeCd}
+\mirror[compname=M1,mirrortype=extended](S)(M1)(M2){M1}
+\mirror[compname=M2,mirrortype=extended](M1)(M2)(A){M2}
+\optplate(M2)(L1){A}
+\lens[n=3,compname=L1](A)(Dif){L1}
+\optplate[position=0.18,labelangle=180](L1)(L2){Dif}
+\lens[compname=L2,position=0.2](Dif)(BS){L2}
+\beamsplitter[compname=BS,labelangle=-90](L2)(BS)(M4){BS}
+\mirror[compname=M3,mirrortype=extended](BS)(M3)(Sample){M3}
+\mirror[compname=M4,mirrortype=extended](BS)(M4)(M5){M4}
+\mirror[compname=M5,mirrortype=extended](M4)(M5)(Sample){M5}
+\mirror[compname=sample,mirrorwidth=0.7, labelangle=-45](0,1)(Sample)(0,1){Sample}
+
+\addtopsstyle{Beam}{fillstyle=solid, fillcolor=blue,opacity=0.15,linestyle}
+\drawwidebeam[beamwidth=0.1,ArrowInside=->,arrowscale=1.3,linecolor=blue](S){M1}{M2}{L1}{L2}{BS}{M3}{sample}
+\drawwidebeam[beamwidth=0.1,ArrowInside=->,arrowscale=1.3,linecolor=blue](S){M1}{M2}{L1}{L2}{BS}{M4}{M5}{sample}
+
+\end{pspicture}
+\end{center}
+
+\caption{Interferometry}
+\end{figure}
+
+\end{document}

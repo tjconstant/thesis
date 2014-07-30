@@ -1,0 +1,179 @@
+\documentclass[oneside,11pt,book]{book}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{auto-pst-pdf}%for converting pstricks diagrams for compilation in pdflatex
+\usepackage{pst-optexp} %for optics diagrams using pstricks
+\usepackage{wasysym} %for the sun symbol used for light source
+%\usepackage{subfig}
+%\usepackage[para,symbol*]{footmisc}
+\usepackage{tikz}
+\usepackage{color}
+\usepackage{subcaption}
+
+
+
+
+
+\begin{document}
+
+\chapter{Optical response of metallic zig-zag bigratings}
+\section{What is a zig-zag grating?}
+Diffraction gratings cause the coherent scattering of light using a surface with periodically modulated optical constants. The periodicity of this surface quantizes the allowed momentum states of the light, resulting in the dispersive character reflected light from the gratings. So far, we have studied diffraction gratings which use grooves, or `surface relief' to provided a periodic modulation to the light. Phase gratings are another type of grating, where the material itself has a periodic modulation of refractive index. We study here a new type of diffraction grating, which uses sub-wavelength grooves structured along their length, called a zig-zag grating. 
+\begin{figure}
+\centering\includegraphics[width=0.7\linewidth]{zigzag-withinset2}
+\caption{The coordinate system of a zig-zag grating. The experimental sample parameters were gx = 600 nm, gy = 150 nm, d = 29.9 nm with all measurements in this letter recorded at  = 0°. Inset: A scanning electron micrograph of a fabricated zig-zag surface (scale bar = 600 nm.)}
+\end{figure}
+The zig-zag grating is formed of a surface-relief grating of sub-wavelength, and hence non-diffracting grooves which run along a silver surface. Perpendicular to this non-diffracting grating, the grooves are perturbed in the surface plane to introduce a long-pitch variation that may diffract visible light (Fig. 1). This ‘zig-zag’ perturbation introduces a diffracting pitch of λgx, which lies perpendicular to the short-pitch of the surface-relief grating, λgy. In many ways, the zig-zag geometry is similar to a conventional rectangular bi-grating, however, the long-pitch is present due to a zig-zag surface perturbation (not surface-relief grooves) and consequently the excitation of each diffractively coupled SPP is highly polarization selective. In addition the reduced symmetry of the zig-zag grating leads to two standing wave solutions at the first Brillouin Zone (BZ) which are degenerate in energy, resulting in no SPP band gap.
+
+We find that the SPPs supported on these gratings show some novel opticla effects. For example, it is shown that SPPs on a zig-zag grating  must be driven with a different polarization depending on which diffracted SPP you wish to excite. The standing wave solutions for SPPs which meet a counter-propagating counterpart are sometime degenerate, as the charge arrangements along the grating are equivilent and do ot therefore differ in energy.
+\section{coupling of light to zig-zags}
+\subsection{theory}
+A simple expression for the local normal component of electric field can be obtained by considering an approximation to the zig-zag surface given by,
+\begin{equation}
+\mathbf{r}=\mathbf{x}+\mathbf{y}+\cos{(y-\cos{x})\:\mathbf{\hat{z}}}
+\end{equation}
+representing a zig-zag profile having unit amplitudes, and periodicities of $2\pi$. At normal incidence to the $Oxy$ plane, the polarization vector of the electric field is defined as $\mathbf{p}=\mathbf{\hat{x}}$ for TM and $\mathbf{p}=\mathbf{\hat{y}}$ for TE polarizations. The normalized surface normal function is
+\begin{equation}
+\mathbf{\hat{n}}=\frac{\partial_x\mathbf{r}\times\partial_y\mathbf{r}}{|\partial_x\mathbf{r}\times\partial_y\mathbf{r}|}
+\end{equation}
+To induce surface charge density at the interface, the electric field will require a component normal to the surface. The magnitude of the polarization vector lying normal to the surface is then simply,
+\begin{equation}
+\mathbf{E}_{\mathbf{\hat{n}}}=(\mathbf{\hat{n}}\cdot\mathbf{p})\:\mathbf{\hat{n}}
+\end{equation}
+\begin{figure}
+\begin{center}
+\includegraphics[scale=0.5]{figure-TM-field-components}
+\includegraphics[scale=0.5]{figure-TE-field-components}
+\end{center}
+\caption{The surface normal components of electric field for (a) TM and (b) TE polarized light.}
+\end{figure}
+We can now examine the functional form of the allowed normal electric field in the propagation direction for a SPP. The components, $E_{TE}$ and $E_{TM}$, of the electric field normal to the surface, lying along the direction of propagation (the $\mathbf{\hat{x}}$ direction) and integrated over $\mathbf{y}$ for both polarization cases are,
+\begin{align}
+E_{TM}& = -\frac{4\pi \sin^2{(x)}}{\cos{(2x)-3}}\\
+E_{TE} &= -\frac{4\pi \sin{(x)}}{\cos{(2x)-3}}
+\end{align}
+A plot of $E_{TM}$ and $E_{TE}$ are shown in figure \ref{fig:e-te-and-e-tm}. 
+\begin{figure}
+\begin{center}
+\input{figure-E-xdirection-plots}
+\caption{The magnitude of the surface normal electric field in the x-directio for TM and TE polarisations.\label{fig:e-te-and-e-tm}}
+\end{center}
+\end{figure}
+Both $E_{TE}$ and $E_{TM}$ are non-zero, so we may conclude that either polarization may induce surface charge and possibly excite SPPs. By expanding both these expressions as a Fourier sum in x, it is possible to find which in-plane wavevectors of incident light are required to match these field profiles. Doing so yields,
+\begin{align}
+E_{TM}=&\sum\limits_{n=1,3,5,...}^\infty a_n\cos{(nx)}\\
+E_{TE}=&\;a_0+\displaystyle\sum\limits_{n=2,4,6,...}^\infty b_n\sin{(nx)}\label{eq:odd-even-fouriers}
+\end{align}
+Where $a_n$ and $b_n$ are the Fourier series coefficents. For incident light to match $E_{TE}$ requires a series of only odd-ordered terms, while $E_{TM}$ requires a series of only even-ordered terms. Diffracted fields at the surface will contain both odd distributive even wavevector components. Equations 2 and 3 predict that TE polarized light will provide a suitable electric field distribution to enable the excitation of SPPs via only odd-ordered diffracted orders, while TM polarized light will excite SPPs only via even-ordered diffracted orders.  This concept will be discussed again with reference to the experimental and modelled results in section 4.
+We can visualise these coupling conditions in a simplistic diagrammatic way, shown in in figure \ref{fig:coupling-cartoon}.
+\begin{figure}
+\begin{center}
+\input{figure-coupling-cartoon}
+\caption{Schematic cartoon of light coupling to spp on a zigzag grating\label{fig:coupling-cartoon}}
+\end{center}
+\end{figure}
+Choosing the electric vector to be at a maximum in phase, we consider the effect on the charge carriers under the influence of this (effectively DC) field. The arrangement of these charges are illustrated in figure \ref{fig:coupling-cartoon}. These arrangements lead to an electric potential across the width of the grooves, with zero field along the lines connecting the zig-zag apexes. The component of the respective electric fields along the plane of incidence is clearly different in both cases, with the TM field distribution varying twice as fast as the TE distribution in the plane of incidence. Crucially, neither solution the TE or TM field arrangement along the x-axis is zero, meaning that charge density may be induced by either TE and TM polarizations. Returning to the periodicity of the fields, it is clear that the TM case has a wavelength equal to $1/2 \lambda_g$, while the TE case has a wavelength equal to $\lambda_x$. To resonantly drive these fields with incident light, the impinging field must match the wavevector of these surface plasmon field distributions ($2k_g$ for the TM case, $k_g$ for the TE case). This is achieved with diffraction coupling, with first order diffraction $k_0\pm k_g$ matching the fields of the TE case, and the second order diffraction, $k_0 \pm 2k_g$ matching the field of the TM case. As such, the polarization selectivity of coupling diffracted light to the surface plasmons is demonstrated.
+
+\subsection{fabrication}
+A schematic of the experimental sample is shown in figure 1, comprising of a grating with a 600 nm zig-zag pitch (gx) to provide diffractive coupling to the SPPs. The periodicity of the non-diffracting surface-relief grooves (gy) is 150 nm.
+A “master” of the zig-zag grating was produced in silicon using electron beam lithography. The pattern was exposed in PMMA using a write field of 400 μm and a write field stitching error on the order of 20 nm. The exposed pattern was developed and reactive ion etched to a depth of 70 ± 10 nm. This produced a 2.5 mm2 grating on a silicon wafer. The structure was then duplicated in UV-cured polymer. Scanning electron microscopy was used to image the surface of this zig-zag grating, shown in figure 1. From this micrograph, the mark-to-space ratio of the grating structure was determined to be 0.25 with gx = 600 ± 5 nm, and gy = 150 ± 5 nm. This pattern was
+￼￼
+then transferred to another UV cured polymer (Norland Optical Adhesive 73) adhered to a glass substrate (n632.8nm = 1.518) using an embossing method.
+Silver was thermally evaporated under high vacuum (5  10−6 mbar) with 50 nm depositions followed by 10 minutes relaxation time repeated until an optically thick layer of 200 nm was recorded on the quartz crystal thickness monitor. This stepped procedure was used to prevent the temperature rising on the substrate enough to damage the polymer.
+The substrate was then adhered to the back of a prepared glass hemisphere of radius 21.75 mm and refractive index n = 1.518 using index matching fluid, the base of the hemisphere having been modified by removing 1 mm to account for the substrate thickness. This arrangement allows illumination of the embedded grating structure at the metal/glass interface at all angles of incidence. The mounting protects the surface of the silver from sulphur contamination [15], and preserves the fidelity of the grating profile, which would otherwise be shallowed by the addition of silver at the metal/air interface. SPPs excited in these experiments propagate along the metal-glass interface.
+\subsection{Results}
+The reflected intensity of light from a zig-zag grating illuminated with TE polarized light, at a wavelength of 632.8 nm, was recorded as a function of the polar angle of incidence,  (figure 2). 
+\begin{figure}
+\begin{center}
+\input{figure-anglescan-expmnt.tex}
+\caption{Specular reflectivity of TE (black) and TM (\color{red}red\color{black}) polarized light as a function of polar angle, $\theta$, with a wavelength of 632.8 nm, $\phi$ = 0$^\circ$. Circles: recorded data with error bars of 1\%, line: fitted numerical model prediction.}
+\end{center}
+\end{figure}
+At  = 28°, a minimum is observed in the TE reflectivity from the grating close to the first-order diffraction edge (calculated as 37°), indicative of the excitation of a SPP that has been scattered by one grating vector, kgx. Incident light resonantly couples to this diffracted SPP and is scattered back in to the specular order with  phase retardation [16]. Out of phase with the specular reflection, a dark band is observed with the missing energy being dissipated as Joule heating. For comparison, the excitation of an in-plane SPP such as this on a mono-grating or bi- grating would require the light to be TM polarized. However, on this zig-zag grating for a SPP Bragg scattered by kgx, excitation with TM polarized light is forbidden (see section II) and no minimum in the TM data is observed. The data agrees with theory from finite element method (FEM) modelling, also shown in figure 2, with fitting
+parameters of 632.8 nm = −17.5 + 0.55i, a groove depth of 29.9 nm, and a mark-to- space ratio of 0.25. Surface roughness and small groove profile changes from the embossing method are not accounted for in the modelling.
+The dispersion of the SPPs is mapped as a function of in plane wavevector, kx, by varying the polar angle  an angular frequency, , using a polarized, collimated, monochromatic beam, produced by a white light source together with a spectrometer, in the wavelength range 400 < 0 <850 nm (Intensity of reflected light is monitored with a photomultiplier.)
+The reflectivity of incident TE polarized light at  = 0° is shown in figure 3. 
+\begin{figure}
+\begin{center}
+\includegraphics[scale=1]{figure-TEdispersion-symZZ-Exp}
+\caption{Experimental data of TE polarized reflectivity as a function of in-plane wavevector and angular frequency, mapping the SPP dispersion on a zig-zag grating. \color{blue}Blue \color{black} lines show the positions of diffracted light lines scattered by $m\mathbf{k}_{gx}$, where $m = −1, +2, 0, +3$.}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includegraphics[scale=1]{figure-TEdispersion-symZZ-HFSS}
+\caption{Numerical Prediction of the TE polarized reflectivity as a function of in-plane wavevector and angular frequency, mapping the SPP dispersion on a zig-zag grating.\color{blue}Blue \color{black}lines show the positions of diffracted light lines scattered by $m\mathbf{k}_{gx}$, where $m = −1, +2, 0, +3$.}
+\end{center}
+\end{figure}
+Bands of low reflectivity are a result of a resonant excitation of SPPs mapping thereby the dispersion curves of the SPPs. Two Bragg-scattered SPP dispersion curves are observed for this polarization case, one originating at –kgx and one originating at +3kgx. These odd-order diffracted SPs are excited by TE polarized light. The SP dispersion curve from a +2kgx scattering is missing as, on a zig-zag grating, it is not excited by TE polarized light as predicted by equation 2. Using the fitted parameters from figure 2, the dispersion plots were reproduced from FEM modelling and found to be in good agreement and are shown in figure 3. The small difference between the model asymptotic limits of the SPs and experiment may be attributed to the differences between the dielectric function of silver used for the model [17] and our experimental sample. One anticipates that 2kgx diffracted SPPs may be excited by TM polarized light, however the zig-zag surface profile presented does not contain any 2kgx components. Thus for SPPs to gain 2kgx in wavevector they will require two scatterings by kgx a process which, while not forbidden, is inherently weak. To facilitate strong coupling by even-order scattered SPPs and TM polarized light, an even kgx component has to be added to the zig-zag profile, but this removes the mirror symmetry of the grating and the polarization selectivity would be destroyed.
+
+
+
+
+
+\section{Anisotropic Propagation of SPP modes}
+
+\section{Band-gap character}
+\subsection{At normal incidence}
+The formation of SPP band-gaps relies on the ability for a propagating SPP mode to Bragg scatter at the BZ boundary and successfully interfere with it's counter-propagating self. Since only diffracted SPPs are observed in the light-cone, the minimum momentum by which a SPP must scatter to meet itself and still be able to couple to light and be observed, is $2k_g$. A SPP scattering by $2k_g$ 
+\subsection{At the first BZ}
+Normally at Brillouin zone (BZ) boundaries, diffractive coupling results in two counter propagating SPPs, which establish a standing wave [2]. The two standing wave solutions correspond to different field distributions with respect to the grating profile, and between these two energy solutions no surface modes propagate: a SPP band gap forms. However, the dispersion relation shown in figure 3 and the predictions from FEM modelling shows no measurable SPP band gaps at the first BZ
+boundaries for this zig-zag grating. Generally, the in-plane wavevector of a standing SPP wave is half that of the total Bragg vector by which the two counter propagating SPPs have been scattered. For the −kgx and +2kgx scattered SPPs, crossing at the first BZ, the SPP wavevector is 3kgx/2. Through symmetry, there are two possible solutions for this standing wave on a zig-zag grating, with the areas of high field of one solution shifted spatially by gx/4 with respect to the other solution. 
+\begin{figure}
+	\begin{subfigure}[b]{0.5\linewidth}
+		\centering\input{figure-standingwave-solution-1BZ-one.tex}
+		\centering\subcaption{}
+	\end{subfigure}
+	%
+	\begin{subfigure}[b]{0.5\linewidth}
+		\centering\input{figure-standingwave-solution-1BZ-two.tex}
+		\centering\subcaption{}
+	\end{subfigure}
+\caption{Cartoon of the two standing wave solutions for SPPs at the $1^{st}$ BZ. Since the peaks and troughs of the zigzag exist equivalent electromagnetic environments, the solutions are degenerate in energy, and no bad-gap forms.}
+\end{figure}
+Because of the zig-zag reflection symmetry, the arrangements of these two field solutions on the zig-zag surface are equivalent. The solutions are degenerate in energy and therefore no band gaps at the first BZ are observed.
+The induced charge sits along the zig-zag. Unlike band-gaps on surface-relief gratings, the charge density for both standing wave solutions sits at potentials that are indistinguishable from one another. The electromagnetic environments for both solutions are indistinguishable and so there can be no energy difference between the two eignestates. For this reason, no band-gap is possible for the $-1$ and $+2$ SPP mode crossing at the first Brillioun Zone.
+
+The equivalence in energy of these two standing wave solutions can be broken by the removal of the zig-zag grating's mirror plane. By asymmetrizing the zig-zag, the electric field arrangements for both possible standing waves differ in energy and a bandgap may form. This is demonstrated in figure \ref{fig:bandgaps}, where finite element method modelling has been used to extract the eigenmodes at the first BZ boundary for three possible unit cell variations of the zig-zag grating. 
+Additionally, the removal of the mirror plane nullifies the finding of equation \ref{eq:odd-even-fouriers}, as now the surface pertubation contains both odd and even Fourier components. This allows the excitation of  SPPs with either polarization, as shown in figure \ref{fig:?}. 
+\begin{figure}
+\centering
+\begin{subfigure}[b]{0.3\linewidth}
+\centering\includegraphics[width=\linewidth]{temp-bandgaps/noOffset.jpg}
+\caption{}
+\end{subfigure}
+\begin{subfigure}[b]{0.3\linewidth}
+\centering\includegraphics[width=\linewidth]{temp-bandgaps/150yOffset.jpg}
+\caption{}
+\end{subfigure}
+\begin{subfigure}[b]{0.3\linewidth}
+\centering\includegraphics[width=\linewidth]{temp-bandgaps/150xOffset.jpg}
+\caption{}
+\end{subfigure}
+
+\begin{subfigure}[b]{0.3\linewidth}
+\centering\includegraphics[width=\linewidth]{temp-bandgaps/2kg-kg-0nm-offset.jpg}
+\caption{}
+\end{subfigure}
+\begin{subfigure}[b]{0.3\linewidth}
+\centering\includegraphics[width=\linewidth]{temp-bandgaps/2kgkg-150nm-yoffset.jpg}
+\caption{}
+\end{subfigure}
+\begin{subfigure}[b]{0.3\linewidth}
+\centering\includegraphics[width=\linewidth]{temp-bandgaps/2kg-kg-150nm-offset.jpg}
+\caption{}
+\end{subfigure}
+\caption{Asymmetrizing the zig-zag causes bandgaos to open}
+\end{figure}
+
+With additional Fourier components present, direct scattering of SPP modes by values of $2k_g$ or greater are now possible, causing the SPP modes at normal incidence to couple strongly and form a larger bandgap than they might have using weak $k_g$-$k_g$ scattering. This is demonstrated in figure \ref:{?} which shows the equi-energy contours for SPPs on a symmetric and asymmetric zig-zag grating. It is clear that, at normal incidence, band gaps now form in the asymmetric case.
+
+It is possible that the discussion about equivilent standing waves and 'no 2kg components' are the same discussion from different perspectives.
+\section{Conclusions}
+We have demonstrated experimentally and with FEM modeling the coupling of plane polarized light to SPPs on a metallic zig-zag grating. We have found that when the plane of incidence contains the zig-zag grating vector, odd-order diffracted SPPs couple only to TE polarized light and coupling to TM light is forbidden. At the first BZ boundary in this orientation, photonic band-gaps do not form because the two possible standing wave solutions along the zig-zag surface are equivalent in energy. Changing the zig-zag symmetry will allow control of the polarization selectivity of SPP coupling on such gratings, with asymmetric zig-zag gratings providing a route to polarization independent excitation of SPPs which propagate in the plane of diffraction.
+
+\end{document}

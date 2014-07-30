@@ -1,0 +1,262 @@
+\documentclass[11pt]{article}
+\usepackage{auto-pst-pdf}
+\usepackage{pst-solides3d}
+\pagestyle{empty}
+%\SpecialCoor
+
+\begin{document}
+
+\begin{pspicture}(-4,-4)(4,4)
+  \psset{viewpoint=20 10 10,Decran=20,lightsrc=viewpoint,solidmemory}
+  %
+  
+  \defFunction[algebraic]{cone}(u,v){u*cos(v)}{u*sin(v)}{4*sqrt((1^2*u^2)/1^3+(1^2*u^2)/1^2-sqrt((-1^2*1*u^2-1^2*u^2-1^2*1^2)^2-4*1^2*1^3*1^2*u^2)/1^3+1^2/1)/sqrt(2)}
+
+  \defFunction[algebraic]{line}(u){-5}{u}{4.5*sqrt((1^2*(u)^2)/1^3+(1^2*(u)^2)/1^2-sqrt((-1^2*1*(u)^2-1^2*(u)^2-1^2*1^2)^2-4*1^2*1^3*1^2*(u)^2)/1^3+1^2/1)/sqrt(2)}
+
+  
+\psSolid[object=grille,base=-2 2 -2 2]%  
+
+\psSolid[object=plan,definition=equation,
+args={[1 0 0 5]},
+fillcolor=white!50,
+base=-4 0 -2 2,action=draw**,name=Plane]%   
+   
+\psSolid[object=courbe, function=line, range=-2 2, r=0, linewidth=1.5\pslinewidth, linecolor=blue]%
+
+\psSolid[object=new,
+action=draw**,
+sommets=
+-5 0 0
+-5 2 0
+-5 2 4
+-5 0.889 4,
+faces={
+[0 1 2 3]
+},
+fillcolor=gray,
+opacity=0.4
+]%
+
+\psSolid[object=new,
+action=draw**,
+sommets=
+-5 0 0
+-5 -2 0
+-5 -2 4
+-5 -0.889 4,
+faces={
+[3 2 1 0]
+},
+fillcolor=gray,
+opacity=0.4
+]%
+
+\psSolid[object=line,linestyle=dashed,linecolor=blue,opacity=0.3,
+args=0 -2 4 -5 -2 4]%
+\psSolid[object=line,linestyle=dashed,linecolor=blue,opacity=0.3,
+args=0 2 4 -5 2 4]%
+\psSolid[object=line,linestyle=dashed,linecolor=blue,opacity=0.3,
+args=0 -2 0 -5 -2 0]%
+\psSolid[object=line,linestyle=dashed,linecolor=blue,opacity=0.3,
+args=0 2 0 -5 2 0]%
+
+
+
+  \psSolid[object=surfaceparametree,base=0 2 0 2 pi mul,
+     function=cone,linewidth=0.5\pslinewidth,inouthue= 0.5 0.1,
+     ngrid=30 30,resolution=60,fillcolor=red!30,
+     intersectionplan={[1 0 0 0]},
+     intersectioncolor=(bleu),
+     intersectionlinewidth=3,
+     intersectiontype=1,
+     name=SPP,action=draw**]%
+     
+     
+  \psSolid[object=plan,definition=equation,
+    args={[1 0 0 0]},
+    fillcolor=blue!50,
+   base=-4 0 -2 2,action=draw**,name=Plane, opacity=0.1]
+
+  
+%\psSolid[object=fusion,base=SPP Plane]
+
+
+\axesIIID[Zmin=0,Zmax=2, showOrigin=false,axisnames={k_y,k_x,\omega}](0,0,0)(2.5,2.5,4)
+
+  
+ %\gridIIID[Zmin=0,Zmax=2]%
+ 
+
+\end{pspicture}
+\begin{pspicture}(-4,-4)(4,4)
+  \psset{viewpoint=20 10 10,Decran=20,lightsrc=viewpoint,solidmemory}
+  %
+  
+  \defFunction[algebraic]{cone}(u,v){u*cos(v)}{u*sin(v)-1}{4*sqrt((1^2*u^2)/1^3+(1^2*u^2)/1^2-sqrt((-1^2*1*u^2-1^2*u^2-1^2*1^2)^2-4*1^2*1^3*1^2*u^2)/1^3+1^2/1)/sqrt(2)}
+
+  \defFunction[algebraic]{line}(u){-5}{u}{4.5*sqrt((1^2*(u+1)^2)/1^3+(1^2*(u+1)^2)/1^2-sqrt((-1^2*1*(u+1)^2-1^2*(u+1)^2-1^2*1^2)^2-4*1^2*1^3*1^2*(u+1)^2)/1^3+1^2/1)/sqrt(2)}
+
+  
+\psSolid[object=grille,base=-2 2 -2 2]%  
+
+\psSolid[object=plan,definition=equation,
+args={[1 0 0 5]},
+fillcolor=white!50,
+base=-4 0 -2 2,action=draw**,name=Plane]%   
+   
+\psSolid[object=courbe, function=line, range=-2 2, r=0, linewidth=1.5\pslinewidth, linecolor=blue]%
+
+\psSolid[object=new,
+action=draw**,
+sommets=
+-5 0 0
+-5 2 0
+-5 2 4
+-5 0.889 4,
+faces={
+[0 1 2 3]
+},
+fillcolor=gray,
+opacity=0.4
+]%
+
+\psSolid[object=new,
+action=draw**,
+sommets=
+-5 0 0
+-5 -2 0
+-5 -2 4
+-5 -0.889 4,
+faces={
+[3 2 1 0]
+},
+fillcolor=gray,
+opacity=0.4
+]%
+
+\psSolid[object=line,linestyle=dashed,linecolor=blue,opacity=0.3,
+args=0 -2 4 -5 -2 4]%
+\psSolid[object=line,linestyle=dashed,linecolor=blue,opacity=0.3,
+args=0 2 4 -5 2 4]%
+\psSolid[object=line,linestyle=dashed,linecolor=blue,opacity=0.3,
+args=0 -2 0 -5 -2 0]%
+\psSolid[object=line,linestyle=dashed,linecolor=blue,opacity=0.3,
+args=0 2 0 -5 2 0]%
+
+
+
+  \psSolid[object=surfaceparametree,base=0 2 0 2 pi mul,
+     function=cone,linewidth=0.5\pslinewidth,inouthue= 0.5 0.1,
+     ngrid=30 30,resolution=60,fillcolor=red!30,
+     intersectionplan={[1 0 0 0]},
+     intersectioncolor=(bleu),
+     intersectionlinewidth=3,
+     intersectiontype=1,
+     name=SPP,action=draw**]%
+     
+  \psSolid[object=plan,definition=equation,
+    args={[1 0 0 0]},
+    fillcolor=blue!50,
+   base=-4 0 -2 2,action=draw**,name=Plane, opacity=0.1]
+
+  
+%\psSolid[object=fusion,base=SPP Plane]
+
+
+
+
+
+\axesIIID[Zmin=0,Zmax=2, showOrigin=false,axisnames={k_y,k_x,\omega}](0,0,0)(2.5,2.5,4)
+
+  
+ %\gridIIID[Zmin=0,Zmax=2]%
+ 
+
+\end{pspicture}
+
+\begin{pspicture}(-4,-4)(4,4)
+  \psset{viewpoint=20 10 10,Decran=20,lightsrc=viewpoint,solidmemory}
+  %
+  
+  \defFunction[algebraic]{cone}(u,v){u*cos(v)+1}{u*sin(v)}{4*sqrt((1^2*u^2)/1^3+(1^2*u^2)/1^2-sqrt((-1^2*1*u^2-1^2*u^2-1^2*1^2)^2-4*1^2*1^3*1^2*u^2)/1^3+1^2/1)/sqrt(2)}
+
+  \defFunction[algebraic]{line}(u){-5}{u}{4.5*sqrt((1^2*sqrt(u^2+1^2)^2)/1^3+(1^2*sqrt(u^2+1^2)^2)/1^2-sqrt((-1^2*1*sqrt(u^2+1^2)^2-1^2*sqrt(u^2+1^2)^2-1^2*1^2)^2-4*1^2*1^3*1^2*sqrt(u^2+1^2)^2)/1^3+1^2/1)/sqrt(2)}
+
+  
+\psSolid[object=grille,base=-2 2 -2 2]%  
+
+\psSolid[object=plan,definition=equation,
+args={[1 0 0 5]},
+fillcolor=white!50,
+base=-4 0 -2 2,action=draw**,name=Plane]%   
+   
+\psSolid[object=courbe, function=line, range=-2 2, r=0, linewidth=1.5\pslinewidth, linecolor=blue]%
+
+\psSolid[object=new,
+action=draw**,
+sommets=
+-5 0 0
+-5 2 0
+-5 2 4
+-5 0.889 4,
+faces={
+[0 1 2 3]
+},
+fillcolor=gray,
+opacity=0.4
+]%
+
+\psSolid[object=new,
+action=draw**,
+sommets=
+-5 0 0
+-5 -2 0
+-5 -2 4
+-5 -0.889 4,
+faces={
+[3 2 1 0]
+},
+fillcolor=gray,
+opacity=0.4
+]%
+
+\psSolid[object=line,linestyle=dashed,linecolor=blue,opacity=0.3,
+args=0 -2 4 -5 -2 4]%
+\psSolid[object=line,linestyle=dashed,linecolor=blue,opacity=0.3,
+args=0 2 4 -5 2 4]%
+\psSolid[object=line,linestyle=dashed,linecolor=blue,opacity=0.3,
+args=0 -2 0 -5 -2 0]%
+\psSolid[object=line,linestyle=dashed,linecolor=blue,opacity=0.3,
+args=0 2 0 -5 2 0]%
+
+
+
+  \psSolid[object=surfaceparametree,base=0 2 0 2 pi mul,
+     function=cone,linewidth=0.5\pslinewidth,inouthue= 0.5 0.1,
+     ngrid=30 30,resolution=60,fillcolor=red!30,
+     intersectionplan={[1 0 0 0]},
+     intersectioncolor=(bleu),
+     intersectionlinewidth=3,
+     intersectiontype=1,
+     name=SPP,action=draw**]%
+     
+  \psSolid[object=plan,definition=equation,
+    args={[1 0 0 0]},
+    fillcolor=blue!50,
+   base=-4 0 -2 2,action=draw**,name=P1, opacity=0.1]
+
+  
+
+
+
+\axesIIID[Zmin=0,Zmax=2, showOrigin=false,axisnames={k_x,k_y,\omega}](0,0,0)(2.5,2.5,4)
+
+  
+ %\gridIIID[Zmin=0,Zmax=2]%
+ 
+\end{pspicture}
+
+
+\end{document} 
+

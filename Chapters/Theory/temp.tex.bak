@@ -1,0 +1,196 @@
+
+
+\chapter{Surface plasmon polaritons} 
+
+\section{Introduction}
+
+The interaction of light with metals has long proven to be a reliable path to striking optical effects.  The Lycurgus cup is an example of a 4th century plasmonic device; a glass Roman goblet which uses colloidal gold and silver nano-particles to achieve a dull green surface reflection, but glows blood red when illuminated from the inside \cite{Barber1990}.  Resonant interaction between light and the electrons in these suspended metallic nano-particles provide the mechanism for this vivid dichic effect, the same effect found in the majority of stained glass windows. 
+
+Surface plasmon polaritons are electromagnetic surface waves coupled strongly to the longitudinal oscillations of the free electron plasma at the interface between a dielectric and a metal. 
+
+\section{Surface Polaritons on planar surfaces}
+
+
+Surface plasmon polaritons can be categorized as a member of a larger family of surface waves, broadly named `surface polaritons'. Surface polaritons are electromagnetic surface waves coupled strongly to an elementary excitation and bound evanescently to the interface between two mediums. When a photon couples to the longitudinal oscillations of the free-electron plasma on metal surfaces, the resulting surface polariton is called a \textit{surface plasmon polariton}. Surface polaritons also couple with surface lattice vibrations (\textit{surface phonon polaritons}), surface electron-hole pairs in semiconductors (\textit{surface exciton polaritons}) and collective excitations of surface electron spin (\textit{surface magnon polaritons}). More recently, the manufacture of resonant sub-wavelength structures, or `metamaterials', has allowed the design of surfaces with tailored resonances other than such elementary excitations, which may couple strongly to photons and produce surface polaritons. The resulting surface polaritons are often referred to as a `spoof' surface plasmon polaritons.\footnote{although the inclusion of `plasmon' is not strictly correct as the photon is not coupled to the free electron plasma oscillations but more usually a sub-wavelength cavity resonance.}
+Solving Maxwell's equations for a evanescently bound electromagnetic wave at an interface leads to the same relationship between energy and momentum for all surface polaritons. The coupling of light to the surface excitations is expressed in terms of the frequency dependant dielectric and magnetic functions which are frequency dependant and complex in general.
+
+Fano \cite{Fano1941} derived the dispersion for a trapped surface wave by first considering light propagating in a glass plate of finite thickness, bounded by semi-infinite vacuum and metal half-spaces.  In a simple waveguide such as this, total internal reflections prevent the propagating light from escaping into the bounding medium. The necessary continuity of electric field across a boundary for light undergoing total internal reflection also requires non-propagating 'evanescent' waves extending into the bounding media, which do not  transfer any power. The question posed by Fano was then `Is there left any proper value when the thickness vanishes?'. As the thickness of the glass plate tends to zero, there is indeed still a valid solution to Maxwell's equations for a wave travelling along the surface, evanescently bound in the normal direction; a surface polariton. In these terms, a surface polariton can be thought of as the lowest-order waveguide mode.
+
+Generally, the dispersion relation for all surface polaritions are identical, with the coupling of the electromagnetic surface wave to the surface excitations being expressed in the different functional forms of the dielectric and magnetic tensors of the bounding media.  
+
+The dispersion of the surface polarition considered in this thesis, the surface plasmon polarition on a metal/dielectric interface, allows us to simplify the problem to that of isotropic, non-magnetic media. The derivation of this relationship\cite{Raether1988} is presented below, and is also valid for other surface polaritions in isotropic non-magnetic media, such as surface phonon polaritions.
+
+\begin{figure}[h]
+\begin{center}
+\input{./Chapters/Theory/figure-planar-coordinate-system}
+\end{center}
+\caption{\label{fig:planar-coords}A schematic representation of propagating electromagnetic fields at an interface between two materials. The green rays illustrate the direction of the waves, which are coincident with the wavevectors, \color{green}$\mathbf{k}$\color{black}. The electric field is polarised in the $Oxz$ plane, represented by black arrows. The optical response of the two media are characterised by their permativities, $\varepsilon_1$ and $\varepsilon_2$. The $\mathbf{\hat{y}}$-direction is out of the page and the position $z=0$ is at the interface. }
+\end{figure}
+
+A schematic diagram of the system is shown in figure \ref{fig:planar-coords}. Light illuminates a planar surface between two media of permittivities $\varepsilon_1$ and $\varepsilon_2$ in the $Oxz$ plane, which we define to be the plane of incidence. The wavevector of the light in the $m^{th}$ medium is $\mathbf{k}_m = k_{x_m}\mathbf{\hat{x}}+k_{z_m}\mathbf{\hat{z}} \equiv [k_{x_m},0,k_{z_m}]$, with no component in the $\mathbf{\hat{y}}$-direction (out of the page). The light is then reflected back into medium 1 and refracted into medium 2.  For light polarised with the electric field parallel to the plane of incidence (Transverse Magnetic, or TM polarised) the plane waves can be described as,
+\begin{align*}
+\mathbf{E}_m&=[E_{x_m},0,E_{z_m}]\:e^{i(\mathbf{k}_m\cdot \mathbf{x}+\mathbf{k}_m\cdot\mathbf{z})}\:e^{-i\omega t}\\
+\mathbf{H}_m&=[0,H_{y_m},0]\:e^{i(\mathbf{k}_m\cdot \mathbf{x}+\mathbf{k}_m\cdot\mathbf{z})}\:e^{-i\omega t}
+\end{align*}
+where $\omega$ is the angular frequency of the light, $t$ is time and $m$ is a subscript indicating in which medium the field is propagating. $H_{y}$ is the component of magnetic field in the $\mathbf{\hat{y}}$-direction and $E_{x,z}$ is the component of electric field in the $\mathbf{\hat{x}}$ and  $\mathbf{\hat{z}}$ directions, respectively. 
+Since the surface polarition is a trapped surface wave, we may arbitrarily set either the incident or reflected wave to zero. Setting, in this case, $\mathbf{E}_0$ to zero, we are left with two sets of fields (electric and magnetic) for the half-spaces above and below the interface,
+\begin{align}
+z>0\;\begin{cases}\;\mathbf{E}_1&=\;[E_{x_1},0,E_{z_1}]\:e^{i(k_{x_1}x+k_{z_1}z)}\:e^{-i\omega t}\\
+\;\mathbf{H}_1&=\;[0,H_{y_1},0]\:e^{i(k_{x_1}x+k_{z_1}z)}\:e^{-i\omega t}
+\end{cases}\label{eq:planewaveset1}\\
+z<0\;\begin{cases}\;\mathbf{E}_2&=\;[E_{x_2},0,E_{z_2}]\:e^{i(k_{x_2}x-k_{z_2}z)}\:e^{-i\omega t}\\
+\;\mathbf{H}_2&=\;[0,H_{y_2},0]\:e^{i(k_{x_2}x-k_{z_2}z)}\:e^{-i\omega t}
+\end{cases}\label{eq:planewaveset2}
+\end{align}
+We may combine the equations for electric and magnetic field in the two half-spaces using Amp\`ere's law,
+\begin{equation*}
+\mathbf{\nabla}\times\mathbf{H}_m=\varepsilon_m\:\frac{\partial\mathbf{E}_m}{\partial t}
+\end{equation*}
+where $\varepsilon_m$ is the permittivity in medium $m$. The relationships between the tangential electric and transverse magnetic fields in each material are then,
+\begin{align}
+%k_{z_1}H_{y_1}&=+\frac{\omega}{c}\varepsilon_1E_{x_1}\label{eq:tangentE-transverE1}\\
+k_{z_1}H_{y_1}&=+\omega\varepsilon_1E_{x_1}\label{eq:tangentE-transverE1}\\
+%k_{z_2}H_{y_2}&=-\frac{\omega}{c}\varepsilon_2E_{x_2}\label{eq:tangentE-transverE2}
+k_{z_2}H_{y_2}&=-\omega\varepsilon_2E_{x_2}\label{eq:tangentE-transverE2}
+\end{align}
+Having obtained expressions for the electromagnetic fields in both media, we must now consider the continuity of these fields over the boundary. At the interface the boundary conditions for the electromagnetic waves are expressed as,
+\begin{align}
+E_{x_1}&=E_{x_2}\label{eq:electric-field-continuous}\\
+H_{y_1}&=H_{y_2}\label{eq:magnetic-field-continuous}\\
+\varepsilon_1E_{z_1}&=\varepsilon_2E_{z_2}\label{eq:d-continuous}
+\end{align}
+These are the conditions that tangential electric fields, transverse magnetic fields and the normal component of the electric displacement vector ($D_{z_m}=\varepsilon_m E_{z_m}$) must be continuous across the boundary at $z=0$. The continuity of the tangential electric field (equation \ref{eq:electric-field-continuous}) allows us to combine equations \ref{eq:tangentE-transverE1} and \ref{eq:tangentE-transverE2},
+\begin{equation*}
+\frac{k_{z_1}}{\varepsilon_1}H_{y_1}+\frac{k_{z_2}}{\varepsilon_2}H_{y_2}=0
+\end{equation*}
+and continuity of transverse magnetic field (equation \ref{eq:magnetic-field-continuous}) then yields\footnote{At this point, we also employ some mathematical sleight of hand to substitute the permittivity, $\varepsilon_m$, for the relative permittivity ($\varepsilon_m/\varepsilon_0$) by cancelling the common factor of $\varepsilon_0$ in $\varepsilon_1$ and $\varepsilon_2$. For clarity we redefine $\varepsilon_m$ as the \textit{relative} permittivity for the remainder of this thesis.}
+\begin{align}
+\frac{k_{z_1}}{\varepsilon_1}+\frac{k_{z_2}}{\varepsilon_2}=0\label{eq:relation-of-kz1-kz2}
+\end{align}
+Finally, to obtain a relationship in terms of the momentum of the surface wave in the $\mathbf{\hat{x}}$-direction ($k_x$), we consider the conservation of momentum in both regions.  Conservation of tangential momentum  requires that $k_{x_1}=k_{x_2}=k_x$ and so the expression for total conserved momentum is,
+\begin{equation}
+k_x^2+k_{z_m}^2=\varepsilon_m\left(\frac{\omega}{c}\right)^2\label{eq:momentum-conservation}
+\end{equation}
+Obtaining expressions for $k_{z_1}$ and $k_{z_2}$ using this conservation of momentum expression and combining them with equation \ref{eq:relation-of-kz1-kz2}, we find the dispersion relation for the surface polariton,
+\begin{equation}
+k_x=\frac{\omega}{c}\sqrt{\frac{\varepsilon_1\varepsilon_2}{\varepsilon_1+\varepsilon_2}}\label{eq:dispersion}
+\end{equation}
+This equation relates the angular frequency of the field, $\omega$ to the wavevector along the surface, $k_x$. The energy and momentum of the surface mode is related to these quantities respectively by a factor of the reduced Planks constant, $\hbar$. Because of this, it is also often referred to as the energy-momentum relation.  
+
+The final observation to be made in regards to the surface polarition dispersion is the set of $\varepsilon_1$ and $\varepsilon_2$ values which can support a bound surface wave. The continuity of tangential electric displacement was mentioned briefly in equation \ref{eq:d-continuous}, and we shall re-print it here.
+\begin{equation*}
+\varepsilon_1E_{z_1}=\varepsilon_2E_{z_2}
+\end{equation*}
+This boundary condition states that the tangential electric displacement must remain continuous across the interface. However, from the plane wave equation sets (equations \ref{eq:planewaveset1}--\ref{eq:planewaveset2}) it is apparent that $E_{z_1}$ is always $180^{\circ}$ out-of-phase with $E_{z_2}$. $E_{z_1}$ will always be of opposite sign to $E_{z_2}$. To satisfy the boundary condition, and so support surface polaritons on such a surface, the permativities $\varepsilon_1$ and $\varepsilon_2$ must also be of opposite signs. 
+
+\section{Dispersion of Surface Plasmon Polaritons on planar surfaces}
+
+The optical response of a metal is characterized by the metal's frequency dependant permittivity, also called the `dielectric function' of the material. This optical response function is dominated by two characteristics of metal materials; the fact that conduction electrons are free to move within the bulk of the material, and the presence of inter-band transitions of the valence electrons in the atomic orbitals. In the visible region, conduction electrons behaviour is ballistic, oscillating and interacting with light many times before scattering due to the crystal or other electrons. The inter-band transitions for a noble metal such as silver occur at the edges of the visible spectrum and so the dominant effect in the appearance of silver is due mostly to the strong interaction of the free conduction electrons with optical fields. At the surface of the metal, electromagnetic fields coupled to longitudinal oscillations of this free-electron plasma form together a surface polariton, the surface plasmon polarition.
+
+The dispersion of a surface plasmon polarition takes the same mathematical form as equation \ref{eq:dispersion} with one dielectric function representing the frequency dependant metal, $\varepsilon_2(\omega)$, and the other representing a bounding non-conducting crystal with a dielectric constant, $\varepsilon_1,$
+\begin{equation}
+k_x=\frac{\omega}{c}\sqrt{\frac{\varepsilon_1\varepsilon_2(\omega)}{\varepsilon_1+\varepsilon_2(\omega)}}\label{eq:spp-dispersion}
+\end{equation}
+
+A useful approximation for the metal dielectric function was presented by Drude. Drude considered free electrons travelling in a classical manner, scattering from the ionic lattice with a characteristic average scattering rate. Electron-electron scattering is disregarded and the permativty is expressed as,
+\begin{equation}
+\varepsilon_2(\omega)=\varepsilon_\infty-\frac{\omega_p^2}{\omega^2+i\omega\gamma}\label{eq:drude}
+\end{equation}
+Where $\omega$ is the angular frequency of the light, $\gamma$ is the average rate of collisions of the free conduction electrons with the lattice, and $\varepsilon_\infty$ is the response of the ionic lattice, which is frequency independent and for metals in the visible domain equals 1. The `plasma frequency' of the metal, $\omega_p$, is the limiting frequency ...
+
+An example of the permittivity of silver using the Drude model is show in in figure \ref{fig:drude}. It shows that, for all visible regime wavelengths, that the real part of the silver permittivity is negative and there is a nono-zero imaginary component. This is generally true for a wide range of metals.
+\begin{figure}
+\begin{center}
+\input{./Chapters/Theory/figure-drudemodel-espilons}
+\caption{\label{fig:drude}The drude model. As an example, the wavelength for a HeNe laser (632.8 nm) is highlighted, showing the permittivity of silver at this wavelength to be $\varepsilon(632.8$ nm$) \approx -18.6+0.92i$}.
+\end{center}
+\end{figure}
+This negative permittivity of metals in the visible domain, when bounded by a dielectric with a positive real permittivity, satisfies the boundary conditions (equation \ref{eq:d-continuous}) for a surface plasmon polariton. Substituting \ref{eq:drude} in to the dispersion relation for a surface plasmon polariton  (equation \ref{eq:spp-dispersion}), we obtain a fair approximation of the dispersion relation for a surface plasmon polariton on a planar metal film. This is plotted in figure \ref{fig:spp-dispersion}.
+\begin{figure}
+\begin{center}
+\input{./Chapters/Theory/figure-plasmon-planar-dispersion}
+\caption{\label{fig:spp-dispersion}The dispersion of a surface plasmon polariton on a planar film.}
+\end{center}
+\end{figure}
+Figure \ref{fig:spp-dispersion} shows the dispersion of a surface plasmon polarition on a flat interface between silver and air. The dielectric function for the metal has been approximated with the Drude model. 
+
+This dispersive curve possesses two asympotopes. As $k_x\to 0$, the dispersion approaches the light line, $\omega=ck_x$. The electric field of the surface mode at this limit has only normal components and.
+
+Plotted on the same scale is a line representing a grazing photon along the surface, the `light-line'.  Notice that the light line and the surface plasmon polariton dispersion line do not cross. There is no solution at which the energy and momentum of free-space light is equal to that of the surface plasmon polariton. The conclusion is that free-space light incident on a metallic surface cannot resonantly drive a surface plasmon polariton. 
+
+-from literature - sambles nash johson cristey palik
+Dispersion curve
+real and imaginary parts of the dispersion relation
+momentum mismatch (diagrammatically)
+diagram - dispersion 
+diagram - cartoon of plasmon fields and ez plot
+\subsection{Penetration Depth}
+
+subsituting \ref{eq:dispersion} into \ref{eq:momentum-conservation}, we find the expression for $k_{z_m}$ is,
+\begin{equation}
+k_{z_m}=\pm\frac{\omega}{c} \sqrt{\varepsilon_m-\frac{\varepsilon_1\varepsilon_2}{\varepsilon_1+\varepsilon_2}}=\pm\frac{\omega}{c} \sqrt{\frac{\varepsilon_m^2}{\varepsilon_1+\varepsilon_2}}
+\end{equation}
+blah blah blah
+\begin{equation}
+k_{z_m}=\pm\frac{\omega}{c}\sqrt{\frac{\operatorname{Re}{(\varepsilon_m)}^2}{\operatorname{Re}(\varepsilon_2)}}
+\end{equation}
+
+
+\begin{figure}
+\begin{center}
+%\begin{subfigure}[]
+\input{./Chapters/Theory/figure-surfaceplasmon-fieldlines}
+%\end{subfigure}
+%\begin{subfigure}[]
+\input{./Chapters/Theory/figure-surfaceplasmon-ez-line}
+%\end{subfigure}
+\end{center}
+\caption{Imaging Scatterometer (Secondary Beam) }
+\end{figure}
+
+discuss asymptotic limits ('plasmon like' and 'photon like')
+propagation length
+penetration depth
+
+\section{Surface Plasmon Polaritons excited with prism coupling}
+for completeness
+phase condition
+-momentum state diagram (nice one drawn)
+-diagram kretschmann-raether and otto
+-example plot
+
+\section{Surface plasmon polaritons on 1 dimensional gratings}
+\subsection{Diffraction Gratings}
+The first recorded observation of diffraction by fine structure was by peering through a silk hankacheif and oberseving rainbows. 
+The coordinate system for a diffraction grating is shown in figure 1. In the `conical' mount, the plane of incident light is parallel to the grating vector, $k_{gx}$. In this orientation, the plane of incidence also contains the plane of diffraction, the plane in which diffracted orders will propagate away from the surface. The relationship between incident and diffracted light is given by the equation,
+\begin{equation}
+n \sin{\theta}cos{\phi} + sin{\alpha_i} = \frac{\lambda_0}{d}\label{grating-eq}
+\end{equation}
+
+Which is determined from considering the coherent interference of light from the periodic surface. 
+When light impinges on a periodic surface, the surface profile constrains the wave-vector of the light to possess the same periodic character as that of the surface. The wave-vector in the plane of the surface is altered by the additon or subtraction of intergre number of grating wave-vectors, $\pm k_g$. We may rewrite equation \ref{grating-eq} in terms of the wave-vectors of the system, such that
+\begin{equation}
+k_0 = k_0\sin{\theta}\pm k_g
+\end{equation}
+As previously discussed, the wave-vector of light corresponds to the light's momentum, and so a periodic surface is shown to be able to alter the lights in-surface momentum by integer numbers of the grating's `momentum'. This provides a mechanism through which we can couple light to surface plamsons. 
+
+\subsection{Momentum coupling by coherent scattering. }
+
+
+\subsection{Surface plasmon polaritons on 2 dimensional gratings}
+lattices
+momentum circles 
+
+\subsection{Coupling strength to light to SPPs on gratings}
+Strength of coupling - factors
+depth
+shape
+grating profile influencing direct scattering events
+
+\subsection{Plasmonic band gaps}
+-diagram field arrangements
+
+\subsection{Polarization conversion}
+
+
+

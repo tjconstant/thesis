@@ -1,0 +1,92 @@
+\select@language {english}
+\contentsline {chapter}{Contents}{vi}{chapter*.1}
+\contentsline {chapter}{List of Figures}{vii}{chapter*.2}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}History}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Scope and Outline of This Work}{4}{section.1.2}
+\contentsline {chapter}{\numberline {2}Background Theory}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}Surface Polaritons on Planar Surfaces}{7}{section.2.2}
+\contentsline {section}{\numberline {2.3}Dispersion of SPPs on Planar Surfaces}{11}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Penetration Depth}{12}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Propagation Length}{15}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Surface Plasmon Polaritons on Diffraction Gratings}{16}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Diffraction Gratings}{16}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Coupling Surface Plasmons to Light by Coherent Scattering}{18}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Surface Plasmon Polaritons on Bigratings}{23}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Coupling Strength of Light to SPPs on Gratings}{25}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.5}Plasmonic Band Gaps}{26}{subsection.2.4.5}
+\contentsline {subsubsection}{\numberline {2.4.5.1}Coupling Light to Band Edges}{29}{subsubsection.2.4.5.1}
+\contentsline {subsection}{\numberline {2.4.6}Polarisation Conversion}{31}{subsection.2.4.6}
+\contentsline {chapter}{\numberline {3}Theoretical Methods}{33}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{33}{section.3.1}
+\contentsline {section}{\numberline {3.2}The Differential Method of Chandezon et al.}{34}{section.3.2}
+\contentsline {section}{\numberline {3.3}The Finite Element Method}{35}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Solving Maxwell's Equations in the Mesh}{36}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Adaptive Meshing}{36}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Solution Evaluation and Convergence}{37}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Model Boundary Conditions}{37}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Floquet Type Excitation}{39}{subsection.3.3.5}
+\contentsline {chapter}{\numberline {4}Experimental Methodology}{41}{chapter.4}
+\contentsline {section}{\numberline {4.1}Sample Fabrication}{41}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Electron Beam Lithography}{41}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Thermal Evaporation}{45}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Template Stripping}{45}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Polymer Replication}{46}{subsection.4.1.4}
+\contentsline {section}{\numberline {4.2}Angle Scans }{47}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Monochromator}{47}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Fixed Wavelength Scans}{48}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Embedded Samples}{49}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Iso-Frequency Contour Measurement Using Scatterometry }{49}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Scatterometry}{52}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Principle of Operation}{52}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Sample Preparation}{53}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}The Role of Polarisation}{54}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Corrections and Momentum-Space Deformation}{55}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.6}Example Dataset}{55}{subsection.4.3.6}
+\contentsline {chapter}{\numberline {5}Optical Response of Metallic Rectangular Bigratings}{58}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{58}{section.5.1}
+\contentsline {section}{\numberline {5.2}The Rectangular Bigrating}{59}{section.5.2}
+\contentsline {section}{\numberline {5.3}Dispersion of SPPs on Rectangular Bigratings}{60}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Scattering Components on Lamellar Gratings}{60}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Experimental Mapping of SPP Dispersion}{62}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Band Gap Observation Using Scatterometry}{66}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}Polarisation Conversion on Rectangular Symmetry}{68}{section.5.4}
+\contentsline {section}{\numberline {5.5}Controlling SPP Anisotropy Using Rectangular Bigratings}{71}{section.5.5}
+\contentsline {section}{\numberline {5.6}Conclusions}{76}{section.5.6}
+\contentsline {chapter}{\numberline {6}Optical Response of Metallic Oblique Bigratings}{77}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{77}{section.6.1}
+\contentsline {section}{\numberline {6.2}The Oblique Grating}{78}{section.6.2}
+\contentsline {section}{\numberline {6.3}Coupling of Light and SPP Mode Interaction on Oblique Gratings}{80}{section.6.3}
+\contentsline {section}{\numberline {6.4}Polarisation Conversion}{84}{section.6.4}
+\contentsline {section}{\numberline {6.5}SPPs at the BZ Boundary of Oblique Bigratings}{85}{section.6.5}
+\contentsline {section}{\numberline {6.6}Conclusions}{91}{section.6.6}
+\contentsline {chapter}{\numberline {7}Optical Response of Metallic Zigzag Bigratings}{92}{chapter.7}
+\contentsline {section}{\numberline {7.1}Background}{92}{section.7.1}
+\contentsline {section}{\numberline {7.2}The Zigzag Grating}{93}{section.7.2}
+\contentsline {section}{\numberline {7.3}The Coupling of Plane Polarised Light to SPPs on Zigzag Gratings}{94}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Theory}{94}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Samples}{97}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Transverse Electric Coupling}{100}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {7.3.4}Transverse Magnetic Coupling}{104}{subsection.7.3.4}
+\contentsline {section}{\numberline {7.4}Band Structure of SPPs on a Zigzag Grating}{107}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Band-Gaps at $k_x=0$}{108}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Band-Gaps at the First Brillouin Zone Boundary}{112}{subsection.7.4.2}
+\contentsline {section}{\numberline {7.5}Anisotropic Propagation of SPP Modes for Self Collimation}{115}{section.7.5}
+\contentsline {section}{\numberline {7.6}Conclusions}{120}{section.7.6}
+\contentsline {chapter}{\numberline {8}Optical Response of Asymmetric Zigzag Bigratings}{122}{chapter.8}
+\contentsline {section}{\numberline {8.1}Introduction}{122}{section.8.1}
+\contentsline {section}{\numberline {8.2}The Asymmetric Zigzag Grating}{123}{section.8.2}
+\contentsline {section}{\numberline {8.3}The Coupling of Polarised Light to SPPs on an Asymmetric Zigzag Grating}{126}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Theory}{126}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}Results}{131}{subsection.8.3.2}
+\contentsline {section}{\numberline {8.4}Band Structure of SPPs on an Asymmetric Zigzag Grating}{134}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}Band Gaps at $k_x=0$}{135}{subsection.8.4.1}
+\contentsline {subsection}{\numberline {8.4.2}Band Gaps at the $1^{st}$ BZ Boundary}{136}{subsection.8.4.2}
+\contentsline {subsubsection}{\numberline {8.4.2.1}Coupling of Light to the Band Edges}{138}{subsubsection.8.4.2.1}
+\contentsline {subsubsection}{\numberline {8.4.2.2}A Full Surface Plasmon Band Gap}{141}{subsubsection.8.4.2.2}
+\contentsline {section}{\numberline {8.5}Conclusions}{144}{section.8.5}
+\contentsline {chapter}{\numberline {9}Conclusions}{145}{chapter.9}
+\contentsline {section}{\numberline {9.1}Summary of Thesis}{145}{section.9.1}
+\contentsline {section}{\numberline {9.2}Future Work}{147}{section.9.2}
+\contentsline {chapter}{Publications}{150}{chapter*.3}

@@ -1,0 +1,16 @@
+\begin{pspicture}[](4,5) %start optics diagram (8x5) grid
+	
+%	\addtopsstyle{ExtendedMirror}{hatchcolor=lightgray}
+%	\mirror[mirrorwidth=4,mirrortype=extended,mirrordepth=2](2,5)(2,2)(2,5)
+	
+\rput(3,1.5){$\varepsilon_2$}
+\rput(3,2.5){$\varepsilon_1$}
+\rput(4, 2){$\lvert\mathbf{E}_z\rvert$}
+\psline[linewidth=0.05]{->}(0,2)(3.5,2)
+\psline[linewidth=0.05]{<->}(0,0)(0,4.75)
+\psbezier[linecolor=red](0.1,4.75)(0.1,2)(3,2)(3,2)
+\psbezier[linecolor=red](0.1,0)(0.1,2)(0,2)(3,2)
+\rput(0,5){z}
+
+
+\end{pspicture}

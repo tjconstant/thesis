@@ -1,0 +1,32 @@
+
+% turn of those nasty overfull and underfull hboxes
+\hbadness=10000
+\hfuzz=50pt
+
+% Put all the style files you want in the directory StyleFiles and usepackage like this:
+
+\usepackage{StyleFiles/watermark}
+\usepackage{graphicx}% Include figure files
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{bm}% bold math
+\usepackage[squaren]{SIunits}
+\usepackage{amsmath}
+\usepackage[tight,normalsize]{subfigure}
+\usepackage{miller}
+\usepackage{verbatim}
+\def\onlinecite{\cite[left=,right=]}
+
+
+% Comment out the next line to get single spacing
+\onehalfspacing
+%\doublespacing
+
+\begin{document}
+
+%\maketitle
+
+%set the number of sectioning levels that get number and appear in the contents
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+\frontmatter % book mode only

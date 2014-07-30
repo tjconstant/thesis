@@ -1,0 +1,251 @@
+\section{Introduction}\label{s:rintro}
+
+Bigratings consist of two monogratings `crossed' at some angle relative to each other \cite{Harris1996}. The study of SPPs on such gratings has covered various symmetries, and various novel optical effects have been observed.  Hole arrays that exhibit extraordinary enhanced transmission that is mediated by SPPs travelling along the surface \cite{Barnes2004,Tetz2010,Ebbesen1998} are types of  bigrating, often with square symmetry.  Full photonic band gaps for surface waves has been demonstrated on hexagonal symmetry gratings \cite{Kitson1996}, as has total absorption of unpolarised light \cite{Popov2008}, and absorption of light across a broad angle range \cite{Teperik2008}.
+
+This chapter details the optical response of metal bigratings with rectangular lattice symmetry. This symmetry of gratings has received comparatively less attention in the published literature and serves as a good introduction to the methods and physics of SPP on bigratings observed throughout this thesis. This chapter also shows experimentally how anisotropic propagation of SPPs may be designed by controlling the scattering amplitude in one direction and leaving the orthogonal direction unaltered.
+
+The gratings used for this investigation, and all subsequent investigations in this thesis, have straight-walled grooves and are commonly referred to as lamellar gratings. It is instructive, then, to review the scattering properties of such lamellar type gratings, and so a simple Fourier analysis giving the scattering amplitudes of a lamellar grating is presented in section \ref{s:components}.
+
+A fabricated rectangular bigrating is used to demonstrate the coupling to, and observation of SPPs supported by such a structure. The reflectivity of a silver rectangular bigrating is then used to experimentally map the SPP dispersion in section \ref{s:rdisp}. The observed coupling of light and the interaction of the SPP modes is explained with respect to the available scattering harmonics present in the constituent gratings. These scattering harmonics are inferred from the Fourier expansion found in section \ref{s:components} and SEMs of the sample. These results serve to demonstrate the experimental techniques used to map the SPP dispersion and also how the mark-to-space ratio is a key parameter in the understanding of the scattering on such lamellar gratings.
+
+The observation of polarisation conversion is also experimentally studied in section \ref{s:rpol}, showing that the reflected polarisation may be rotated when the plane of incidence is not along an axis of high symmetry.
+
+The new technique of imaging scatterometry is used in section \ref{s:rscat} to map the iso-frequency SPP contours in reciprocal space for the grating. The obtained iso-frequency maps show the formation of a band-gap at the first BZ boundary, a result that is reproduced using a FEM model and shows good agreement. This model is used to calculate the electric field of the two different SPP standing waves that occur at the BZ boundary.
+
+Finally, section \ref{s:rani} of this chapter shows how the deepening of one of the constituent gratings provides a mechanism to control the  anisotropic SPP propagation along the surface. The deformation of the SPP iso-frequency contours is experimentally recorded using imaging scatterometry.
+
+\section{The Rectangular Bigrating}\label{s:rgrating}
+
+\begin{figure}
+\begin{center}
+\input{figure-rect-coordinated-latexannotations.pdf_tex}
+\end{center}
+\caption[The coordinate system for a rectangular grating.]{The coordinate system for a rectangular grating. Light is incident on the surface at a polar angle $\theta$ and an azimuthal angle $\phi$. The plane of incidence contains the wavevector of the light, and the polarisations are defined accordingly. \label{fig:rectCoordSys}}
+\end{figure}
+
+A rectangular bigrating consists of two monogratings of different pitches `crossed' at an angle $\alpha=90^\circ$. The coordinate system for this type of grating is shown in figure \ref{fig:rectCoordSys}. The plane of incidence is defined at an azimuthal angle of $\phi=0^\circ$ when the wavevector of incidence light, impinging at some polar angle, $\theta$, lies in the $xz$ plane. When the electric field vector of the impinging radiation is contained within the plane of incidence, the light is said to be TM polarised, and when the electric vector lies orthogonal to the plane, it is TE polarised. The $x$-direction is in the plane of diffraction for the longer-pitch grating, which possesses a periodicity of $\lambda_{gx}$, and for all the gratings presented in this chapter is equal to $600\:\nano\metre$. The grating vector for this grating is defined as $\mathbf{k}_{gx}=2\pi\hat{\mathbf{x}}/\lambda_{gx}$. The second, shorter-pitch grating lies at an angle of $\alpha=90^\circ$ to the $x$-direction, and has $\lambda_{gy}=400\:\nano\metre$ in this chapter. As before, the grating vector of this short-pitch grating is defined as $\mathbf{k}_{gy}=2\pi\hat{\mathbf{y}}/\lambda_{gy}$. The depths of the gratings are $d_1$ and $d_2$, and are chosen in this chapter so that $d_1 = d_2 \approx 40\:\nano\metre$.
+
+\section{Dispersion of SPPs on Rectangular Bigratings}
+
+\subsection{Scattering Components on Lamellar Gratings\label{s:components}}
+
+In this chapter we use rectangular bigratings that have been fabricated using the electron beam lithography and template stripping method outline in chapter \ref{c:experimentalmethods}. These have surface relief grooves whose groove profiles are to a good approximation represented by a rectangular step function. Gratings such as this are often referred to as `lamellar' gratings, `binary' gratings, or occasionally `rectangular gratings'. To avoid confusion in this chapter, we shall reserve the label `rectangular' for discussion of the bigrating lattice, and refer to the groove profile shape as simply `lamellar'.
+
+To explain the SPP coupling and dispersion on rectangular bigratings we must gain a qualitative understanding of the scattering strength from lamellar profile gratings. The strength of scattering for fields at the grating surface is determined by the Fourier components of the surface profile. This is because the incident field's wavevector will be modified by the addition or subtraction of an integer number of surface profile wavevectors, and the diffraction efficiency into each order is proportional to the Fourier coefficients of these harmonics squared \cite{Goodman2005,Sanchez-Lopez2009}. To fully understand the excitation and interaction of SPPs on rectangular bigratings, we must first obtain expressions for these Fourier harmonics present for lamellar gratings. 
+
+A step function representing a monograting surface profile can be expressed by the piecewise linear function,
+\begin{align}
+f(x) =\;\begin{cases}
+-A,& -L < x < -\frac{mL}{2}\\
+A, &-\frac{mL}{2} < x < \frac{mL}{2}\\
+-A, &\frac{mL}{2} < x < L
+\end{cases}\label{eq:squaregrooves}
+\end{align}
+Where $A$ is the amplitude of the grating, $\lambda_g=2L$ is the period of the periodic function, and $m$ is a variable that affects the groove widths. Two common ways of defining the relative size of the region of grooves to the peaks for such functions are the \textit{`mark-to-space ratio'} ($MSR$) and the \textit{`duty cycle'} or \textit{`fill-fraction'} ($\Gamma$\nomenclature{$\Gamma$}{Duty cycle / Fill-fraction of a Binary / Lamellar diffraction grating.}) of the function. The MSR is defined as the ratio between the peak length and the trough length, while the duty cycle is defined as the fraction of the period which the peak occupies. The variable $m$ in the piecewise linear function was used for the convenience of calculation for the Fourier series. $MSR$ and $\Gamma$ are defined in terms of $m$ as,
+\begin{align*}
+MSR&=\frac{m}{2-m}\\
+\Gamma&=\frac{m}{2}
+\end{align*} 
+$MSR$ varies between $0<MSR<\infty$ while $\Gamma$ varies between $0<\Gamma<1$.
+
+Several examples of the grating function (equation \ref{eq:squaregrooves}) are shown in figure \ref{fig:examplesRectProfile}. This function is an even function and so may be expressed as a Fourier sum containing only cosine terms, with coefficients $a_n$ given by,
+\begin{equation}
+a_n=\frac{4A}{n \pi}\sin{\frac{n \pi m}{2}}
+\label{eq:an-squareprofle}
+\end{equation}
+The Fourier sum is then,
+\begin{equation*}
+F(x) = \sum\limits_{n=1}^\infty  \frac{4A}{n \pi}\sin{\frac{n \pi m}{2}} \cos{\frac{n \pi x}{L}}
+\end{equation*}
+
+\begin{figure}
+	\begin{center}
+	\subfigure[]{\input{figure-examplesRectProfiles}\label{fig:examplesRectProfile}}
+	\subfigure[]{\input{figure-squareprofileFouriers}\label{fig:fourierVsMarktospace}}
+	\end{center}
+	\caption[Three examples of unit cells for lamellar grating profiles, and the square of the Fourier coefficients, $a_n$, for these groove profiles.]{(a) Three examples of unit cells for lamellar grating profiles represented by equation \ref{eq:squaregrooves}. $f(A,\Gamma)$ for each case is $f(A,0.5)$, \color{red}$f(0.7A,0.75)$ \color{black} and \color{blue}$f(0.5A,0.25)$\color{black}. (b) Square of the Fourier coefficients, $a_n$, defined by equation \ref{eq:an-squareprofle}, in lamellar groove profiles as a function of $\Gamma$ for $n=1,2,3,4$. The two grey vertical lines highlight the two values of $\Gamma$ measured from the experimental sample used in section \ref{s:rdisp}.}
+\end{figure}
+
+The amplitudes of the first four Fourier coefficients as a function of the duty cycle of the grating is shown in figure \ref{fig:fourierVsMarktospace}. The gratings fabricated in this chapter were designed for a $\Gamma=0.5$, which gives peaks equal in length to the troughs. For $\Gamma=0.5, (MSR=1)$, there are no even Fourier components present in the surface expansion ($a_{2,4,...}\!\!\!\!=0$). This means that, for a lamellar grating with $\Gamma=0.5$, there is no direct scattering of light by even scattering vectors, and the even-ordered diffraction is consequently very weak. Even-ordered diffraction in this case is not forbidden, however, as light may scatter multiple times via odd-ordered scattering events (clearly present for $\Gamma=0.5$ in figure \ref{fig:fourierVsMarktospace}), but the strength of this multiple scattering process is normally quite weak. Small fabrication errors in $\Gamma$ will lead to non-zero values of even Fourier harmonics, and in this case direct scattering events will occur.
+
+The expression of the Fourier components as a function of $\Gamma$ is relevant to all the gratings produced and measured in this thesis.
+
+\subsection{Experimental Mapping of SPP Dispersion\label{s:rdisp}}
+This section demonstrates the experimental mapping of SPP dispersion on rectangular gratings using reflectivity measurements. An electron micrograph of the fabricated grating is shown in figure \ref{fig:rectgratingSEM}. 
+
+\begin{figure}
+\begin{center}
+\subfigure[]{
+\includegraphics[width=0.45\linewidth]{/sems/rect-sem.jpg}}
+\subfigure[]{
+\includegraphics[width=0.4155\linewidth]{/sem-large.jpg}}
+\end{center}
+\caption[Scanning electron micrographs of the template-stripped rectangular bigrating in silver.]{(a) A scanning electron micrograph of the template-stripped rectangular bigrating in silver. (b) A higher magnification of the surface showing small amounts of surface roughness attributed to anistropic etching of the Si master. The parameters are $\lambda_x=600\:\nano\meter, \lambda_y=400\:\nano\metre$.\label{fig:rectgratingSEM}}
+\end{figure}
+
+This sample is a silver grating fabricated using electron beam lithography to produce a silicon master, followed by the coating of the master with silver and then template stripped on to a clean glass substrate. This process is detailed in depth in chapter \ref{c:experimentalmethods}. The measured parameters from the SEM were $\lambda_{gx}=592 \pm 10 \:\nano\metre$ and $\lambda_{gy}=395 \pm 9\:\nano\metre$ with the duty cycle of the grating in the $x$ direction measured as $\Gamma_x=0.45$ and in the $y$ direction as $\Gamma_y=0.54$. The variation of $\Gamma$ from the designed duty cycle of $\Gamma=0.5$ will lead to possible direct scattering events for both odd and even grating harmonics, as can be seen by referring back to figure \ref{fig:fourierVsMarktospace}, in which these two values of $\Gamma$ are marked with grey lines.
+
+The dispersion of SPPs on such a grating was experimentally mapped from the sample's zero-order reflectivity using the technique outlined in chapter \ref{c:experimentalmethods}. Using this method, the re-radiated light from SPPs will in general differ in phase to the zero-order reflection and so produce reflectivity features that map the SPP dispersion. The polar angle range used was $7^\circ<\theta<60^\circ$ in steps of $0.5^\circ$, and the wavelength range used was $400\:\nano\metre<\lambda_0<800\:\nano\metre$ in steps of $2\:\nano\metre$. The resultant reflectivity plots for different polarisations and azimuthal angles are shown in figure \ref{fig:rectDispersion}. Since both periodicities on this bigrating will provide observable scattering at some point in our discussions, we adopt the notation of  using two integers $(m,n)$ to represent the $m\mathbf{k}_{xg}+n\mathbf{k}_{yg}$ scattering events. 
+
+\begin{figure}
+\begin{center}
+\subfigure[TM at $\phi=0^\circ$]{\includegraphics[width=0.49\linewidth,page=3]{rectdispersions}\label{fig:rectDispersionA}}
+\subfigure[TE at $\phi=90^\circ$]{\includegraphics[width=0.49\linewidth,page=4]{rectdispersions}\label{fig:rectDispersionB}}
+\subfigure[TE at $\phi=0^\circ$]{\includegraphics[width=0.49\linewidth,page=2]{rectdispersions}\label{fig:rectDispersionC}}
+\subfigure[TM at $\phi=90^\circ$]{\includegraphics[width=0.49\linewidth,page=1]{rectdispersions}\label{fig:rectDispersionD}}
+\end{center}
+\caption[Reflectivity for different polarisations and azimuthal angles for a rectangular grating mapped as a function of $(\omega,k)$.]{The reflectivity for different polarisations and azimuthal angles for a rectangular grating mapped as a function of $(\omega,k)$ in the case of (a) TM polarised light at $\phi=0^\circ$, (b) TE polarised light at $\phi=90^\circ$, (c) TE polarised light at $\phi=0^\circ$ and (d) TM polarised light at $\phi=90^\circ$.\label{fig:rectDispersion}}
+\end{figure}
+
+Figure \ref{fig:rectDispersionA} shows the measured reflectivity of TM polarised light for a rectangular grating at $\phi=0^\circ$. The blue lines show the momentum states of grazing photons for various diffracted orders and in this figure include the $\pm1\mathbf{k}_{gx}$, $+2\mathbf{k}_{gx}$ scattered and the zero-order light line. No diffraction lines associated for the $\lambda_{gy}$ period are present, as the pitch of $\lambda_{gy}$ was chosen to ensure, for the orientation of the grating at $\phi=0^\circ$, there was no diffraction present from the shorter period in this frequency range. 
+
+The figure shows dark bands of low reflectivity that map the positions of the $\pm1\mathbf{k}_{gx}$ and $+2\mathbf{k}_{gx}$ scattered SPP modes. These modes lie beyond their respective diffracted light lines, as the momentum of SPPs is greater than that of corresponding scattered light. Several conclusions can be made about this grating from the observation of the SPPs. Firstly, the $\pm1\mathbf{k}_{gx}$ scattered SPP is coupled strongly to light, presenting as a reflectivity minimum with only $\approx 20\%$ of the light being reflected. This is due to the phase of the re-radiated light from the SPPs being out-of-phase with the direct (non-interacting) reflected light from the surface. The $+2\mathbf{k}_{gx}$ SPP is also coupled well and is observed as a dark band. This suggests that there is a  $2\mathbf{k}_{gx}$ component in the grating surface profile, as for light to interact with a $+2\mathbf{k}_{gx}$ scattered SPP and present as a dark band the light has undergone a single scattering process equal to $+2\mathbf{k}_{gx}$, which is only strongly observed if the profile itself contains a $2k_{gx}$ component. This is expected for $\Gamma_x = 0.45$, as measured from the SEM in figure \ref{fig:rectgratingSEM}. If $\Gamma_x=0.5$, there would be no $2k_{gx}$ component in the grating surface and the $+2\mathbf{k}_{gx}$ could only present in the reflectivity data via weak multiple scattering processes. 
+
+At the first BZ boundary these two counter-propagating modes meet and form a small band-gap, which is not fully mapped as it occurs at the upper limit of the experiment's frequency range. The observable part of this band-gap is the lower band edge occurring at $k_x=\pi/\lambda_{gx}=0.52\times 10^7 \metre^{-1}$. These SPPs coupling together to form a band-gap means that the grating profile also contains a $3k_{gx}$ component which couples these two modes together (see chapter \ref{c:backgroundtheory}). A $3k_{gx}$ component in the surface profile is fully expected for lamellar gratings with $\Gamma_x=0.45$.
+
+Figure \ref{fig:rectDispersionC} shows the same reflectivity map, this time for TE polarised light. TE polarised light provides no normal component of electric field to the surface of the long pitch grating, and so no SPPs are excited. In the top corner of the dispersion, at larger values of $k_x$ and at high frequencies, there is a broad dark region that is attributed to a largely over-coupled mode associated with the $n\mathbf{k}_{gy}$ scattered SPPs, for which the TE polarisation is suitable for SPP excitation. 
+
+Rotating the grating by $\phi=90^\circ$, so that the plane of incidence now lies along the $k_y$ direction allows the observation of the $\pm1\mathbf{k}_{gx}$ and $\pm 2\mathbf{k}_{gx}$ SPPs that present now as out-of-plane modes when the light is TE polarised (Figure \ref{fig:rectDispersionB}). These mapped SPP bands follow curved diffraction lines formed by the conic intersection of an out-of-plane diffracted light cone (see the discussion in chapter \ref{c:backgroundtheory}). 
+
+A band-gap is observed in this direction between the $(\pm 1,0)$ and the $(\pm 1,1)$ scattered SPPs, with the centre of the band-gap at $\omega=3.45 \times 10^{15}$ rad s$^{-1}$. This corresponds to an illumination wavelength of $\lambda_0=546\:\nano\metre$, and we shall use a wavelength close to this to observe this band-gap using scatterometry later in section \ref{s:rscat}.
+
+These bands are coupled to well beneath these diffraction lines, and appear weakly coupled once the band passes above the diffraction lines. This is due to the re-radiated light from SPPs now being able to couple not just to the zero-order light, but also to the allowed modes of diffracted light scattering along the $k_x$ axis. This additional loss mechanism of the light leaves less of the out-of-phase re-radiated light in the measured specular reflection. 
+
+The straight lines in figure \ref{fig:rectDispersionB} show the diffraction lines associated with the $+1\mathbf{k}_{gy}$ light and the zero-order light line. No SPP is observed that is associated with the  $+1\mathbf{k}_{gy}$  light line, as the polarisation conditions are not met for the excitation of this mode.
+
+The final dispersion map is shown in \ref{fig:rectDispersionD} for $\phi=90^\circ$ and TM polarised light. In this case the SPPs associated with the $n\mathbf{k}_{gy}$ scattering events should be observed. Following the $+1\mathbf{k}_{gy}$ light line, a dispersive mode, broader than the SPP bands seen previously, is observed. This mode forms a large band-gap at $k_y=0$, with a forbidden frequency range observed between \mbox{$3.2\times10^{15}$ rad s$^{-1}$ $<\omega<3.5\times10^{15}$ rad s$^{-1}$}, suggesting a large $2k_{gy}$ component in the grating which may directly couple the counter-propagating SPPs together. Above this band-gap, a very large broad absorption band is seen, with the reflectivity being reduced further inside the  $+1\mathbf{k}_{gy}$ diffraction cone. This is attributed to largely over-coupled SPP modes, and the extra available loss channels inside the diffraction cone. The small dark band observed at \mbox{$\omega\approx3.1\times10^{15}$ rad s$^{-1}$} is the lower band edge of a band gap formed at the $1^{st}$ BZ boundary in the $k_y$ direction.
+
+
+\subsection{Band Gap Observation Using Scatterometry\label{s:rscat}}
+
+Scatterometry has been used in this section to observe the band-gaps that form at the first BZ\nomenclature{BZ}{The Brillouin Zone} in the $k_y$ direction due to the interaction of a $+1\mathbf{k}_{gx}$ and a  $-1\mathbf{k}_{gx}$ scattered SPP. This is a new technique presented in this thesis, and the methodology is covered in chapter \ref{c:experimentalmethods}. Figure \ref{fig:rectScattA} shows the results for a rectangular grating for an illuminating wavelength of $\lambda_0=550\:\nano\metre$.
+\begin{figure}
+\begin{center}
+\subfigure[]{\includegraphics[width=0.49\linewidth]{rect-comparison-figures/figure-rectScatter550.png}\label{fig:rectScattA}}
+\subfigure[]{\includegraphics[width=0.49\linewidth]{rect-comparison-figures/figure-rectHFSS550.png}\label{fig:rectScattB}}
+\end{center}
+\caption[A scattergram of a rectangular grating mapped to $k$-space for an illumination wavelength of $\lambda_0=550\:\nano\metre$.]{(a) A scattergram of a rectangular grating mapped to $k$-space for an illumination wavelength of $\lambda_0=550\:\nano\metre$. The red square indicates the position of the BZ boundary. The white region bounded in the scattergram is replicated in (b), modelled using the FEM.\label{fig:rectScatt}}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\subfigure[]{\def\svgwidth{0.4\linewidth}\input{figure-bandgap-kspcae-cartoon1.pdf_tex}}
+\subfigure[]{\def\svgwidth{0.4\linewidth}\input{figure-bandgap-kspace-cartoon2.pdf_tex}}
+\end{center}
+\caption[Cartoon of the $(-1,0)$ and $(1,0)$ SPP iso-frequency contours at the BZ boundary.]{(a) Cartoon of the $(-1,0)$ and $(1,0)$ SPP iso-frequency contours at the BZ boundary, from the original continuous SPP contours (dotted lines) to the split modes (solid lines). (b) By considering the other interactions occurring at this point (or by using the mirror symmetry of the BZ boundary), the continuous SPP contours are recovered, leading to the observation of the SPP contour shape measured in figure \ref{fig:rectScatt}. \label{fig:rect-exaplain-bandshape-cartoon}}
+\end{figure}
+
+In this figure, the BZ boundary is shown as a red rectangle and the $\pm 1\mathbf{k}_{gx}$ scattered SPPs present as dark bands in the reflectivity. The $\pm 1\mathbf{k}_{gy}$ scattered SPPs are also observed as extremely weak bright bands, due to the selected polarisation for this scattergram, which was chosen to provide greatest contrast for the $\pm 1\mathbf{k}_{gx}$ scattered SPPs. The $\pm 2\mathbf{k}_{gx}$ scattered SPPs are also observed as dark bands near the edges of the plot at $|k_x|=0.9\times 10^{7} \:\metre^{-1}$. This sample was produced from the same master as the grating presented in section \ref{s:rdisp}, so a $2k_{gx}$ component in the surface profile is not unexpected. 
+
+As the scattered SPP contours cross at the BZ boundary, they are seen to split. The contours intersect the BZ boundary perpendicularly, indicating that there is zero group velocity in the $\mathbf{k}_y$ direction, as one would expect for a set of standing waves. The shape of these contours is explained in figure \ref{fig:rect-exaplain-bandshape-cartoon} as the splitting of the modes due to a band-gap. 
+
+The region of the band-gap is highlighted in white in figure \ref{fig:rectScattA}, and in figure \ref{fig:rectScattB} the data in the area shown has been reproduced using a FEM model. The SPP contour at point A appears discontinuous at this boundary, but this cannot be true. The SPP contours are never discontinuous due to the translational symmetry of reciprocal space as illustrated in figure \ref{fig:rect-exaplain-bandshape-cartoon}, and this apparent discontinuity in the contour is in fact the SPP simply being poorly coupled beyond the point of the BZ boundary. The SPP contour at A will connect with the SPP eigenmode associated with the ($-1,1$) scattered SPP contour, and the coupling of light to this eigenmode is sufficiently weak as to cause this apparent discontinuity.
+
+The model shows good agreement to the obtained scattergram with the parameters as follows: $d_1=d_2=35\:\nano\metre, \lambda_{gx}=600\:\nano\metre, \lambda_{gy}=400\:\nano\metre$ with $\Gamma_x=0.45$, $\Gamma_y=0.54$ and silver parameters from literature \cite{Palik1985}. From this model, the electric field profiles in the $yz$ plane were extracted and plotted in figure \ref{fig:rectfieldbandgaps}. These band gap solutions correspond to the points A and B in figure \ref{fig:rectScattB}, where the SPP contour intersects the BZ boundary perpendicularly, indicating the SPP mode possesses zero group velocity in the $k_y$ direction, indicative of a standing wave.
+
+\begin{figure}
+\begin{center}
+\subfigure[High-energy solution]{\includegraphics[width=0.49\linewidth]{band1.png}\label{fig:rectfieldbandgapsA}}
+\subfigure[Low-energy solution]{\includegraphics[width=0.49\linewidth]{band2.png}\label{fig:rectfieldbandgapsB}}
+\end{center}
+\caption[Plots showing the electric field for the high energy and low energy SPP standing waves occurring at the BZ boundary.]{Colour plots showing the magnitude of electric field at a set temporal phase (colour scale) and electric vector direction (arrows) for the (a) high energy and (b) low energy SPP standing waves occurring at the BZ boundary.\label{fig:rectfieldbandgaps}}
+\end{figure}
+
+The electric field plots show that both standing waves have a wavevector such that $k_y=k_{gy}/2$, as is expected at the first BZ boundary. One mode extends further into the air, and is the `photon-like', high energy solution (figure \ref{fig:rectfieldbandgapsA}). This shows that charge accumulates mostly on the grating peaks, while the charge is localised  to the grating grooves in the lower energy case of figure \ref{fig:rectfieldbandgapsB}, in agreement with the analogous case of simple sinousoidal gratings discussed in chapter \ref{c:backgroundtheory}. 
+
+\section{Polarisation Conversion on Rectangular Symmetry\label{s:rpol}}
+
+The conversion of the polarisation of  light is of some importance in many plasmonic applications. The two mechanisms of polarisation conversion outlined in chapter \ref{c:backgroundtheory} detail how the geometry of a diffraction grating and the presence of SPPs on a surface may mediate significant changes in the polarisation state of the reflected light. Both these mediating processes are possible when the light impinging on a grating surface does so along an axis of reduced symmetry. The basic principle of this is quite intuitive; one does not expect any physical response of the system to possess a different symmetry to that with which it started. So, when the electric field of an incident light beam lies in a plane of mirror symmetry shared by both the light and a surface, it is correctly expected that the reflected light's electric field will occupy the same plane. This offers us an intuitive understanding for a typical diffraction grating with a single periodicity reflecting polarised light. We do not expect the polarisation of the TE or TM polarised light to change upon reflection when the electric field lies either parallel or perpendicular to the grating's grooves as this is when the polarised electric (and magnetic) field vectors lie in the grating's mirror symmetry planes (when $\phi=0^\circ$ or $\phi=90^\circ$). However, if the light field vectors do not lie in the mirror symmetry planes of the diffraction grating, say by rotating the grating azimuthally by an angle which is not $\phi=0^\circ$ or $\phi=90^\circ$, the mirror symmetry considerations place no constraints on the rotation of polarisation, and polarisation conversion may be observed. In fact, maximum polarisation conversion of the incident light (for a monograting) occurs half way between these two angles, at $\phi=45^\circ$
+
+This is a general symmetry description of polarisation conversion, which gives us an intuitive insight as to when we might expect the rotation of light's polarisation to change, or when it will not. On a square bigrating, with $\lambda_{gx}=\lambda_{gy}$, there is an additional plane of mirror symmetry, at $\phi=45^\circ$. At this angle, again, no polarisation conversion is observed and the polarisation state of reflected light is unchanged \cite{Sabat2010}.
+
+In the rectangular bigrating case, the plane of incidence will only be collinear with planes of mirror symmetry when $\phi=0^\circ, 90^\circ,180^\circ, 270^\circ$. We expect to observe rotation of the polarisation state of incident light for any azimuthal angle which is not $\phi=0^\circ$ or $\phi=90^\circ$. To highlight the differences in the rectangular grating to the square grating, we choose here an angle of $\phi=45^\circ$ to investigate the grating's ability to rotate the polarisation. 
+
+\begin{figure}
+\begin{center}
+\input{figure-spectra-polarisationconversion}
+\end{center}
+\caption[Spectra of polarisation conversion on the rectangular grating at $\phi=45^\circ$.]{Spectra of polarisation conversion on the rectangular grating at $\phi=45^\circ$. Top panel: The reflection of TE polarised light, $R_{TE:TE}$ (black) and polarisation conversion $R_{TE:TM}$ (red). Lower panel: The addition of these two reflectance curves gives a more precise position of the SPP modes.\label{fig:rectpolconv}}
+\end{figure}
+
+To record the polarisation conversion of light from TE to TM (and from TM to TE), spectra were recorded in the range $450\:\nano\metre<\lambda_0<800\:\nano\metre$ in steps of $2\:\nano\metre$. The incident light was passed first through a linear polariser set to either TE or TM, and then directed on to the grating surface, which was oriented at $\phi=45^\circ$. The zero-order reflected light was then passed through a second linear polariser, which for the purposes of detecting polarisation conversion was crossed at $90^\circ$ with respect to the first polariser. Normalisation of the polarisation converted signal was performed by dividing the reflectivity spectra with a straight-through spectra of linearly polarised light (both polarisers set to the same polarisation).
+
+Figure \ref{fig:rectpolconv} shows the results of this experiment. The upper half of the figure shows the reflectivity for uncrossed (black) polarisers both set to the TE polarisation, and the and crossed (red) polarisers set to TE and TM respectively. Resonant features exist in both spectra characteristic of SPP interaction with the light. For the polarisation conversion signal (red line) we see a large broad region of polarisation conversion between ${500 \:\nano\metre<\lambda_0<600\:\nano\metre}$, which we attribute to polarisation conversion mediated by largely over-coupled modes at high frequencies, evidence for which we observed previously in section \ref{s:rdisp}. The second resonant feature at $\lambda_0 \approx 690\:\nano\metre$ presents as an inflection of the polarisation converted signal and is in the same region as the reflectivity minimum in the $R_{TE}$ case (black line). 
+
+This highlights an important point when dealing with the mapping of SPP position in systems of low symmetry. Normally, the measurement of the SPP energy or momentum is accomplished by measuring the resonant minima (or maxima) position in energy or momentum space. However, when SPPs propagate along axes of broken symmetry, the phase of the re-radiated light into a single polarisation state is insufficient to determine the exact SPP location, as additional loss channels are available (The SPP may couple out to a different polarisation state, and the phase of this light with respect to the incident field may be different). This is highlighted in the lower portion of figure \ref{fig:rectpolconv}, where the two obtained reflectivities have been summed to obtain the reflectivity of both TE:TE and TE:TM polarised reflections. The result shows reflectivity resonance minima which better position the SPP in wavelength, as some of the additional phases have been accounted for  through interference by the summation of the two reflectivities. The grey lines across both figures show that in the original upper  spectra, the mode positions do not correspond to this corrected (bottom) spectra. 
+
+
+\section{Controlling SPP Anisotropy Using Rectangular Bigratings\label{s:rani}}
+
+It was demonstrated in section \ref{s:rdisp} that SPP band-gaps form in both the $\mathbf{k}_{gx}$ and $\mathbf{k}_{gy}$ directions on a rectangular bigrating. The size of these band-gaps is proportional to the diffraction efficiency required to couple two counter-propagating SPPs together to form the required SPP standing waves. This diffraction efficiency into a particular diffracted order is also proportional to the Fourier components squared, and an expression for these was derived in section \ref{s:components}. 
+
+Examining equation \ref{eq:an-squareprofle}, it is possible to increase the diffraction efficiencies of a constituent grating by simply increasing the grating's amplitude. Since on a lamellar type grating, each Fourier component is proportional to this grating amplitude, the size of all the possible SPP band-gaps may be controlled by simply deepening the grating.
+
+On a rectangular bigrating there are two constituent lamellar gratings oriented orthogonal to one another. SPP band-gaps in one direction may be controlled by deepening the appropriate grating, leaving the band-gaps that form in the orthogonal direction along the other constituent grating largely unaffected. This should allow the design of SPP anisotropy, where the SPP dispersion varies largely depending on the direction in which the SPP travels along the grating.
+
+In this section, we deepen the short-pitch grating and observe the effect of increased SPP anisotropy using imaging scatterometery. The variable we adjust is $d_2$, and the effect on the surface profile of increasing this is shown in figure \ref{fig:deepingingIt}.
+
+\begin{figure}
+\begin{center}
+\subfigure[$d_2=40\:\nano\metre$]{ \def\svgwidth{0.48\linewidth}\input{figure-rect-coordinated-latexannotations-shallow.pdf_tex}}
+\subfigure[$d_2=80\:\nano\metre$]{ \def\svgwidth{0.48\linewidth}\input{figure-rect-coordinated-latexannotations-deep.pdf_tex}}
+\end{center}
+\caption[Diagram of the effect on the surface profile by increasing the depth $d_2$ of the rectangular bigrating.]{Diagram of the effect on the surface profile by increasing the depth $d_2$ of the rectangular bigrating from (a) $d_2=40\:\nano\metre$ to (b) $d_2=80\:\nano\metre$. A larger value of $d_2$ increases the diffraction efficiency of the constituent $\mathbf{k}_{gy}$ grating.\label{fig:deepingingIt}}
+\end{figure}
+
+Two bigratings were produced for this experiment, with the aim that they be identical save for the depth of the shorter-pitch grating, $d_2$. The two gratings are manufactured at the same time via electron beam lithography, using the same electron dose to expose the pattern. The long pitch is $\lambda_{gx}=600\:\nano\metre$ and for the short pitch $\lambda_{gy}=400\:\nano\metre$. The target depth of the long pitch for both gratings was $d=40\:\nano\metre$, which is achieved by reactive ion etching the masters in the same etching exposure run. The second short-pitch grating was then added to the master and the depth varied between samples. For the `shallow' bigrating, the target depth of $40 \:\nano\metre$ was used, for the `deep' bigrating the target depth was $d_2=80\:\nano\metre$ 
+
+\begin{figure}
+\begin{center}
+\input{figure-isofrequency-deformation.pdf_tex}
+\end{center}
+\caption[A sketch showing the expected iso-frequency contour deformation as $d_2$ is changed.]{A sketch showing the expected iso-frequency contour deformation. Increased coupling efficiency in to the $\mathbf{k}_{gy}$ direction deforms the SPP iso-frequency contours; represented as increasing in coupling efficiency from poorly coupled together (yellow lines) to strongly coupled (red). The blue circles represent the diffracted light circles, and the black circle represents the zero-order (un-scattered) light circle, which is the area mapped by imaging scatterometry.\label{fig:isofreq-deformation-cartoon}}
+\end{figure}
+
+
+The expected effect on the SPP iso-frequency contours is shown in figure \ref{fig:isofreq-deformation-cartoon}. The increase in the diffraction efficiency of the $\pm\mathbf{k}_{gy}$ scattering events will be the dominant effect observed for the chosen grating's parameters. By increasing the diffractive coupling between SPPs, the $(\pm1,0)$ SPPs will interact and form larger band-gaps at the $1^{st}$ BZ boundary in the $k_y$ direction. This is shown in the figure as a relatively weakly coupled SPP contour (yellow line) evolving into the stronger coupled SPP contour (red line). The effect of this is to `flatten' the band along the $k_y$ axis. The interactions between these contours and the $(\pm1,0)$ are not included in this picture as they will require a multiple scattering process by which to interact, and consequently are very weak. A more detailed description as to the presentation of these bands in $k$-space is discussed in chapter \ref{c:experimentalmethods}, under the experimental methodology for imaging scatterometry.
+
+\begin{figure}
+\begin{center}
+\subfigure[$d_2=40\:\nano\metre$]{\includegraphics[width=0.49\linewidth]{figure-shallow-bigrating-700.png}\label{fig:rectscattFlatteneingA}}
+\subfigure[$d_2=80\:\nano\metre$]{\includegraphics[width=0.49\linewidth]{figure-deep-bigrating-700.png}\label{fig:rectscattFlatteneingB}}
+\end{center}
+\caption[Experimental iso-frequency contours for two rectangular bigratings at a wavelength of $\lambda_0=700\:\nano\metre$.]{Experimental iso-frequency contours for two rectangular bigratings at a wavelength of $\lambda_0=700\:\nano\metre$ with (a) shallow orthogonal grooves of $d_2=30\:\nano\metre$ and (b) deep orthogonal grooves of $d_2=80\:\nano\metre$. The blue lines show the calculated position of the diffracted light circles, which unperturbed SPP contours will follow.  \label{fig:rectscattFlatteneing}}
+\end{figure}
+
+Figure \ref{fig:rectscattFlatteneing} shows the experimentally mapped iso-frequency contours for the two rectangular bigratings at a wavelength of $\lambda_0=700\:\nano\metre$. Figure \ref{fig:rectscattFlatteneingA} shows two SPP contours as a dark bands of reflectivity closely following the $\pm 1\mathbf{k}_{gx}$ scattered diffraction cones (blue lines). The SPP contours in figure \ref{fig:rectscattFlatteneingA} exhibit a small degree of anisotropy with respect to their dispersion, with the SPP contour closer to the diffracted light lines at $k_y=0$ than elsewhere along the contour. This is due to the $(\pm 1,0)$ scattered SPPs interacting and forming band gaps with the $(\pm 1,\pm 1)$ or $(\mp 1,\pm 1)$ SPPs. This interaction is strong as it only requires a single scattering event of $\pm1\mathbf{k}_{gy}$ to couple the SPPs together, which is a harmonic that is present in the grating's surface profile. The strength of this interaction causes the deformation in the value for $k_{SPP}$ for different azimuthal angles. This interaction corresponds to the yellow SPP example contour drawn in figure \ref{fig:isofreq-deformation-cartoon}, as the $(\pm1,0)$ modes which weakly interact with the $(\pm 1,\pm 1)$ and $(\mp1,\pm1)$ scattered modes. 
+
+By deepening the short-pitch grating to $80\:\nano\metre$ this anisotropy is increased. This is seen clearly in the experimental results in figure \ref{fig:rectscattFlatteneingB} where the $(\pm 1,0)$ scattered SPPs interaction with the $(\pm1,\pm 1)$ and $(\mp 1,\pm 1)$ scattered SPPs have served to flatten the SPP contours, pulling them away from their associated diffraction circles.
+
+In both cases the interaction between the $(\pm 1,0)$ and the $(0,\pm1)$ scattered SPPs is not observed as the weak multiple scattering processes do not strongly couple the modes together. Further, the $(0,\pm 1)$ scattered SPPs are not seen in these scattergrams, as the polarisation has been selected to highlight only the $(\pm 1,0)$ scattered modes for clarity.
+
+Of interest is the effect of this increasing band gap on the SPPs travelling solely along the $\mathbf{k}_x$ direction. Since the deepening of the short-pitch grating affects only the diffraction efficiency in the $y$-direction, it is not expected that the SPP travelling solely in the $x$-direction should be affected. Experiments show, however, that this is not the case. For the scattergrams in figure \ref{fig:rectscattFlatteneing}, along $k_y=0$ we see that the SPP contour lies further from the diffraction circles in the deep grating case when compared to the shallow grating. Mapping the dispersion for these two gratings using the zero-order reflectivity maps as a function of $(\omega,k_x)$ we obtain the dispersion of the SPP modes in the plane of incidence containing $k_x$, and these are shown in figure \ref{fig:rectdispersionshallowdeep}.
+
+
+\begin{figure}
+\begin{center}
+\subfigure[$d_2=40\:\nano\metre$]{\includegraphics[width=0.49\linewidth]{experimental-dispersions/figure-40nm-rectbigrating-dispersion}}
+\subfigure[$d_2=80\:\nano\metre$]{\includegraphics[width=0.49\linewidth]{experimental-dispersions/figure-80nm-rectbigrating-dispersion}}\\
+\subfigure[]{\includegraphics[width=0.49\linewidth]{figure-rectbigrating-rshift}\label{fig:rectdispersionshallowdeepA}}
+\subfigure[]{\includegraphics[width=0.49\linewidth]{figure-rectbi-dispersionALL.pdf}\label{fig:rectdispersionshallowdeepB}}
+\end{center}
+\caption[Experimentally obtained dispersion diagrams mapped from the reflectance of rectangular bi-gratings with nominal depths of $40\:\nano\metre$ and $80\:\nano\meter$]{(a-b) Experimentally obtained dispersion diagrams mapped from the reflectance of rectangular bi-gratings with nominal depths of (a) 40 nm, (b) 80 nm\label{fig:rectdispersionshallowdeep}. (c) The SPP mode position measured by reflection of TM polarised light at $\theta=7^\circ$ as a function of angular frequency, $\omega$. The curves are for the shallow (black) and deep (red) grating. The SPP mode shifts to lower frequencies as shown in (d).}
+\end{figure}
+
+The SPP bands in the deep grating case are suppressed in frequency compared to those obtained from the shallow grating. This frequency shift is seen more clearly in the spectral plots and overlay of the dispersions shown in figures \ref{fig:rectdispersionshallowdeepA} and \ref{fig:rectdispersionshallowdeepB}. For the overlays of dispersion the reflectivity minima were taken as the SPP mode positions (as it will be travelling along an axis of mirror symmetry, polarisation conversion does not occur). These were extracted from the spectra of each plot for a given incidence angle and collated together.
+
+
+The results show that the effective mode index of the SPP can be altered both in the $k_x$ and $k_y$ direction by increasing the depth of the short-pitch grating. This is analogous to the work of Pendry \cite{Pendry2004} and the subsequent work on `spoof' surface plasmons \cite{Hibbins2005}, where surface structure is used to manipulate the asymptotic limit of surface wave dispersion, introducing the concept of an `effective surface plasma frequency'. We shall return to this conclusion in chapter \ref{c:zigzag}, where we demonstrate that the short-pitch can be extremely sub-wavelength ($\lambda_{gy}=150\:\nano\metre$) and still affect the propagation of SPPs along grating surfaces. 
+
+
+\section{Conclusions}
+
+In this chapter we have introduced the concept of a bigrating as a grating with two grating vectors which are not collinear. The example used in the chapter was the rectangular bigrating, which possesses two grating vectors of different magnitude, oriented at $\alpha=90^\circ$.
+
+The dispersion of these rectangular gratings was mapped from the reflectivity of the samples in section \ref{s:rdisp}. It was found that small errors in mark-to-space ratio of such gratings lead to the strong coupling of even-ordered modes, which would not be expected to couple strongly on such a surface if the mark-to-space ratio was 1. A discussion as to the features associated with SPPs on such a surface has been presented. This will be a background to future discussions on dispersion mapping throughout this thesis. 
+
+Band gaps forming between the $+1\mathbf{k}_{gx}$ and $-1\mathbf{k}_{gx}$ scattered SPPs were experimentally observed using imaging scatterometry, as presented in section \ref{s:rscat}, demonstrating this technique for the first time. FEM modelling of the gratings show the field orientation for these SPP standing waves which occur at the BZ boundary. 
+
+In section \ref{s:rpol} it was found that such rectangular bigratings exhibit polarisation conversion at $\phi=45^\circ$, which is different from conventional square bigratings. This is attributed to the fact that SPPs propagating out of the plane of incidence inhabit an axis of broken mirror symmetry, and so may decay into either polarisation state.  
+
+Finally section \ref{s:rani} investigates the effect on SPP dispersion by deepening the short-pitch of the rectangular bigrating. It is found that the anisotropy of the SPP mode can be controlled by changing this depth, which controls the strength of coupling between counter-propagating SPP modes. Finally, the mode index of the in-plane SPP (travelling along the $k_x$ direction) is also found to be affected slightly by the deepening of the orthogonal pitch.

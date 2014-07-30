@@ -1,0 +1,47 @@
+% Thesis Acknowledgements ------------------------------------------------
+
+
+%\begin{acknowledgementslong} %uncommenting this line, gives a different acknowledgements heading
+\begin{acknowledgements}      %this creates the heading for the acknowlegments
+First and foremost, I would like to thank my supervisors, Professor Roy Sambles and Professor Alastair Hibbins. 
+Roy has been a constant inspiration to me throughout my research, and has kept me motivated and excited in all that I have done. The level of care and diligence he affords his students is second to none. Thank you Roy.
+In Alastair, I have gained not just a respected colleague, but also a close friend. In the early days of my supervisory meetings, Al was always there to step in and say ``Hang on, Roy, this \textit{isn't} trivial.'', for which I will be forever grateful. I've also enjoyed many fruitful hours with Al at conferences, and many less fruitful hours down the pub. Thank you Al.
+
+Many, many members of the Electromagnetic Materials Group at Exeter have helped me throughout my Ph.\ D. None more so than Matt Lockyear, without whose advice and support I most certainly wouldn't have made it this far. Matt and I was fortunate enough to be part of RAD crew during it's golden age, a rag-tag bunch of physicist-surfers who had some rather fantastic adventures. 
+
+Ian Hooper is Exeter's resident grating expert, and I am indebted to him for countless discussions, arguments and comments on the physics of the diffraction grating. Currently, our running pool score stands at 97-65 to Hoops, and by the time anyone reads this I am certain he will have reached 100 and I will have had to buy us a holiday.
+
+In the first few years of my work, I was lucky enough to have Professor Alex Savchenko as my academic mentor. Alex helped me a great deal when I was struggling, and was one of the most down to earth, empathic people I've ever met. Even after his untimely death in 2011, Alex's legacy continues to have an important effect on my research. Alex's winning of the funding for Exeter's graphene center brought reliable nano-fabrication technology and immeasurably skilled physicists to Exeter, and in doing so allowed me to create the samples presented in this thesis.
+
+I must thank Dave Anderson for his supreme skill at electron beam lithography and his remarkably patient and helpful attitude in dealing with me. A lot of the samples used in this work simply could not have been made without Dave's help.
+
+Plenty of the other academics have been great fun to work with at Exeter. Pete Vukusic has been a great help to me, providing me in the final months with some funding to develop the scatterometry kit further. Bill Barnes has always provided thought provoking questions, and the back-to-basics sessions he has run helped me lots with, well, the not-so-basics of our field. Euan Hendry has also provided useful discussions, and has also wiped me out many times in poker. A four hour chat we had about Fourier series in optics, whilst sharing some beers in the baggage compartment of a train from London to Exeter, still helps me heavily in the physical reasoning in this thesis.
+
+The technical workshop have been fantastic in my time at Exeter, making some remarkable devices and some less remarkable Bar stands. Originally my go-to man was Pete Cann, and after he  left us to go enjoy Australia and then later family, the burden then fell to Nick Cole. They are both fantastic technicians and have made many of the results in the thesis possible by providing, or sometimes just fixing, vital kit. The other workshop boys have also been great. John, Kev and Adam have all helped me greatly, be it helping with orders (John), making things Nick can't (Kev), or just yelling instructions at me as our star defender on the post-grad football team (Adam!). In the techinical areas, I can't forget Chris Forrest, who is often a lifesaver with all things IT.
+
+Team Basement, as the dwellers of our dankest subterranean lab named ourselves, were constant fun. Ed Stone, for sharing and increasing my love for R, introducing me to Linux and providing some of the most memorable moments of these past years, I thank you! Earthquake testing Ed, though ill-advised, is possibly one of the funniest things you'll ever see. Caroline Pouya has managed to put up with me now for close to nine years. How she's managed that is completely beyond me, and despite such prolonged exposure to me, she has become one of my closest friends. Later, we were joined by Alfie, Nixon and in the final days Luke and Tim, who all took the challenge of living without daylight and the constant fear of asphyxiation, electrocution or asbestos poisoning with the good humour we've come to expect from Team Basement. I'd also like to thank Ed and Alfie particularity for listening to my ideas about using scatterometry to map iso-frequency contours, and helping me develop the experiential technique which is used heavily in this thesis. Chris Holmes was also there, but we shall get to him later.
+
+The microwave kids in G31 have also been wonderful friends. Celia Butler has always been there for a chat, and I certainly now know more about Brownies and Gambia than I ever intended to. Mel Taylor and I did some summer project work together just prior to the Ph.\ D., and we had some great fun. Later Al, Simon, Panda, Liz, Laura, Ben and Ruth joined us, and they're all been fantastic friends. Another microwave bunny, Helen Rance is (quite by accident) my oldest friend at Exeter. We've known each other for so long, and through so many different experiences, that to attempt a decent acknowledgement is an exercise in futility.
+
+For the majority of my Ph.\ D., I lived in Horseguards parade with Steve Hubbard, Matt Biginton, Ciar\'an Stewart, Chris Holmes and Pete Hale. Stormguards, as we affectionately named it, was not just a house. It was an exclusive gentleman's club, a brewery, a philosophical forum, a base of operations, a darts club, a support group, a fraternity and a state of mind. The golden age of the Stormers saw us invent the amateur beer festival, the glove game, tea-darts, Nakatomi Plaza, develop an appreciation of fine whisky and much much more. I think it's fair to say that the two key players (other than myself) in the development of Storm-Culture was Pete and Chris; so Stormers, I thank you especially.
+
+Plenty of other physicists have been important to me throughout this work. To list a few, I must mention Nat, Babs, Laureline, Tom D, and not forgetting the Russian contingent in Tim, Ivan, and the rest of the quantum group. 
+
+I have been fortunate to have many great friends outside of the department over the past 8 years. Holly Keatings and I met on the second day of uni, and have together sampled almost every restaurant in Exeter. My other house-mates of that era were Ashley, Rob and Jon. It was my great privilege to see Lash marry a fellow Stormer, Steve, after introducing them at our house while making name badges. 
+
+For many years I competed for the university as part of the fencing club. On the Men's $1^{st}$ team I met Graham Heydon and and James Parker, who are now two of my best friends. The adventures and trouble we got ourselves in make any attempt to play `I have never' with these guys total suicide. I should also mention Pippa, otherwise she'll get in a huff.
+
+My Aunt, Terri and my Uncle, Joe have let me live with them for the past 5 months, and have let me escape the city to be able to write this thesis. They have made me feel exceptionally welcome and tremendously loved during my stay. I'm lucky enough to say that this affection and kindness isn't unique to this period of writing, but is the norm for my entire life. Thank you, Terri and Joe. 
+
+Finally I must thank Emma and Mum. My little sister Em has always been encouraging and interested in what I've been doing, and as she's grown up has become one of my best friends. My mum, Lel, apparently used to flash brightly coloured cards at me while I was a baby in my cot, hoping to somehow induce intelligence. I'm not sure that worked, but her wish, motivation and encouragement for me to succeed at anything I put my mind to is pretty much a running theme of my entire life. It is certainly why I get to be writing this today. I love them both very much.
+
+
+\end{acknowledgements}
+%\end{acknowledgmentslong}
+
+% ------------------------------------------------------------------------
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "../thesis"
+%%% End: 

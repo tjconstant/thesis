@@ -1,0 +1,86 @@
+%input macros (i.e. write your own macros file called MacroFile1.tex)
+%\include{Macros/MacroFile1}
+
+\documentclass[oneside,11pt,book]{Classes/CUEDthesisPSnPDF}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\usepackage{auto-pst-pdf}%for converting pstricks diagrams for compilation in pdflatex
+\usepackage{pst-optexp} %for optics diagrams using pstricks
+\usepackage{wasysym} %for the sun symbol used for light source
+%\usepackage{subfig}
+%\usepackage[para,symbol*]{footmisc}
+\usepackage{tikz}
+%\usepackage{color}
+\usepackage{import}
+\usepackage{pst-solides3d}
+\usepackage{rotating}
+\usepackage{todonotes}
+\renewcommand{\arraystretch}{1.5}
+\usepackage{microtype}
+
+
+
+%Options: Sonny, Lenny, Glenn, Conny, Rejne, Bjarne, Bjornstrup
+%\usepackage[Glenn]{fncychap}
+
+
+\input{Other/front}
+\input{Other/front2}
+
+
+\input{Other/romanNumeral} %aknowledgements et al here
+\input{Other/toc}
+
+\mainmatter % book mode only
+
+\dimen\footins=20\baselineskip\relax %footnote inches
+
+%chapters et al go here
+
+\chapter{Introduction}\markboth{\MakeUppercase{\thechapter. Introduction}}{\thechapter. Introduction}
+\label{c:intro}
+\subimport{./Chapters/introduction/}{chapter-intro.tex}
+
+\chapter{Background Theory}\markboth{\MakeUppercase{\thechapter. Background Theory}}{\thechapter. Background Theory}
+\label{c:backgroundtheory}
+\subimport{./Chapters/Theory/}{chapter-theory.tex}
+
+\chapter{Theoretical Methods}\markboth{\MakeUppercase{\thechapter. Theoretical Methods}}{\thechapter. Theoretical Methods}
+\label{c:theorymethods}
+\subimport{./Chapters/Modelling/}{chapter-modelling.tex}
+
+\chapter{Experimental Methodology}\markboth{\MakeUppercase{\thechapter. Experimental Methodology}}{\thechapter. Experimental Methodology}
+\label{c:experimentalmethods}
+\subimport{./Chapters/Methods/}{chapter-experimental-methods.tex}
+
+\chapter{Optical Response of Metallic Rectangular Bigratings}\markboth{\MakeUppercase{\thechapter. Optical Response of Metallic Rectangular Bigratings}}{\thechapter. Optical Response of Metallic Rectangular Bigratings}
+\label{c:rectangular}
+\subimport{./Chapters/Rectangular-Chapter/}{chapter-rectangular.tex}
+
+\chapter{Optical Response of Metallic Oblique Bigratings}
+\markboth{\MakeUppercase{\thechapter. Optical Response of Metallic Oblique Bigratings}}{\thechapter. Optical Response of Metallic Oblique Bigratings}
+\label{c:oblique}
+\subimport{./Chapters/Oblique-Chapter/}{chapter-obliques}
+
+\chapter{Optical Response of Metallic Zigzag Bigratings}\markboth{\MakeUppercase{\thechapter. Optical Response of Metallic Zigzag Bigratings}}{\thechapter. Optical Response of Metallic Zigzag Bigratings}
+\label{c:zigzag}
+\subimport{./Chapters/Zig-Zag-Chapter/}{chapter-zigzag}
+
+\chapter{Optical Response of Asymmetric Zigzag Bigratings}\markboth{\MakeUppercase{\thechapter. Optical Response of Asymmetric Zigzag Bigratings}}{\thechapter. Optical Response of Asymmetric Zigzag Bigratings}
+\label{c:azigzag}
+\subimport{./Chapters/Azigzag-chapter/}{chapter-Azigzag}
+
+\chapter{Conclusions}\markboth{\MakeUppercase{\thechapter. Conclusions}}{\thechapter. Conclusions}
+\label{c:conclusions}
+\subimport{./Chapters/Conclusions/}{chapter-conclusion}
+
+
+\input{./Other/publications}
+
+
+\input{Other/back}
+

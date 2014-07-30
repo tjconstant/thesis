@@ -1,0 +1,381 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.10.11)  9 DEC 2012 20:59
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**figures-diffracted-surfaceplasmon-intersections.tex
+(./figures-diffracted-surfaceplasmon-intersections.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
+ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
+rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
+kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
+ polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
+lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
+welsh, loaded.
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/auto-pst-pdf/auto-pst-pdf.sty
+Package: auto-pst-pdf 2009/04/26 v0.6 Wrapper for pst-pdf
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+\XKV@toks=\toks14
+\XKV@tempa@toks=\toks15
+\XKV@depth=\count87
+File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xkeyval/keyval.tex)))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2010/10/22 v0.4 Testing for the operating system
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/catchfile.sty
+Package: catchfile 2011/03/01 v1.6 Catch the contents of a file (HO)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))
+runsystem(uname -s > "figures-diffracted-surfaceplasmon-intersections.w18")...e
+xecuted.
+
+
+(./figures-diffracted-surfaceplasmon-intersections.w18)
+runsystem(rm -- "figures-diffracted-surfaceplasmon-intersections.w18")...execut
+ed.
+
+)
+\c@app@runs=\count88
+runsystem(echo " ")...executed.
+
+runsystem(echo "-------------------------------------------------")...executed.
+
+runsystem(echo "auto-pst-pdf: Auxiliary LaTeX compilation")...executed.
+
+runsystem(echo "-------------------------------------------------")...executed.
+
+runsystem(rm -- "figures-diffracted-surfaceplasmon-intersections-pics.pdf")...e
+xecuted.
+
+runsystem(latex -no-shell-escape -jobname="figures-diffracted-surfaceplasmon-in
+tersections-autopp" -interaction=batchmode  "\let \APPmakepictures \empty \inpu
+t  figures-diffracted-surfaceplasmon-intersections.tex")...executed.
+
+runsystem(dvips -Ppdf -o "figures-diffracted-surfaceplasmon-intersections-autop
+p.ps" "figures-diffracted-surfaceplasmon-intersections-autopp.dvi")...executed.
+
+runsystem(ps2pdf -dAutoRotatePages=/None "figures-diffracted-surfaceplasmon-int
+ersections-autopp.ps" "figures-diffracted-surfaceplasmon-intersections-autopp.p
+df")...executed.
+
+runsystem(pdfcrop  "figures-diffracted-surfaceplasmon-intersections-autopp.pdf"
+ "figures-diffracted-surfaceplasmon-intersections-pics.pdf")...executed.
+
+runsystem(rm -- "figures-diffracted-surfaceplasmon-intersections-autopp.log")..
+.executed.
+
+runsystem(rm -- "figures-diffracted-surfaceplasmon-intersections-autopp.dvi")..
+.executed.
+
+runsystem(rm -- "figures-diffracted-surfaceplasmon-intersections-autopp.ps")...
+executed.
+
+runsystem(rm -- "figures-diffracted-surfaceplasmon-intersections-autopp.pdf")..
+.executed.
+
+runsystem(echo "-------------------------------------------------")...executed.
+
+runsystem(echo "auto-pst-pdf: End auxiliary LaTeX compilation")...executed.
+
+runsystem(echo "-------------------------------------------------")...executed.
+
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/pst-pdf/pst-pdf.sty
+Package: pst-pdf 2008/10/09 v1.1v PS graphics for pdfLaTeX (RN,HjG)
+\c@pspicture=\count89
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count90
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+Package pst-pdf Info: MODE: 1 (pdfTeX mode) on input line 214.
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/pstricks/pstricks.sty
+Package: pstricks 2012/08/24 v0.53 LaTeX wrapper for `PSTricks' (RN,HV)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pstricks/pstricks.tex
+(/usr/local/texlive/2012/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pstricks/pst-fp.tex
+`pst-fp' v0.05, 2010/01/17 (hv)
+\pstFP@xs=\count91
+\pstFP@xia=\count92
+\pstFP@xib=\count93
+\pstFP@xfa=\count94
+\pstFP@xfb=\count95
+\pstFP@rega=\count96
+\pstFP@regb=\count97
+\pstFP@regs=\count98
+\pstFP@times=\count99
+)
+\psLoopIndex=\count100
+
+`PSTricks' v2.33  <2012/09/23> (tvz)
+\pst@dima=\dimen105
+\pst@dimb=\dimen106
+\pst@dimc=\dimen107
+\pst@dimd=\dimen108
+\pst@dimg=\dimen109
+\pst@dimh=\dimen110
+\pst@dimm=\dimen111
+\pst@dimn=\dimen112
+\pst@dimo=\dimen113
+\pst@dimp=\dimen114
+\pst@hbox=\box26
+\pst@ibox=\box27
+\pst@boxg=\box28
+\pst@cnta=\count101
+\pst@cntb=\count102
+\pst@cntc=\count103
+\pst@cntd=\count104
+\pst@cntg=\count105
+\pst@cnth=\count106
+\pst@cntm=\count107
+\pst@cntn=\count108
+\pst@cnto=\count109
+\pst@cntp=\count110
+\@zero=\count111
+\pst@toks=\toks16
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pstricks/pstricks.con)
+\psunit=\dimen115
+\psxunit=\dimen116
+\psyunit=\dimen117
+\pst@C@@rType=\count112
+\pslinewidth=\dimen118
+\psk@startLW=\dimen119
+\psk@endLW=\dimen120
+\pst@customdefs=\toks17
+\pslinearc=\dimen121
+\pst@symbolStep=\dimen122
+\pst@symbolWidth=\dimen123
+\pst@symbolLinewidth=\dimen124
+\everypsbox=\toks18
+\psframesep=\dimen125
+\pslabelsep=\dimen126
+\pst@shift=\dimen127
+\theoverlaybox=\box29
+)
+File: pstricks.tex 2012/09/23 v2.33 `PSTricks' (tvz,hv)
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pstricks/pst-fp.tex)
+File: pst-fp.tex 2012/09/23 v2.33 `PST-fp' (hv)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+\ppf@output=\toks19
+
+(/usr/local/texlive/2012/texmf-dist/tex/latex/preview/preview.sty
+Package: preview 2010/02/14 11.86 (AUCTeX/preview-latex)
+\pr@snippet=\count113
+\pr@box=\box30
+\pr@output=\toks20
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2008/06/18 v0.2 A new way to define environments
+\@emptytoks=\toks21
+\@envbody=\toks22
+)))
+(/usr/local/texlive/2012/texmf-dist/tex/latex/pst-solides3d/pst-solides3d.sty
+Package: pst-solides3d 2009/07/25 package wrapper for pst-solides3d
+
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pst-solides3d/pst-solides3d.tex
+(/usr/local/texlive/2012/texmf-dist/tex/generic/pst-node/pst-node.tex
+ v1.25, 2012/09/21
+\psrow=\count114
+\pscol=\count115
+\psmatrixcnt=\count116
+\psrowsep=\skip43
+\pscolsep=\skip44
+\pst@args=\count117
+\num@pts=\count118
+\pst@argcnt=\count119
+)
+(/usr/local/texlive/2012/texmf-dist/tex/generic/multido/multido.tex
+ v1.42, 2010/05/14 <tvz>
+\multido@count=\count120
+\multidocount=\count121
+\multido@stuff=\toks23
+) `PSTSOLIDESIIID' v4.23, 2010/09/22
+\test@mode=\count122
+)
+File: pst-solides3d.tex 2010/09/22 v4.23 `PST-solides3D'
+)
+(./figures-diffracted-surfaceplasmon-intersections.aux)
+\openout1 = `figures-diffracted-surfaceplasmon-intersections.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+
+(/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count123
+\scratchdimen=\dimen128
+\scratchbox=\box31
+\nofMPsegments=\count124
+\nofMParguments=\count125
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count126
+\MPscratchDim=\dimen129
+\MPnumerator=\count127
+\makeMPintoPDFobject=\count128
+\everyMPtoPDFconversion=\toks25
+)
+Preview: Fontsize 10.95pt
+Preview: PDFoutput 1
+
+<figures-diffracted-surfaceplasmon-intersections-pics.pdf, id=2, page=1, 153.57
+375pt x 151.56625pt>
+File: figures-diffracted-surfaceplasmon-intersections-pics.pdf Graphic file (ty
+pe pdf)
+
+<use figures-diffracted-surfaceplasmon-intersections-pics.pdf, page 1>
+Package pdftex.def Info: figures-diffracted-surfaceplasmon-intersections-pics.p
+df, page1 used on input line 10.
+(pdftex.def)             Requested size: 153.57336pt x 151.56587pt.
+
+<figures-diffracted-surfaceplasmon-intersections-pics.pdf, id=3, page=2, 158.59
+25pt x 151.56625pt>
+File: figures-diffracted-surfaceplasmon-intersections-pics.pdf Graphic file (ty
+pe pdf)
+
+<use figures-diffracted-surfaceplasmon-intersections-pics.pdf, page 2>
+Package pdftex.def Info: figures-diffracted-surfaceplasmon-intersections-pics.p
+df, page2 used on input line 93.
+(pdftex.def)             Requested size: 158.59209pt x 151.56587pt.
+
+<figures-diffracted-surfaceplasmon-intersections-pics.pdf, id=4, page=3, 153.57
+375pt x 150.5625pt>
+File: figures-diffracted-surfaceplasmon-intersections-pics.pdf Graphic file (ty
+pe pdf)
+
+<use figures-diffracted-surfaceplasmon-intersections-pics.pdf, page 3>
+Package pdftex.def Info: figures-diffracted-surfaceplasmon-intersections-pics.p
+df, page3 used on input line 179.
+(pdftex.def)             Requested size: 153.57336pt x 150.56212pt.
+ [1
+
+
+Non-PDF special ignored!
+Non-PDF special ignored! <./figures-diffracted-surfaceplasmon-intersections-pic
+s.pdf> <./figures-diffracted-surfaceplasmon-intersections-pics.pdf> <./figures-
+diffracted-surfaceplasmon-intersections-pics.pdf>]
+(./figures-diffracted-surfaceplasmon-intersections.aux) ) 
+Here is how much of TeX's memory you used:
+ 4608 strings out of 493488
+ 67333 string characters out of 3141325
+ 152969 words of memory out of 10000000
+ 7873 multiletter control sequences out of 15000+200000
+ 3940 words of font info for 15 fonts, out of 3000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 44i,5n,42p,657b,246s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on figures-diffracted-surfaceplasmon-intersections.pdf (1 page, 
+129777 bytes).
+PDF statistics:
+ 55 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,25 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Declaration page
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+\thispagestyle{empty}
+\vspace*{3cm} {\Huge Novel gratings supporting surface plasmon polaritons}
+
+\vspace*{2cm} {\large Submitted by Thomas James Constant to the University of Exeter as a thesis for the degree of Doctor of Philosophy in Physics\\ 2013}
+
+\end{center}
+
+\vspace{2cm} {This thesis is available for Library use on the understanding that it is copyright material and that no quotation from the thesis may be published without proper acknowledgement.}
+
+\vspace{1cm} {I certify that all material in this thesis which is not my own work has been identified and that no material has previously been submitted and approved for the award of a degree by this or any other University.}
+
+\begin{flushright}
+\vspace{1cm} {Thomas James Constant\\ 2013}
+\end{flushright}
+
+\newpage
+

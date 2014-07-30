@@ -1,0 +1,43 @@
+\begin{pspicture}[](11,6)
+
+\pnode(0,3){S1}
+\pnode(0,2){M1}
+\pnode(1,3){Monoc}
+\pnode(2,4){M2}
+\pnode(3,2){M3}
+\pnode(2,3){M4}
+\pnode(4,3){P1}
+\pnode(5,3){Chopper}
+\pnode(6,3){Pol}
+\pnode(7,3){L1}
+\pnode(8,3){BS}
+\pnode(8,4){D1}
+\pnode(10,3){Grating}
+\pnode(9,5){D2}
+
+\mirror[mirrorradius=1.1,mirrortype=extended](S1)(M1)(Monoc){M1}
+\optbox[innerlabel,allowbeaminside=false](M1)(M2){MC}
+\mirror[mirrorradius=1.87,mirrortype=extended](Monoc)(M2)(M3){M2}
+\mirror[mirrorradius=0.9,mirrortype=extended](M2)(M3)(M4){M3}
+\mirror[labelangle=90,mirrortype=extended,mirrorwidth=0.3](M3)(M4)(L1){M4}
+\pinhole[compname=pinhole,phwidth=0.1,innerheight=0.18,labelangle=180, compshift=0.05](M4)(Chopper){P}
+\optbox[compname=chopper,optboxwidth=0.4,compshift=0.05](M4)(Pol){C}
+\optplate[compname=pol,compshift=0.05](Chopper)(L1){Pol}
+\lens[n=1.2,compname=L1](Pol)(BS){L}
+\beamsplitter[compname=BS,bsstyle=plate,labelangle=-90](L1)(BS)(D1){BS}
+\optdetector[compname=D1](BS)(D1){D1}
+\optgrating[compname=grating,compshift=0.05](BS)(Grating)(D2){Sample}
+\optdetector[compname=D2](Grating)(D2){D2}
+\optplate[compname=pol2](Grating)(D2){Pol}
+\rput(S1){\Large{\sun}}
+\rput(10.6,3){\Large{$\circlearrowright$}}
+
+\addtopsstyle{Beam}{fillstyle=solid, fillcolor=green,opacity=0.05,linestyle}
+\drawwidebeam[beamdiv=14,ArrowInside=->,arrowscale=1.3](S1){1}{2}{3}{4}{5}{6}{7}{L1}{grating}{D2}
+\drawwidebeam[beamdiv=14,ArrowInside=->,arrowscale=1](S1){1}{2}{3}{4}{5}{6}{7}{L1}{BS}{D1}
+
+\addtopsstyle{Beam}{fillstyle=solid, fillcolor=blue,opacity=0.05,linestyle}
+\drawwidebeam[beamdiv=14,ArrowInside=->,arrowscale=2,linecolor=blue](S1){1}{2}
+
+
+\end{pspicture}
