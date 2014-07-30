@@ -1,6 +1,6 @@
 \select@language {english}
 \contentsline {chapter}{Contents}{vi}{chapter*.1}
-\contentsline {chapter}{List of Figures}{vii}{chapter*.2}
+\contentsline {chapter}{List of Figures}{ix}{chapter*.2}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}History}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Scope and Outline of This Work}{4}{section.1.2}
@@ -90,3 +90,4 @@
 \contentsline {section}{\numberline {9.1}Summary of Thesis}{145}{section.9.1}
 \contentsline {section}{\numberline {9.2}Future Work}{147}{section.9.2}
 \contentsline {chapter}{Publications}{150}{chapter*.3}
+\contentsline {chapter}{References}{152}{chapter*.8}

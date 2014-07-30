@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.7.30)  30 JUL 2014 13:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.7.30)  30 JUL 2014 16:17
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1132,7 +1132,7 @@ Package SIunits Warning: The command \gray was already defined.
 Hint: use option `pstricks' or `Gray' with SIunits package.
 See SIunits.dvi or readme.txt section: Known problems and limitations.
 
-<./ThesisFigs/crest.jpg, id=60, 558.085pt x 708.6475pt>
+<./ThesisFigs/crest.jpg, id=377, 558.085pt x 708.6475pt>
 File: ./ThesisFigs/crest.jpg Graphic file (type jpg)
 
 <use ./ThesisFigs/crest.jpg>
@@ -1181,52 +1181,66 @@ LaTeX Font Warning: Font shape `U/wasy/b/n' in size <6> not available
 (/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 ) [5]))
-(./Other/toc.tex (./thesis.toc)
+(./Other/toc.tex (./thesis.toc [6
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (10.743pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7])
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
 
- [6
 
-] (./thesis.lof)
+
+Package Fancyhdr Warning: \headheight is too small (10.743pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8] (./thesis.lof [9
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (10.743pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10]
+
+Package Fancyhdr Warning: \headheight is too small (10.743pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11]
+
+Package Fancyhdr Warning: \headheight is too small (10.743pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12])
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
 
 No file thesis.nls.
-) [7
+)
 
-]
+Package Fancyhdr Warning: \headheight is too small (10.743pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13]
 Chapter 1.
-(./Chapters/introduction/chapter-intro.tex
-
-Package natbib Warning: Citation `Barnes2003' on page 1 undefined on input line
- 1.
-
-
-Package natbib Warning: Citation `Editorial2012' on page 1 undefined on input l
-ine 1.
-
-
-Package natbib Warning: Citation `Rittenhause1786' on page 1 undefined on input
- line 4.
-
-
-Package natbib Warning: Citation `loewen1997diffraction' on page 1 undefined on
- input line 4.
-
-
-Package natbib Warning: Citation `Light' on page 1 undefined on input line 6.
-
-
-Package natbib Warning: Citation `Strong1960' on page 1 undefined on input line
- 6.
-
-
-Package natbib Warning: Citation `Rayleigh1907a' on page 1 undefined on input l
-ine 6.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
+(./Chapters/introduction/chapter-intro.texpdfTeX warning (ext4): destination wi
+th the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.7 
@@ -1234,24 +1248,8 @@ l.7
 
 
 ]
-
-Package natbib Warning: Citation `Strong1936' on page 2 undefined on input line
- 8.
-
-
-Package natbib Warning: Citation `Fano1936' on page 2 undefined on input line 8
-.
-
-
-Package natbib Warning: Citation `Fano1941' on page 2 undefined on input line 8
-.
-
-
-Package natbib Warning: Citation `Fano1937' on page 2 undefined on input line 8
-.
-
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 8.
-(/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
@@ -1268,50 +1266,6 @@ LaTeX Font Warning: Font shape `U/wasy/b/n' in size <5> not available
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
 
-Package natbib Warning: Citation `Zenneck1907a' on page 2 undefined on input li
-ne 8.
-
-
-Package natbib Warning: Citation `Sommerfeld1909' on page 2 undefined on input 
-line 8.
-
-
-Package natbib Warning: Citation `Ritchie1957' on page 2 undefined on input lin
-e 10.
-
-
-Package natbib Warning: Citation `Ferrell1958' on page 2 undefined on input lin
-e 10.
-
-
-Package natbib Warning: Citation `Steinmann1960' on page 2 undefined on input l
-ine 10.
-
-
-Package natbib Warning: Citation `Abajo2008' on page 2 undefined on input line 
-10.
-
-
-Package natbib Warning: Citation `Otto1968' on page 2 undefined on input line 1
-2.
-
-
-Package natbib Warning: Citation `Kretschmann1968' on page 2 undefined on input
- line 12.
-
-
-Package natbib Warning: Citation `Turbadar1959' on page 2 undefined on input li
-ne 12.
-
-
-Package natbib Warning: Citation `Monzo2011' on page 2 undefined on input line 
-12.
-
-
-Package natbib Warning: Citation `Mitsushio2012' on page 2 undefined on input l
-ine 12.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
@@ -1324,191 +1278,12 @@ been already used, duplicate ignored
 l.13 
       [2]
 
-Package natbib Warning: Citation `Stewart1962' on page 3 undefined on input lin
-e 14.
-
-
-Package natbib Warning: Citation `Hagglund1966' on page 3 undefined on input li
-ne 14.
-
-
-Package natbib Warning: Citation `Ritchie1968' on page 3 undefined on input lin
-e 14.
-
-
-Package natbib Warning: Citation `Inagaki:86' on page 3 undefined on input line
- 14.
-
-
-Package natbib Warning: Citation `Maradudin1982' on page 3 undefined on input l
-ine 14.
-
-
-Package natbib Warning: Citation `Laks1981' on page 3 undefined on input line 1
-4.
-
-
-Package natbib Warning: Citation `Ly1981' on page 3 undefined on input line 14.
-
-
-
-Package natbib Warning: Citation `Introduction1970' on page 3 undefined on inpu
-t line 14.
-
-
-Package natbib Warning: Citation `Chandezon1982' on page 3 undefined on input l
-ine 14.
-
-
-Package natbib Warning: Citation `Palmer2005' on page 3 undefined on input line
- 14.
-
-
-Package natbib Warning: Citation `Watts1999' on page 3 undefined on input line 
-14.
-
-
-Package natbib Warning: Citation `Bryan-Brown1990' on page 3 undefined on input
- line 14.
-
-
-Package natbib Warning: Citation `Barnes1995' on page 3 undefined on input line
- 14.
-
-
-Package natbib Warning: Citation `Bao' on page 3 undefined on input line 16.
-
-
-Package natbib Warning: Citation `Tu1999' on page 3 undefined on input line 18.
-
-
-
-Package natbib Warning: Citation `Bog2012' on page 3 undefined on input line 18
-.
-
-
-Package natbib Warning: Citation `Singh2006' on page 3 undefined on input line 
-18.
-
-
-Package natbib Warning: Citation `Janssens2007' on page 3 undefined on input li
-ne 18.
-
-
-Package natbib Warning: Citation `Lindfors2004' on page 3 undefined on input li
-ne 18.
-
-
-Package natbib Warning: Citation `Watts1998' on page 3 undefined on input line 
-19.
-
-
-Package natbib Warning: Citation `T.Hallam2000' on page 3 undefined on input li
-ne 19.
-
-
-Package natbib Warning: Citation `Watts1996' on page 3 undefined on input line 
-19.
-
-
-Package natbib Warning: Citation `Butun2012' on page 3 undefined on input line 
-21.
-
-
-Package natbib Warning: Citation `Oulton2009' on page 3 undefined on input line
- 21.
-
-
-Package natbib Warning: Citation `H'Dhili2011' on page 3 undefined on input lin
-e 21.
-
-
-Package natbib Warning: Citation `Okamoto2008' on page 3 undefined on input lin
-e 21.
-
-
-Package natbib Warning: Citation `Berini2011' on page 3 undefined on input line
- 21.
-
-
-Package natbib Warning: Citation `Polman2012' on page 3 undefined on input line
- 22.
-
-
-Package natbib Warning: Citation `Ferry2011' on page 3 undefined on input line 
-22.
-
-
-Package natbib Warning: Citation `VandeGroep2012' on page 3 undefined on input 
-line 22.
-
-
-Package natbib Warning: Citation `VanLare2012' on page 3 undefined on input lin
-e 22.
-
-
-Package natbib Warning: Citation `Sha2012' on page 3 undefined on input line 22
-.
-
-
-Package natbib Warning: Citation `Zayats2005' on page 3 undefined on input line
- 22.
-
-
-Package natbib Warning: Citation `Welsh2007' on page 3 undefined on input line 
-22.
-
-
-Package natbib Warning: Citation `Shubina2011a' on page 3 undefined on input li
-ne 22.
-
-
-Package natbib Warning: Citation `Cheong2009' on page 3 undefined on input line
- 24.
-
-
-Package natbib Warning: Citation `Watts1997a' on page 3 undefined on input line
- 24.
-
-
-Package natbib Warning: Citation `Yu2010' on page 3 undefined on input line 24.
-
-
-
-Package natbib Warning: Citation `Stein2012' on page 3 undefined on input line 
-24.
-
-
-Package natbib Warning: Citation `Ebbesen1998' on page 3 undefined on input lin
-e 24.
-
-
-Package natbib Warning: Citation `Lezec2002a' on page 3 undefined on input line
- 24.
-
-
-Package natbib Warning: Citation `Mahboub2010a' on page 3 undefined on input li
-ne 24.
-
-
-Package natbib Warning: Citation `Garcia-Vidal2005' on page 3 undefined on inpu
-t line 24.
-
-
-Package natbib Warning: Citation `Belotelov2007' on page 3 undefined on input l
-ine 24.
-
-
-Package natbib Warning: Citation `Chen2012' on page 3 undefined on input line 2
-4.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3] <./Chapters/introduction/figure-rect.pdf, id=129, 271.9956pt x 187.9721pt>
+[3] <./Chapters/introduction/figure-rect.pdf, id=859, 271.9956pt x 187.9721pt>
 File: ./Chapters/introduction/figure-rect.pdf Graphic file (type pdf)
 
 <use ./Chapters/introduction/figure-rect.pdf>
@@ -1516,14 +1291,14 @@ Package pdftex.def Info: ./Chapters/introduction/figure-rect.pdf used on input
 line 35.
 (pdftex.def)             Requested size: 136.14719pt x 94.09193pt.
 
-<./Chapters/introduction/figure-oblique.pdf, id=130, 270.99431pt x 192.79012pt>
+<./Chapters/introduction/figure-oblique.pdf, id=860, 270.99431pt x 192.79012pt>
 File: ./Chapters/introduction/figure-oblique.pdf Graphic file (type pdf)
 <use ./Chapters/introduction/figure-oblique.pdf>
 Package pdftex.def Info: ./Chapters/introduction/figure-oblique.pdf used on inp
 ut line 36.
 (pdftex.def)             Requested size: 136.14719pt x 96.8596pt.
 
-<./Chapters/introduction/figure-zigzag.pdf, id=131, 272.46504pt x 185.28651pt>
+<./Chapters/introduction/figure-zigzag.pdf, id=861, 272.46504pt x 185.28651pt>
 File: ./Chapters/introduction/figure-zigzag.pdf Graphic file (type pdf)
 
 <use ./Chapters/introduction/figure-zigzag.pdf>
@@ -1531,7 +1306,7 @@ Package pdftex.def Info: ./Chapters/introduction/figure-zigzag.pdf used on inpu
 t line 37.
 (pdftex.def)             Requested size: 136.14719pt x 92.58647pt.
 
-<./Chapters/introduction/figure-asymmetric-zigzag.pdf, id=132, 272.46504pt x 18
+<./Chapters/introduction/figure-asymmetric-zigzag.pdf, id=862, 272.46504pt x 18
 5.28651pt>
 File: ./Chapters/introduction/figure-asymmetric-zigzag.pdf Graphic file (type p
 df)
@@ -1539,34 +1314,6 @@ df)
 Package pdftex.def Info: ./Chapters/introduction/figure-asymmetric-zigzag.pdf u
 sed on input line 38.
 (pdftex.def)             Requested size: 136.14719pt x 92.58647pt.
-
-
-LaTeX Warning: Reference `c:rectangular' on page 4 undefined on input line 40.
-
-
-LaTeX Warning: Reference `c:oblique' on page 4 undefined on input line 40.
-
-
-LaTeX Warning: Reference `c:zigzag' on page 4 undefined on input line 40.
-
-
-LaTeX Warning: Reference `c:azigzag' on page 4 undefined on input line 40.
-
-
-LaTeX Warning: Reference `c:rectangular' on page 4 undefined on input line 40.
-
-
-LaTeX Warning: Reference `c:oblique' on page 4 undefined on input line 40.
-
-
-LaTeX Warning: Reference `c:zigzag' on page 4 undefined on input line 40.
-
-
-LaTeX Warning: Reference `c:azigzag' on page 4 undefined on input line 40.
-
-
-LaTeX Warning: Reference `c:theorymethods' on page 4 undefined on input line 43
-.
 
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
@@ -1591,32 +1338,12 @@ etric-zigzag.pdf): PDF inclusion: multiple pdfs with page group included in a s
 ingle page
 >]
 
-LaTeX Warning: Reference `c:experimentalmethods' on page 5 undefined on input l
-ine 45.
-
-
-LaTeX Warning: Reference `c:rectangular' on page 5 undefined on input line 47.
-
-
-LaTeX Warning: Reference `c:oblique' on page 5 undefined on input line 49.
-
-
-LaTeX Warning: Reference `c:zigzag' on page 5 undefined on input line 51.
-
-
-LaTeX Warning: Reference `c:azigzag' on page 5 undefined on input line 53.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5]
-
-LaTeX Warning: Reference `c:conclusions' on page 6 undefined on input line 55.
-
-)
+[5])
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
@@ -1625,48 +1352,11 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
 
 [6]
 Chapter 2.
-(./Chapters/Theory/chapter-theory.tex
-
-Package natbib Warning: Citation `Barber1990' on page 7 undefined on input line
- 5.
-
-
-Package natbib Warning: Citation `Huang1951' on page 7 undefined on input line 
-13.
-
-
-Package natbib Warning: Citation `Lagois1976' on page 7 undefined on input line
- 13.
-
-
-Package natbib Warning: Citation `Elmzughi1995' on page 7 undefined on input li
-ne 13.
-
-
-Package natbib Warning: Citation `Pendry2004' on page 7 undefined on input line
- 13.
-
-
-Package natbib Warning: Citation `Hibbins2005' on page 7 undefined on input lin
-e 13.
-
-[7
+(./Chapters/Theory/chapter-theory.tex [7
 
 ]
-
-Package natbib Warning: Citation `Fano1941' on page 8 undefined on input line 1
-7.
-
-
-Package natbib Warning: Citation `Fano1941' on page 8 undefined on input line 1
-7.
-
-
-Package natbib Warning: Citation `Raether1988' on page 8 undefined on input lin
-e 19.
-
 (./Chapters/Theory/figure-planar-coordinate-system.tex
-<thesis-pics.pdf, id=166, page=1, 228.855pt x 143.53625pt>
+<thesis-pics.pdf, id=920, page=1, 228.855pt x 143.53625pt>
 File: thesis-pics.pdf Graphic file (type pdf)
 
 <use thesis-pics.pdf, page 1>
@@ -1706,12 +1396,7 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11]
-
-Package natbib Warning: Citation `kittel1996introduction' on page 12 undefined 
-on input line 93.
-
-(./Chapters/Theory/figure-drudemodel-espilons.tex)
+[11] (./Chapters/Theory/figure-drudemodel-espilons.tex)
 (./Chapters/Theory/figure-plasmon-planar-dispersion.tex)
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
@@ -1727,7 +1412,7 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
  This may cause the page layout to be inconsistent, however.
 
 [13] (./Chapters/Theory/figure-surfaceplasmon-fieldlines.tex
-<thesis-pics.pdf, id=263, page=2, 115.43124pt x 139.52126pt>
+<thesis-pics.pdf, id=1021, page=2, 115.43124pt x 139.52126pt>
 File: thesis-pics.pdf Graphic file (type pdf)
 
 <use thesis-pics.pdf, page 2>
@@ -1735,7 +1420,7 @@ Package pdftex.def Info: thesis-pics.pdf, page2 used on input line 2.
 (pdftex.def)             Requested size: 115.43095pt x 139.5209pt.
 )
 (./Chapters/Theory/figure-surfaceplasmon-ez-line.tex
-<thesis-pics.pdf, id=264, page=3, 125.46875pt x 145.54375pt>
+<thesis-pics.pdf, id=1022, page=3, 125.46875pt x 145.54375pt>
 File: thesis-pics.pdf Graphic file (type pdf)
 
 <use thesis-pics.pdf, page 3>
@@ -1756,17 +1441,9 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
  This may cause the page layout to be inconsistent, however.
 
 [15 <./thesis-pics.pdf> <./thesis-pics.pdf>]
-
-Package natbib Warning: Citation `Rittenhause1786' on page 16 undefined on inpu
-t line 165.
-
-
-Package natbib Warning: Citation `Palmer2005' on page 16 undefined on input lin
-e 167.
-
 (./Chapters/Theory/figure-asimple-coordinate-latexannotations.pdf_tex
-<./Chapters/Theory/figure-asimple-coordinate-latexannotations.pdf, id=330, 293.
-20956pt x 239.74374pt>
+<./Chapters/Theory/figure-asimple-coordinate-latexannotations.pdf, id=1088, 293
+.20956pt x 239.74374pt>
 File: ./Chapters/Theory/figure-asimple-coordinate-latexannotations.pdf Graphic 
 file (type pdf)
 
@@ -1792,37 +1469,9 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
 (./Chapters/Theory/figure-diffraction.tex)
 (./Chapters/Theory/figure-grazing-photon.tex)
 (./Chapters/Theory/figure-SPP-grating-coupling.tex)
-
-LaTeX Warning: Reference `fig:grating-indexitices' on page 18 undefined on inpu
-t line 206.
-
-
-LaTeX Warning: Reference `eq:addgratinvector' on page 18 undefined on input lin
-e 209.
-
-
-LaTeX Warning: Reference `fig:grating-indexiticesA' on page 18 undefined on inp
-ut line 209.
-
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-
-LaTeX Warning: Reference `fig:grating-indexiticesB' on page 18 undefined on inp
-ut line 210.
-
-
-LaTeX Warning: Reference `fig:grating-indexiticesA' on page 18 undefined on inp
-ut line 210.
-
-
-Package natbib Warning: Citation `Light' on page 18 undefined on input line 210
-.
-
-
-Package natbib Warning: Citation `Rayleigh1907a' on page 18 undefined on input 
-line 210.
-
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ò in font cmr10!
@@ -1847,6 +1496,7 @@ Missing character: There is no ò in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
+
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
@@ -1860,25 +1510,8 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[19]
-
-LaTeX Warning: Reference `fig:grating-indexiticesC' on page 20 undefined on inp
-ut line 212.
-
-
-LaTeX Warning: Reference `fig:diffractive-couplingA' on page 20 undefined on in
-put line 216.
-
-
-LaTeX Warning: Reference `fig:diffractive-couplingB' on page 20 undefined on in
-put line 216.
-
-(./Chapters/Theory/figure-coupling-to-diffracted-light.tex)
+[19] (./Chapters/Theory/figure-coupling-to-diffracted-light.tex)
 (./Chapters/Theory/figure-diffracted-plasmon-coupling.tex)
-
-LaTeX Warning: Reference `fig:diffractive-couplingB' on page 20 undefined on in
-put line 227.
-
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
@@ -1886,7 +1519,7 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
  This may cause the page layout to be inconsistent, however.
 
 [20] (./Chapters/Theory/figure-plasmonintersection-unscattered.tex
-<thesis-pics.pdf, id=372, page=4, 153.57375pt x 151.56625pt>
+<thesis-pics.pdf, id=1140, page=4, 153.57375pt x 151.56625pt>
 File: thesis-pics.pdf Graphic file (type pdf)
 
 <use thesis-pics.pdf, page 4>
@@ -1894,7 +1527,7 @@ Package pdftex.def Info: thesis-pics.pdf, page4 used on input line 4.
 (pdftex.def)             Requested size: 153.57336pt x 151.56587pt.
 )
 (./Chapters/Theory/figure-plasmonintersection-inplane-scattered.tex
-<thesis-pics.pdf, id=373, page=5, 158.5925pt x 151.56625pt>
+<thesis-pics.pdf, id=1141, page=5, 158.5925pt x 151.56625pt>
 File: thesis-pics.pdf Graphic file (type pdf)
 
 <use thesis-pics.pdf, page 5>
@@ -1902,25 +1535,13 @@ Package pdftex.def Info: thesis-pics.pdf, page5 used on input line 4.
 (pdftex.def)             Requested size: 158.59209pt x 151.56587pt.
 )
 (./Chapters/Theory/figure-plasmonintersection-out-of-plane-scattered.tex
-<thesis-pics.pdf, id=374, page=6, 153.57375pt x 150.5625pt>
+<thesis-pics.pdf, id=1142, page=6, 153.57375pt x 150.5625pt>
 File: thesis-pics.pdf Graphic file (type pdf)
 
 <use thesis-pics.pdf, page 6>
 Package pdftex.def Info: thesis-pics.pdf, page6 used on input line 4.
 (pdftex.def)             Requested size: 153.57336pt x 150.56212pt.
 )
-
-LaTeX Warning: Reference `fig:plasmon-intersections' on page 21 undefined on in
-put line 244.
-
-
-LaTeX Warning: Reference `fig:plasmon-intersectionsA' on page 21 undefined on i
-nput line 244.
-
-
-LaTeX Warning: Reference `fig:plasmon-intersectionsB' on page 21 undefined on i
-nput line 244.
-
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
@@ -1935,97 +1556,6 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
  This may cause the page layout to be inconsistent, however.
 
 [22 <./thesis-pics.pdf> <./thesis-pics.pdf> <./thesis-pics.pdf>]
-
-LaTeX Warning: Reference `fig:plasmon-intersectionsC' on page 23 undefined on i
-nput line 246.
-
-
-LaTeX Warning: Reference `fig:plasmon-intersectionsB' on page 23 undefined on i
-nput line 246.
-
-
-LaTeX Warning: Reference `fig:plasmon-intersectionsC' on page 23 undefined on i
-nput line 246.
-
-
-LaTeX Warning: Reference `eq:addgratinvector' on page 23 undefined on input lin
-e 249.
-
-
-LaTeX Warning: Reference `eq:addgratinvector' on page 23 undefined on input lin
-e 255.
-
-
-LaTeX Warning: Reference `tb:bravis' on page 23 undefined on input line 257.
-
-
-Package natbib Warning: Citation `Kretschmann2002a' on page 23 undefined on inp
-ut line 264.
-
-
-Package natbib Warning: Citation `VandeGroep2012' on page 23 undefined on input
- line 264.
-
-
-Package natbib Warning: Citation `VanLare2012' on page 23 undefined on input li
-ne 264.
-
-
-Package natbib Warning: Citation `Watts1996' on page 23 undefined on input line
- 264.
-
-
-Package natbib Warning: Citation `Popov2008' on page 23 undefined on input line
- 264.
-
-
-Package natbib Warning: Citation `Popov2007' on page 23 undefined on input line
- 264.
-
-
-Package natbib Warning: Citation `Tetz2010' on page 23 undefined on input line 
-266.
-
-
-Package natbib Warning: Citation `Liu2009' on page 23 undefined on input line 2
-66.
-
-
-Package natbib Warning: Citation `Constant2012' on page 23 undefined on input l
-ine 266.
-
-
-Package natbib Warning: Citation `Watts1996' on page 23 undefined on input line
- 268.
-
-
-Package natbib Warning: Citation `Kretschmann2002a' on page 23 undefined on inp
-ut line 268.
-
-
-Package natbib Warning: Citation `Cheong2009' on page 23 undefined on input lin
-e 268.
-
-
-Package natbib Warning: Citation `Regan2012' on page 23 undefined on input line
- 268.
-
-
-Package natbib Warning: Citation `Zhou2010' on page 23 undefined on input line 
-272.
-
-
-Package natbib Warning: Citation `kittel1996introduction' on page 23 undefined 
-on input line 276.
-
-
-Package natbib Warning: Citation `kittel1996introduction' on page 23 undefined 
-on input line 276.
-
-
-LaTeX Warning: Reference `fig:bigratinglattice' on page 23 undefined on input l
-ine 279.
-
 (./Chapters/Theory/figure-60degObliqueLattice.tex)
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
@@ -2040,28 +1570,7 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[24]
-
-LaTeX Warning: Reference `fig:examplespectra' on page 25 undefined on input lin
-e 289.
-
-
-LaTeX Warning: Reference `c:theorymethods' on page 25 undefined on input line 2
-89.
-
-
-Package natbib Warning: Citation `Nash1996' on page 25 undefined on input line 
-289.
-
-(./Chapters/Theory/figure-example-spectra.tex)
-
-Package natbib Warning: Citation `Nash1996' on page 25 undefined on input line 
-294.
-
-
-Package natbib Warning: Citation `Nash1996' on page 25 undefined on input line 
-294.
-
+[24] (./Chapters/Theory/figure-example-spectra.tex)
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
@@ -2070,30 +1579,13 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
 
 [25]
 
-Package natbib Warning: Citation `Barnes1995' on page 26 undefined on input lin
-e 306.
-
-
-Package natbib Warning: Citation `Barnes1996' on page 26 undefined on input lin
-e 306.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[26]
-
-LaTeX Warning: Reference `fig:bandgapsCartoon' on page 27 undefined on input li
-ne 308.
-
-
-LaTeX Warning: Reference `fig:bandgapsRadiativeA' on page 27 undefined on input
- line 308.
-
-(./Chapters/Theory/figure-bandgapcartoon1.pdf_tex
-<./Chapters/Theory/figure-bandgapcartoon1.pdf, id=464, 289.08pt x 216.81pt>
+[26] (./Chapters/Theory/figure-bandgapcartoon1.pdf_tex
+<./Chapters/Theory/figure-bandgapcartoon1.pdf, id=1267, 289.08pt x 216.81pt>
 File: ./Chapters/Theory/figure-bandgapcartoon1.pdf Graphic file (type pdf)
 
 <use ./Chapters/Theory/figure-bandgapcartoon1.pdf>
@@ -2102,7 +1594,7 @@ nput line 52.
 (pdftex.def)             Requested size: 185.65297pt x 139.23761pt.
 )
 (./Chapters/Theory/figure-bandgapcartoon2.pdf_tex
-<./Chapters/Theory/figure-bandgapcartoon2.pdf, id=465, 289.08pt x 216.81pt>
+<./Chapters/Theory/figure-bandgapcartoon2.pdf, id=1268, 289.08pt x 216.81pt>
 File: ./Chapters/Theory/figure-bandgapcartoon2.pdf Graphic file (type pdf)
 
 <use ./Chapters/Theory/figure-bandgapcartoon2.pdf>
@@ -2110,18 +1602,6 @@ Package pdftex.def Info: ./Chapters/Theory/figure-bandgapcartoon2.pdf used on i
 nput line 52.
 (pdftex.def)             Requested size: 185.65297pt x 139.23761pt.
 )
-
-LaTeX Warning: Reference `fig:bandgapsRadiativeA' on page 27 undefined on input
- line 322.
-
-
-LaTeX Warning: Reference `fig:bandgapsRadiativeB' on page 27 undefined on input
- line 322.
-
-
-LaTeX Warning: Reference `fig:bandgapsRadiativeB' on page 27 undefined on input
- line 322.
-
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
@@ -2135,8 +1615,8 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./Chapters/Theory/figure-bandgapcart
 oon2.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
 ge
 >] (./Chapters/Theory/figure-diffracted-bandgaps3.pdf_tex
-<./Chapters/Theory/figure-diffracted-bandgaps3.pdf, id=490, 289.08pt x 289.08pt
->
+<./Chapters/Theory/figure-diffracted-bandgaps3.pdf, id=1297, 289.08pt x 289.08p
+t>
 File: ./Chapters/Theory/figure-diffracted-bandgaps3.pdf Graphic file (type pdf)
 
  <use ./Chapters/Theory/figure-diffracted-bandgaps3.pdf>
@@ -2145,8 +1625,8 @@ Package pdftex.def Info: ./Chapters/Theory/figure-diffracted-bandgaps3.pdf used
 (pdftex.def)             Requested size: 185.65297pt x 185.65015pt.
 )
 (./Chapters/Theory/figure-diffracted-bandgaps2.pdf_tex
-<./Chapters/Theory/figure-diffracted-bandgaps2.pdf, id=491, 289.08pt x 289.08pt
->
+<./Chapters/Theory/figure-diffracted-bandgaps2.pdf, id=1298, 289.08pt x 289.08p
+t>
 File: ./Chapters/Theory/figure-diffracted-bandgaps2.pdf Graphic file (type pdf)
 
  <use ./Chapters/Theory/figure-diffracted-bandgaps2.pdf>
@@ -2154,14 +1634,6 @@ Package pdftex.def Info: ./Chapters/Theory/figure-diffracted-bandgaps2.pdf used
  on input line 52.
 (pdftex.def)             Requested size: 185.65297pt x 185.65015pt.
 )
-
-Package natbib Warning: Citation `kittel1996introduction' on page 28 undefined 
-on input line 336.
-
-
-Package natbib Warning: Citation `Search1993' on page 28 undefined on input lin
-e 336.
-
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
@@ -2174,26 +1646,9 @@ re-diffracted-bandgaps2.pdf
 pdfTeX warning: /usr/texbin/pdflatex (file ./Chapters/Theory/figure-diffracted-
 bandgaps2.pdf): PDF inclusion: multiple pdfs with page group included in a sing
 le page
->]
-
-LaTeX Warning: Reference `fig:couplingbandedges' on page 29 undefined on input 
-line 345.
-
-
-Package natbib Warning: Citation `Chandezon1980' on page 29 undefined on input 
-line 345.
-
-
-Package natbib Warning: Citation `Li1999' on page 29 undefined on input line 34
-5.
-
-
-LaTeX Warning: Reference `c:theorymethods' on page 29 undefined on input line 3
-45.
-
-(./Chapters/Theory/figure-bandedgecoupling-0phase.tex)
-<./Chapters/Theory/figure-bandedgecoupling-band2.pdf, id=509, 216.81pt x 162.60
-75pt>
+>] (./Chapters/Theory/figure-bandedgecoupling-0phase.tex)
+<./Chapters/Theory/figure-bandedgecoupling-band2.pdf, id=1320, 216.81pt x 162.6
+075pt>
 File: ./Chapters/Theory/figure-bandedgecoupling-band2.pdf Graphic file (type pd
 f)
  <use ./Chapters/Theory/figure-bandedgecoupling-band2.pdf>
@@ -2202,8 +1657,8 @@ ed on input line 348.
 (pdftex.def)             Requested size: 216.80946pt x 162.6071pt.
 
 (./Chapters/Theory/figure-bandedgecoupling-90phase.tex)
-<./Chapters/Theory/figure-bandedgecoupling-band1.pdf, id=510, 216.81pt x 162.60
-75pt>
+<./Chapters/Theory/figure-bandedgecoupling-band1.pdf, id=1321, 216.81pt x 162.6
+075pt>
 File: ./Chapters/Theory/figure-bandedgecoupling-band1.pdf Graphic file (type pd
 f)
  <use ./Chapters/Theory/figure-bandedgecoupling-band1.pdf>
@@ -2212,8 +1667,8 @@ ed on input line 349.
 (pdftex.def)             Requested size: 216.80946pt x 162.6071pt.
 
 (./Chapters/Theory/figure-bandedgecoupling--90phase.tex)
-<./Chapters/Theory/figure-bandedgecoupling-band3.pdf, id=511, 216.81pt x 162.60
-75pt>
+<./Chapters/Theory/figure-bandedgecoupling-band3.pdf, id=1322, 216.81pt x 162.6
+075pt>
 File: ./Chapters/Theory/figure-bandedgecoupling-band3.pdf Graphic file (type pd
 f)
  <use ./Chapters/Theory/figure-bandedgecoupling-band3.pdf>
@@ -2237,10 +1692,6 @@ Overfull \hbox (24.7045pt too wide) in paragraph at lines 348--351
 
 
 LaTeX Warning: Float too large for page by 3.97606pt on input line 353.
-
-
-LaTeX Warning: Reference `fig:couplingbandedges' on page 29 undefined on input 
-line 356.
 
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
@@ -2268,53 +1719,12 @@ pling-band3.pdf): PDF inclusion: multiple pdfs with page group included in a si
 ngle page
 >]
 
-LaTeX Warning: Reference `fig:couplingbandedgesA' on page 31 undefined on input
- line 359.
-
-
-LaTeX Warning: Reference `fig:couplingbandedgesB' on page 31 undefined on input
- line 359.
-
-
-LaTeX Warning: Reference `fig:couplingbandedgesC' on page 31 undefined on input
- line 359.
-
-
-Package natbib Warning: Citation `Bryan-Brown1990' on page 31 undefined on inpu
-t line 365.
-
-
-Package natbib Warning: Citation `Depine2001' on page 31 undefined on input lin
-e 365.
-
-
-Package natbib Warning: Citation `Elston1991' on page 31 undefined on input lin
-e 365.
-
-
-Package natbib Warning: Citation `Inagaki:86' on page 31 undefined on input lin
-e 365.
-
-
-Package natbib Warning: Citation `Bryan-Brown1990' on page 31 undefined on inpu
-t line 365.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[31]
-
-Package natbib Warning: Citation `Watts1997a' on page 32 undefined on input lin
-e 368.
-
-
-Package natbib Warning: Citation `Watts1997a' on page 32 undefined on input lin
-e 368.
-
-)
+[31])
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
@@ -2323,68 +1733,9 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
 
 [32]
 Chapter 3.
-(./Chapters/Modelling/chapter-modelling.tex
-
-Package natbib Warning: Citation `Rayleigh1907a' on page 33 undefined on input 
-line 2.
-
-
-Package natbib Warning: Citation `Light' on page 33 undefined on input line 2.
-
-
-Package natbib Warning: Citation `Bao' on page 33 undefined on input line 4.
-
-
-Package natbib Warning: Citation `Chandezon1980' on page 33 undefined on input 
-line 6.
-
-
-Package natbib Warning: Citation `Chandezon1980' on page 33 undefined on input 
-line 9.
-
-
-Package natbib Warning: Citation `Chandezon1982' on page 33 undefined on input 
-line 9.
-
-[33
+(./Chapters/Modelling/chapter-modelling.tex [33
 
 ]
-
-Package natbib Warning: Citation `Chandezon1980' on page 34 undefined on input 
-line 19.
-
-
-Package natbib Warning: Citation `Cotter1995' on page 34 undefined on input lin
-e 19.
-
-
-Package natbib Warning: Citation `Preist1995' on page 34 undefined on input lin
-e 19.
-
-
-Package natbib Warning: Citation `Harris1996' on page 34 undefined on input lin
-e 19.
-
-
-Package natbib Warning: Citation `Harris1996' on page 34 undefined on input lin
-e 19.
-
-
-LaTeX Warning: Reference `eq:chandezon-orginalx' on page 34 undefined on input 
-line 19.
-
-
-LaTeX Warning: Reference `eq:chandezon-orginaly' on page 34 undefined on input 
-line 19.
-
-
-LaTeX Warning: Reference `eq:chandezon-orginalz' on page 34 undefined on input 
-line 19.
-
-
-Package natbib Warning: Citation `Chandezon2001' on page 34 undefined on input 
-line 27.
-
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
@@ -2393,37 +1744,6 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
 
 [34]
 
-Package natbib Warning: Citation `Watts1996' on page 35 undefined on input line
- 29.
-
-
-Package natbib Warning: Citation `Watts1998' on page 35 undefined on input line
- 29.
-
-
-Package natbib Warning: Citation `Watts1999' on page 35 undefined on input line
- 29.
-
-
-Package natbib Warning: Citation `Bai2009' on page 35 undefined on input line 2
-9.
-
-
-Package natbib Warning: Citation `T.Hallam2000' on page 35 undefined on input l
-ine 29.
-
-
-Package natbib Warning: Citation `Press' on page 35 undefined on input line 34.
-
-
-
-Package natbib Warning: Citation `Bao' on page 35 undefined on input line 34.
-
-
-Package natbib Warning: Citation `Ansys2012' on page 35 undefined on input line
- 43.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
@@ -2431,41 +1751,13 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
 
 [35]
 
-Package natbib Warning: Citation `Kopp2009' on page 36 undefined on input line 
-46.
-
-
-LaTeX Warning: Reference `eq:hfss-efield' on page 36 undefined on input line 51
-.
-
-
-LaTeX Warning: Reference `eq:hfss-efield' on page 36 undefined on input line 55
-.
-
-
-LaTeX Warning: Reference `eq:hfss-efield' on page 36 undefined on input line 63
-.
-
-
-Package natbib Warning: Citation `Kopp2009' on page 36 undefined on input line 
-63.
-
-
-LaTeX Warning: Reference `eq:hfss-efield' on page 36 undefined on input line 63
-.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [36]
-
-LaTeX Warning: Reference `fig:hfssconvergence' on page 37 undefined on input li
-ne 74.
-
-<./Chapters/Modelling/figure-convergence.pdf, id=648, 252.945pt x 252.945pt>
+<./Chapters/Modelling/figure-convergence.pdf, id=1504, 252.945pt x 252.945pt>
 File: ./Chapters/Modelling/figure-convergence.pdf Graphic file (type pdf)
 
 <use ./Chapters/Modelling/figure-convergence.pdf>
@@ -2474,13 +1766,10 @@ put line 77.
 (pdftex.def)             Requested size: 252.94438pt x 252.94438pt.
 
 
-LaTeX Warning: Reference `c:zigzag' on page 37 undefined on input line 81.
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 (./Chapters/Modelling/figure-hfssboundary.eps_tex
-<thesis-pics.pdf, id=649, page=7, 358.33875pt x 227.85126pt>
+<thesis-pics.pdf, id=1506, page=7, 358.33875pt x 227.85126pt>
 File: thesis-pics.pdf Graphic file (type pdf)
 
 <use thesis-pics.pdf, page 7>
@@ -2488,17 +1777,7 @@ Package pdftex.def Info: thesis-pics.pdf, page7 used on input line 52.
 (pdftex.def)             Requested size: 358.33788pt x 227.8507pt.
 )
 
-LaTeX Warning: Reference `c:zigzag' on page 37 undefined on input line 89.
-
-
-LaTeX Warning: Reference `c:zigzag' on page 37 undefined on input line 89.
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `fig:hfssunitcell' on page 37 undefined on input line 
-91.
 
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
@@ -2530,22 +1809,10 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
 [40]
 Chapter 4.
 (./Chapters/Methods/chapter-experimental-methods.tex
-
-LaTeX Warning: Reference `sec:fabrication' on page 41 undefined on input line 3
-.
-
-
-LaTeX Warning: Reference `sec:expscatterometry' on page 41 undefined on input l
-ine 3.
-
-
-LaTeX Warning: Reference `fig:fabricationprocess' on page 41 undefined on input
- line 10.
-
-
-<./Chapters/Methods/fabrication-diagram.pdf, id=702, 586.86752pt x 765.53593pt>
+<./Chapters/Methods/fabrication-diagram.pdf, id=1559, 586.86752pt x 765.53593pt
+>
 File: ./Chapters/Methods/fabrication-diagram.pdf Graphic file (type pdf)
-<use ./Chapters/Methods/fabrication-diagram.pdf>
+ <use ./Chapters/Methods/fabrication-diagram.pdf>
 Package pdftex.def Info: ./Chapters/Methods/fabrication-diagram.pdf used on inp
 ut line 14.
 (pdftex.def)             Requested size: 412.56496pt x 538.18436pt.
@@ -2560,31 +1827,12 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
 
 [42 <./Chapters/Methods/fabrication-diagram.pdf>]
 
-Package natbib Warning: Citation `Pmma' on page 43 undefined on input line 26.
-
-
-Package natbib Warning: Citation `Ltd2013' on page 43 undefined on input line 2
-8.
-
-
-LaTeX Warning: Reference `sec:anglescans' on page 43 undefined on input line 28
-.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [43]
-
-Package natbib Warning: Citation `Bernstein1992' on page 44 undefined on input 
-line 33.
-
-
-LaTeX Warning: Reference `c:theorymethods' on page 44 undefined on input line 4
-0.
-
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
@@ -2593,14 +1841,6 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
 
 [44]
 
-Package natbib Warning: Citation `Nagpal2009' on page 45 undefined on input lin
-e 51.
-
-
-Package natbib Warning: Citation `Nagpal2009a' on page 45 undefined on input li
-ne 51.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
@@ -2608,16 +1848,13 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
 
 [45]
 
-LaTeX Warning: Reference `c:zigzag' on page 46 undefined on input line 63.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [46] (./Chapters/Methods/figure-monochromator.tex
-<thesis-pics.pdf, id=749, page=8, 338.26375pt x 129.48375pt>
+<thesis-pics.pdf, id=1612, page=8, 338.26375pt x 129.48375pt>
 File: thesis-pics.pdf Graphic file (type pdf)
 
 <use thesis-pics.pdf, page 8>
@@ -2625,21 +1862,13 @@ Package pdftex.def Info: thesis-pics.pdf, page8 used on input line 2.
 (pdftex.def)             Requested size: 338.26291pt x 129.48341pt.
 )
 
-LaTeX Warning: Reference `fig:monochromator' on page 47 undefined on input line
- 72.
-
-
-LaTeX Warning: Reference `fig:monochromator' on page 47 undefined on input line
- 72.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [47 <./thesis-pics.pdf>] (./Chapters/Methods/figure-anglescan.tex
-<thesis-pics.pdf, id=777, page=9, 287.0725pt x 84.315pt>
+<thesis-pics.pdf, id=1640, page=9, 287.0725pt x 84.315pt>
 File: thesis-pics.pdf Graphic file (type pdf)
 
 <use thesis-pics.pdf, page 9>
@@ -2647,33 +1876,23 @@ Package pdftex.def Info: thesis-pics.pdf, page9 used on input line 2.
 (pdftex.def)             Requested size: 287.0718pt x 84.31477pt.
 )
 
-LaTeX Warning: Reference `fig:HeNe' on page 48 undefined on input line 88.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [48 <./thesis-pics.pdf>]
-<./Chapters/Methods/hemispherical-prism.jpg, id=797, 1363.0925pt x 701.62125pt>
+<./Chapters/Methods/hemispherical-prism.jpg, id=1659, 1363.0925pt x 701.62125pt
+>
 File: ./Chapters/Methods/hemispherical-prism.jpg Graphic file (type jpg)
-<use ./Chapters/Methods/hemispherical-prism.jpg>
+ <use ./Chapters/Methods/hemispherical-prism.jpg>
 Package pdftex.def Info: ./Chapters/Methods/hemispherical-prism.jpg used on inp
 ut line 92.
 (pdftex.def)             Requested size: 412.56496pt x 212.36151pt.
 
-
-LaTeX Warning: Reference `fig:hemispherical-prism' on page 49 undefined on inpu
-t line 95.
-
-
-LaTeX Warning: Reference `fig:equienergyslices' on page 49 undefined on input l
-ine 99.
-
 (./Chapters/Methods/scatterometry-slices.pdf_tex
-<./Chapters/Methods/scatterometry-slices.pdf, id=798, 438.42448pt x 463.91124pt
->
+<./Chapters/Methods/scatterometry-slices.pdf, id=1662, 438.42448pt x 463.91124p
+t>
 File: ./Chapters/Methods/scatterometry-slices.pdf Graphic file (type pdf)
  <use ./Chapters/Methods/scatterometry-slices.pdf>
 Package pdftex.def Info: ./Chapters/Methods/scatterometry-slices.pdf used on in
@@ -2695,68 +1914,19 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
 
 [50 <./Chapters/Methods/scatterometry-slices.pdf>]
 
-Package natbib Warning: Citation `Shi2010' on page 51 undefined on input line 1
-13.
-
-
-Package natbib Warning: Citation `Regan2011' on page 51 undefined on input line
- 113.
-
-
-Package natbib Warning: Citation `Giannattasio2005' on page 51 undefined on inp
-ut line 113.
-
-
-Package natbib Warning: Citation `Tetz2005' on page 51 undefined on input line 
-113.
-
-
-Package natbib Warning: Citation `Kitson1996a' on page 51 undefined on input li
-ne 113.
-
-
-Package natbib Warning: Citation `Swalen1980' on page 51 undefined on input lin
-e 113.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[51]
-
-Package natbib Warning: Citation `Stavenga2011' on page 52 undefined on input l
-ine 118.
-
-
-Package natbib Warning: Citation `Stavenga2009a' on page 52 undefined on input 
-line 118.
-
-
-Package natbib Warning: Citation `BD2012' on page 52 undefined on input line 11
-8.
-
-
-Package natbib Warning: Citation `Stavenga2009a' on page 52 undefined on input 
-line 120.
-
-(./Chapters/Methods/figure-scatterometer.tex
-<thesis-pics.pdf, id=817, page=10, 258.9675pt x 183.68625pt>
+[51] (./Chapters/Methods/figure-scatterometer.tex
+<thesis-pics.pdf, id=1691, page=10, 258.9675pt x 183.68625pt>
 File: thesis-pics.pdf Graphic file (type pdf)
 
 <use thesis-pics.pdf, page 10>
 Package pdftex.def Info: thesis-pics.pdf, page10 used on input line 22.
 (pdftex.def)             Requested size: 258.96684pt x 183.68578pt.
 )
-
-LaTeX Warning: Reference `fig:scatterometry' on page 52 undefined on input line
- 126.
-
-
-LaTeX Warning: Reference `sec:corrections' on page 52 undefined on input line 1
-30.
-
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
@@ -2765,22 +1935,14 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
 
 [52]
 
-LaTeX Warning: Reference `sec:fabrication' on page 53 undefined on input line 1
-37.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [53 <./thesis-pics.pdf>]
-
-LaTeX Warning: Reference `fig:exp-pol' on page 54 undefined on input line 143.
-
-
-<./Chapters/Methods/exampleofpolairsation-banner.jpg, id=854, 854.19125pt x 315
-.1775pt>
+<./Chapters/Methods/exampleofpolairsation-banner.jpg, id=1730, 854.19125pt x 31
+5.1775pt>
 File: ./Chapters/Methods/exampleofpolairsation-banner.jpg Graphic file (type jp
 g)
  <use ./Chapters/Methods/exampleofpolairsation-banner.jpg>
@@ -2789,43 +1951,14 @@ ed on input line 147.
 (pdftex.def)             Requested size: 412.56496pt x 152.22607pt.
 
 
-LaTeX Warning: Reference `c:rectangular' on page 54 undefined on input line 149
-.
-
-
-LaTeX Warning: Reference `c:rectangular' on page 54 undefined on input line 149
-.
-
-
-LaTeX Warning: Reference `c:rectangular' on page 54 undefined on input line 152
-.
-
-
-Package natbib Warning: Citation `Bryan-Brown1990' on page 54 undefined on inpu
-t line 152.
-
-
-LaTeX Warning: Reference `c:rectangular' on page 54 undefined on input line 152
-.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [54 <./Chapters/Methods/exampleofpolairsation-banner.jpg>]
-
-Package natbib Warning: Citation `Stavenga2009a' on page 55 undefined on input 
-line 159.
-
-
-LaTeX Warning: Reference `fig:imagedeformation' on page 55 undefined on input l
-ine 165.
-
-
-<./Chapters/Methods/figure-linear-theta-capsule.pdf, id=861, 220.45964pt x 216.
-81pt>
+<./Chapters/Methods/figure-linear-theta-capsule.pdf, id=1742, 220.45964pt x 216
+.81pt>
 File: ./Chapters/Methods/figure-linear-theta-capsule.pdf Graphic file (type pdf
 )
  <use ./Chapters/Methods/figure-linear-theta-capsule.pdf>
@@ -2833,21 +1966,16 @@ Package pdftex.def Info: ./Chapters/Methods/figure-linear-theta-capsule.pdf use
 d on input line 168.
 (pdftex.def)             Requested size: 185.65297pt x 182.5823pt.
 
-<./Chapters/Methods/figure-sin-theta-capsule.pdf, id=862, 220.45964pt x 216.81p
-t>
+<./Chapters/Methods/figure-sin-theta-capsule.pdf, id=1743, 220.45964pt x 216.81
+pt>
 File: ./Chapters/Methods/figure-sin-theta-capsule.pdf Graphic file (type pdf)
  <use ./Chapters/Methods/figure-sin-theta-capsule.pdf>
 Package pdftex.def Info: ./Chapters/Methods/figure-sin-theta-capsule.pdf used o
 n input line 169.
 (pdftex.def)             Requested size: 185.65297pt x 182.5823pt.
 
-
-LaTeX Warning: Reference `fig:scat-exampledatset' on page 55 undefined on input
- line 176.
-
-
-<./Chapters/Methods//exampledataset/figure-650-raw2.jpg, id=863, 1355.0625pt x 
-1053.9375pt>
+<./Chapters/Methods//exampledataset/figure-650-raw2.jpg, id=1745, 1355.0625pt x
+ 1053.9375pt>
 File: ./Chapters/Methods//exampledataset/figure-650-raw2.jpg Graphic file (type
  jpg)
  <use ./Chapters/Methods//exampledataset/figure-650-raw2.jpg>
@@ -2856,7 +1984,7 @@ Package pdftex.def Info: ./Chapters/Methods//exampledataset/figure-650-raw2.jpg
 (pdftex.def)             Requested size: 185.65297pt x 144.38213pt.
 
 <./Chapters/Methods//exampledataset/figure-650nm-scattergram-withaxes-withoutaz
-i.png, id=864, 1355.0625pt x 1053.9375pt>
+i.png, id=1746, 1355.0625pt x 1053.9375pt>
 File: ./Chapters/Methods//exampledataset/figure-650nm-scattergram-withaxes-with
 outazi.png Graphic file (type png)
 
@@ -2867,7 +1995,7 @@ rgram-withaxes-withoutazi.png used on input line 180.
 (pdftex.def)             Requested size: 185.65297pt x 144.38213pt.
 
 <./Chapters/Methods//exampledataset/figure-650nm-scattergram-withaxes-final.png
-, id=866, 1355.0625pt x 1053.9375pt>
+, id=1748, 1355.0625pt x 1053.9375pt>
 File: ./Chapters/Methods//exampledataset/figure-650nm-scattergram-withaxes-fina
 l.png Graphic file (type png)
 
@@ -2876,29 +2004,6 @@ l.png Graphic file (type png)
 Package pdftex.def Info: ./Chapters/Methods//exampledataset/figure-650nm-scatte
 rgram-withaxes-final.png used on input line 181.
 (pdftex.def)             Requested size: 185.65297pt x 144.38213pt.
-
-
-LaTeX Warning: Reference `fig:scat-exampledatsetA' on page 55 undefined on inpu
-t line 185.
-
-
-LaTeX Warning: Reference `fig:scat-exampledatsetB' on page 55 undefined on inpu
-t line 185.
-
-
-LaTeX Warning: Reference `fig:scat-exampledatsetC' on page 55 undefined on inpu
-t line 185.
-
-
-LaTeX Warning: Reference `fig:scat-exampledatsetC' on page 55 undefined on inpu
-t line 185.
-
-
-LaTeX Warning: Reference `c:zigzag' on page 55 undefined on input line 185.
-
-
-LaTeX Warning: Reference `c:azigzag' on page 55 undefined on input line 185.
-
 )
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
@@ -2925,61 +2030,13 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
 s//exampledataset/figure-650nm-scattergram-withaxes-withoutazi.png> <./Chapters
 /Methods//exampledataset/figure-650nm-scattergram-withaxes-final.png>]
 Chapter 5.
-(./Chapters/Rectangular-Chapter/chapter-rectangular.tex
-
-Package natbib Warning: Citation `Harris1996' on page 58 undefined on input lin
-e 3.
-
-
-Package natbib Warning: Citation `Barnes2004' on page 58 undefined on input lin
-e 3.
-
-
-Package natbib Warning: Citation `Tetz2010' on page 58 undefined on input line 
-3.
-
-
-Package natbib Warning: Citation `Ebbesen1998' on page 58 undefined on input li
-ne 3.
-
-
-Package natbib Warning: Citation `Kitson1996' on page 58 undefined on input lin
-e 3.
-
-
-Package natbib Warning: Citation `Popov2008' on page 58 undefined on input line
- 3.
-
-
-Package natbib Warning: Citation `Teperik2008' on page 58 undefined on input li
-ne 3.
-
-
-LaTeX Warning: Reference `s:components' on page 58 undefined on input line 7.
-
-
-LaTeX Warning: Reference `s:rdisp' on page 58 undefined on input line 9.
-
-
-LaTeX Warning: Reference `s:components' on page 58 undefined on input line 9.
-
-[58
+(./Chapters/Rectangular-Chapter/chapter-rectangular.tex [58
 
 ]
-
-LaTeX Warning: Reference `s:rpol' on page 59 undefined on input line 11.
-
-
-LaTeX Warning: Reference `s:rscat' on page 59 undefined on input line 13.
-
-
-LaTeX Warning: Reference `s:rani' on page 59 undefined on input line 15.
-
-
 (./Chapters/Rectangular-Chapter/figure-rect-coordinated-latexannotations.pdf_te
 x
 <./Chapters/Rectangular-Chapter/figure-rect-coordinated-latexannotations.pdf, i
-d=939, 293.20956pt x 239.74374pt>
+d=1839, 293.20956pt x 239.74374pt>
 File: ./Chapters/Rectangular-Chapter/figure-rect-coordinated-latexannotations.p
 df Graphic file (type pdf)
 
@@ -2990,14 +2047,6 @@ Package pdftex.def Info: ./Chapters/Rectangular-Chapter/figure-rect-coordinated
 (pdftex.def)             Requested size: 293.20955pt x 239.75777pt.
 )
 
-LaTeX Warning: Reference `fig:rectCoordSys' on page 59 undefined on input line 
-26.
-
-
-LaTeX Warning: Reference `c:experimentalmethods' on page 59 undefined on input 
-line 32.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
@@ -3005,61 +2054,14 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
 
 [59]
 
-Package natbib Warning: Citation `Goodman2005' on page 60 undefined on input li
-ne 34.
-
-
-Package natbib Warning: Citation `Sanchez-Lopez2009' on page 60 undefined on in
-put line 34.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [60 <./Chapters/Rectangular-Chapter/figure-rect-coordinated-latexannotations.pd
-f>]
-
-LaTeX Warning: Reference `eq:squaregrooves' on page 61 undefined on input line 
-51.
-
-
-LaTeX Warning: Reference `fig:examplesRectProfile' on page 61 undefined on inpu
-t line 51.
-
-(./Chapters/Rectangular-Chapter/figure-examplesRectProfiles.tex)
+f>] (./Chapters/Rectangular-Chapter/figure-examplesRectProfiles.tex)
 (./Chapters/Rectangular-Chapter/figure-squareprofileFouriers.tex)
-
-LaTeX Warning: Reference `eq:squaregrooves' on page 61 undefined on input line 
-66.
-
-
-LaTeX Warning: Reference `eq:an-squareprofle' on page 61 undefined on input lin
-e 66.
-
-
-LaTeX Warning: Reference `s:rdisp' on page 61 undefined on input line 66.
-
-
-LaTeX Warning: Reference `eq:squaregrooves' on page 61 undefined on input line 
-66.
-
-
-LaTeX Warning: Reference `eq:an-squareprofle' on page 61 undefined on input lin
-e 66.
-
-
-LaTeX Warning: Reference `s:rdisp' on page 61 undefined on input line 66.
-
-
-LaTeX Warning: Reference `fig:fourierVsMarktospace' on page 61 undefined on inp
-ut line 69.
-
-
-LaTeX Warning: Reference `fig:fourierVsMarktospace' on page 61 undefined on inp
-ut line 69.
-
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
@@ -3067,13 +2069,8 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
  This may cause the page layout to be inconsistent, however.
 
 [61]
-
-LaTeX Warning: Reference `fig:rectgratingSEM' on page 62 undefined on input lin
-e 74.
-
-
-<./Chapters/Rectangular-Chapter//sems/rect-sem.jpg, id=961, 1027.84pt x 946.536
-25pt>
+<./Chapters/Rectangular-Chapter//sems/rect-sem.jpg, id=1875, 1027.84pt x 946.53
+625pt>
 File: ./Chapters/Rectangular-Chapter//sems/rect-sem.jpg Graphic file (type jpg)
 
  <use ./Chapters/Rectangular-Chapter//sems/rect-sem.jpg>
@@ -3081,21 +2078,13 @@ Package pdftex.def Info: ./Chapters/Rectangular-Chapter//sems/rect-sem.jpg used
  on input line 79.
 (pdftex.def)             Requested size: 185.65297pt x 170.96133pt.
 
-<./Chapters/Rectangular-Chapter//sem-large.jpg, id=962, 520.94624pt x 520.94624
-pt>
+<./Chapters/Rectangular-Chapter//sem-large.jpg, id=1876, 520.94624pt x 520.9462
+4pt>
 File: ./Chapters/Rectangular-Chapter//sem-large.jpg Graphic file (type jpg)
  <use ./Chapters/Rectangular-Chapter//sem-large.jpg>
 Package pdftex.def Info: ./Chapters/Rectangular-Chapter//sem-large.jpg used on 
 input line 81.
 (pdftex.def)             Requested size: 171.41942pt x 171.41995pt.
-
-
-LaTeX Warning: Reference `c:experimentalmethods' on page 62 undefined on input 
-line 86.
-
-
-LaTeX Warning: Reference `fig:fourierVsMarktospace' on page 62 undefined on inp
-ut line 86.
 
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
@@ -3104,17 +2093,8 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
  This may cause the page layout to be inconsistent, however.
 
 [62]
-
-LaTeX Warning: Reference `c:experimentalmethods' on page 63 undefined on input 
-line 88.
-
-
-LaTeX Warning: Reference `fig:rectDispersion' on page 63 undefined on input lin
-e 88.
-
-
-<./Chapters/Rectangular-Chapter/rectdispersions.pdf, id=971, page=3, 361.35pt x
- 289.08pt>
+<./Chapters/Rectangular-Chapter/rectdispersions.pdf, id=1886, page=3, 361.35pt 
+x 289.08pt>
 File: ./Chapters/Rectangular-Chapter/rectdispersions.pdf Graphic file (type pdf
 )
  <use ./Chapters/Rectangular-Chapter/rectdispersions.pdf, page 3>
@@ -3122,8 +2102,8 @@ Package pdftex.def Info: ./Chapters/Rectangular-Chapter/rectdispersions.pdf, pa
 ge3 used on input line 92.
 (pdftex.def)             Requested size: 202.15909pt x 161.7293pt.
 
-<./Chapters/Rectangular-Chapter/rectdispersions.pdf, id=972, page=4, 361.35pt x
- 289.08pt>
+<./Chapters/Rectangular-Chapter/rectdispersions.pdf, id=1887, page=4, 361.35pt 
+x 289.08pt>
 File: ./Chapters/Rectangular-Chapter/rectdispersions.pdf Graphic file (type pdf
 )
  <use ./Chapters/Rectangular-Chapter/rectdispersions.pdf, page 4>
@@ -3131,8 +2111,8 @@ Package pdftex.def Info: ./Chapters/Rectangular-Chapter/rectdispersions.pdf, pa
 ge4 used on input line 93.
 (pdftex.def)             Requested size: 202.15909pt x 161.7293pt.
 
-<./Chapters/Rectangular-Chapter/rectdispersions.pdf, id=973, page=2, 361.35pt x
- 289.08pt>
+<./Chapters/Rectangular-Chapter/rectdispersions.pdf, id=1888, page=2, 361.35pt 
+x 289.08pt>
 File: ./Chapters/Rectangular-Chapter/rectdispersions.pdf Graphic file (type pdf
 )
  <use ./Chapters/Rectangular-Chapter/rectdispersions.pdf, page 2>
@@ -3140,22 +2120,14 @@ Package pdftex.def Info: ./Chapters/Rectangular-Chapter/rectdispersions.pdf, pa
 ge2 used on input line 94.
 (pdftex.def)             Requested size: 202.15909pt x 161.7293pt.
 
-<./Chapters/Rectangular-Chapter/rectdispersions.pdf, id=974, page=1, 361.35pt x
- 289.08pt>
+<./Chapters/Rectangular-Chapter/rectdispersions.pdf, id=1889, page=1, 361.35pt 
+x 289.08pt>
 File: ./Chapters/Rectangular-Chapter/rectdispersions.pdf Graphic file (type pdf
 )
  <use ./Chapters/Rectangular-Chapter/rectdispersions.pdf, page 1>
 Package pdftex.def Info: ./Chapters/Rectangular-Chapter/rectdispersions.pdf, pa
 ge1 used on input line 95.
 (pdftex.def)             Requested size: 202.15909pt x 161.7293pt.
-
-
-LaTeX Warning: Reference `fig:rectDispersionA' on page 63 undefined on input li
-ne 100.
-
-
-LaTeX Warning: Reference `fig:rectgratingSEM' on page 63 undefined on input lin
-e 102.
 
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
@@ -3189,42 +2161,14 @@ ispersions.pdf): PDF inclusion: multiple pdfs with page group included in a sin
 gle page
 >]
 
-LaTeX Warning: Reference `fig:rectDispersionC' on page 65 undefined on input li
-ne 106.
-
-
-LaTeX Warning: Reference `fig:rectDispersionB' on page 65 undefined on input li
-ne 108.
-
-
-LaTeX Warning: Reference `s:rscat' on page 65 undefined on input line 110.
-
-
-LaTeX Warning: Reference `fig:rectDispersionB' on page 65 undefined on input li
-ne 114.
-
-
-LaTeX Warning: Reference `fig:rectDispersionD' on page 65 undefined on input li
-ne 116.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [65]
-
-LaTeX Warning: Reference `c:experimentalmethods' on page 66 undefined on input 
-line 121.
-
-
-LaTeX Warning: Reference `fig:rectScattA' on page 66 undefined on input line 12
-1.
-
-
 <./Chapters/Rectangular-Chapter/rect-comparison-figures/figure-rectScatter550.p
-ng, id=1025, 1505.625pt x 1204.5pt>
+ng, id=1947, 1505.625pt x 1204.5pt>
 File: ./Chapters/Rectangular-Chapter/rect-comparison-figures/figure-rectScatter
 550.png Graphic file (type png)
 
@@ -3235,7 +2179,7 @@ Package pdftex.def Info: ./Chapters/Rectangular-Chapter/rect-comparison-figures
 (pdftex.def)             Requested size: 202.15909pt x 161.71828pt.
 
 <./Chapters/Rectangular-Chapter/rect-comparison-figures/figure-rectHFSS550.png,
- id=1026, 1505.625pt x 1204.5pt>
+ id=1948, 1505.625pt x 1204.5pt>
 File: ./Chapters/Rectangular-Chapter/rect-comparison-figures/figure-rectHFSS550
 .png Graphic file (type png)
 
@@ -3245,7 +2189,7 @@ Package pdftex.def Info: ./Chapters/Rectangular-Chapter/rect-comparison-figures
 /figure-rectHFSS550.png used on input line 125.
 (pdftex.def)             Requested size: 202.15909pt x 161.71828pt.
  (./Chapters/Rectangular-Chapter/figure-bandgap-kspcae-cartoon1.pdf_tex
-<./Chapters/Rectangular-Chapter/figure-bandgap-kspcae-cartoon1.pdf, id=1027, 28
+<./Chapters/Rectangular-Chapter/figure-bandgap-kspcae-cartoon1.pdf, id=1949, 28
 9.08pt x 252.945pt>
 File: ./Chapters/Rectangular-Chapter/figure-bandgap-kspcae-cartoon1.pdf Graphic
  file (type pdf)
@@ -3256,7 +2200,7 @@ artoon1.pdf used on input line 52.
 (pdftex.def)             Requested size: 165.02345pt x 144.39243pt.
 )
 (./Chapters/Rectangular-Chapter/figure-bandgap-kspace-cartoon2.pdf_tex
-<./Chapters/Rectangular-Chapter/figure-bandgap-kspace-cartoon2.pdf, id=1028, 28
+<./Chapters/Rectangular-Chapter/figure-bandgap-kspace-cartoon2.pdf, id=1950, 28
 9.08pt x 252.945pt>
 File: ./Chapters/Rectangular-Chapter/figure-bandgap-kspace-cartoon2.pdf Graphic
  file (type pdf)
@@ -3267,17 +2211,6 @@ artoon2.pdf used on input line 52.
 (pdftex.def)             Requested size: 165.02345pt x 144.39243pt.
 )
 
-LaTeX Warning: Reference `fig:rectScatt' on page 66 undefined on input line 135
-.
-
-
-LaTeX Warning: Reference `fig:rectScatt' on page 66 undefined on input line 135
-.
-
-
-LaTeX Warning: Reference `s:rdisp' on page 66 undefined on input line 138.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
@@ -3286,34 +2219,6 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
 [66 <./Chapters/Rectangular-Chapter/rect-comparison-figures/figure-rectScatter5
 50.png> <./Chapters/Rectangular-Chapter/rect-comparison-figures/figure-rectHFSS
 550.png>]
-
-LaTeX Warning: Reference `fig:rect-exaplain-bandshape-cartoon' on page 67 undef
-ined on input line 140.
-
-
-LaTeX Warning: Reference `fig:rectScattA' on page 67 undefined on input line 14
-2.
-
-
-LaTeX Warning: Reference `fig:rectScattB' on page 67 undefined on input line 14
-2.
-
-
-LaTeX Warning: Reference `fig:rect-exaplain-bandshape-cartoon' on page 67 undef
-ined on input line 142.
-
-
-Package natbib Warning: Citation `Palik1985' on page 67 undefined on input line
- 144.
-
-
-LaTeX Warning: Reference `fig:rectfieldbandgaps' on page 67 undefined on input 
-line 144.
-
-
-LaTeX Warning: Reference `fig:rectScattB' on page 67 undefined on input line 14
-4.
-
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
@@ -3326,7 +2231,7 @@ ters/Rectangular-Chapter/figure-bandgap-kspace-cartoon2.pdf
 pdfTeX warning: /usr/texbin/pdflatex (file ./Chapters/Rectangular-Chapter/figur
 e-bandgap-kspace-cartoon2.pdf): PDF inclusion: multiple pdfs with page group in
 cluded in a single page
->] <./Chapters/Rectangular-Chapter/band1.png, id=1049, 1204.5pt x 1204.5pt>
+>] <./Chapters/Rectangular-Chapter/band1.png, id=1979, 1204.5pt x 1204.5pt>
 File: ./Chapters/Rectangular-Chapter/band1.png Graphic file (type png)
 
 <use ./Chapters/Rectangular-Chapter/band1.png>
@@ -3334,21 +2239,13 @@ Package pdftex.def Info: ./Chapters/Rectangular-Chapter/band1.png used on input
  line 148.
 (pdftex.def)             Requested size: 202.15909pt x 202.15245pt.
 
-<./Chapters/Rectangular-Chapter/band2.png, id=1050, 1204.5pt x 1204.5pt>
+<./Chapters/Rectangular-Chapter/band2.png, id=1980, 1204.5pt x 1204.5pt>
 File: ./Chapters/Rectangular-Chapter/band2.png Graphic file (type png)
 
 <use ./Chapters/Rectangular-Chapter/band2.png>
 Package pdftex.def Info: ./Chapters/Rectangular-Chapter/band2.png used on input
  line 149.
 (pdftex.def)             Requested size: 202.15909pt x 202.15245pt.
-
-
-LaTeX Warning: Reference `fig:rectfieldbandgapsA' on page 68 undefined on input
- line 154.
-
-
-LaTeX Warning: Reference `fig:rectfieldbandgapsB' on page 68 undefined on input
- line 154.
 
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
@@ -3358,18 +2255,7 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
 
 [68 <./Chapters/Rectangular-Chapter/band1.png> <./Chapters/Rectangular-Chapter/
 band2.png>]
-
-Package natbib Warning: Citation `Sabat2010' on page 69 undefined on input line
- 160.
-
 (./Chapters/Rectangular-Chapter/figure-spectra-polarisationconversion.tex)
-
-LaTeX Warning: Reference `fig:rectpolconv' on page 69 undefined on input line 1
-73.
-
-
-LaTeX Warning: Reference `s:rdisp' on page 69 undefined on input line 173.
-
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
@@ -3378,36 +2264,16 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
 
 [69]
 
-LaTeX Warning: Reference `fig:rectpolconv' on page 70 undefined on input line 1
-75.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [70]
-
-LaTeX Warning: Reference `s:rdisp' on page 71 undefined on input line 180.
-
-
-LaTeX Warning: Reference `s:components' on page 71 undefined on input line 180.
-
-
-
-LaTeX Warning: Reference `eq:an-squareprofle' on page 71 undefined on input lin
-e 182.
-
-
-LaTeX Warning: Reference `fig:deepingingIt' on page 71 undefined on input line 
-186.
-
-
 (./Chapters/Rectangular-Chapter/figure-rect-coordinated-latexannotations-shallo
 w.pdf_tex
 <./Chapters/Rectangular-Chapter/figure-rect-coordinated-latexannotations-shallo
-w.pdf, id=1073, 293.20956pt x 239.74374pt>
+w.pdf, id=2012, 293.20956pt x 239.74374pt>
 File: ./Chapters/Rectangular-Chapter/figure-rect-coordinated-latexannotations-s
 hallow.pdf Graphic file (type pdf)
 
@@ -3420,7 +2286,7 @@ Package pdftex.def Info: ./Chapters/Rectangular-Chapter/figure-rect-coordinated
 (./Chapters/Rectangular-Chapter/figure-rect-coordinated-latexannotations-deep.p
 df_tex
 <./Chapters/Rectangular-Chapter/figure-rect-coordinated-latexannotations-deep.p
-df, id=1074, 293.41621pt x 216.81pt>
+df, id=2013, 293.41621pt x 216.81pt>
 File: ./Chapters/Rectangular-Chapter/figure-rect-coordinated-latexannotations-d
 eep.pdf Graphic file (type pdf)
 
@@ -3430,8 +2296,14 @@ Package pdftex.def Info: ./Chapters/Rectangular-Chapter/figure-rect-coordinated
 -latexannotations-deep.pdf used on input line 52.
 (pdftex.def)             Requested size: 198.0294pt x 146.3305pt.
 )
-(./Chapters/Rectangular-Chapter/figure-isofrequency-deformation.pdf_tex
-<./Chapters/Rectangular-Chapter/figure-isofrequency-deformation.pdf, id=1075, 2
+
+Package Fancyhdr Warning: \headheight is too small (10.743pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[71] (./Chapters/Rectangular-Chapter/figure-isofrequency-deformation.pdf_tex
+<./Chapters/Rectangular-Chapter/figure-isofrequency-deformation.pdf, id=2018, 2
 20.74973pt x 220.74973pt>
 File: ./Chapters/Rectangular-Chapter/figure-isofrequency-deformation.pdf Graphi
 c file (type pdf)
@@ -3441,23 +2313,7 @@ Package pdftex.def Info: ./Chapters/Rectangular-Chapter/figure-isofrequency-def
 ormation.pdf used on input line 52.
 (pdftex.def)             Requested size: 220.74971pt x 220.76263pt.
 )
-
-Package Fancyhdr Warning: \headheight is too small (10.743pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[71]
-
-LaTeX Warning: Reference `fig:isofreq-deformation-cartoon' on page 72 undefined
- on input line 206.
-
-
-LaTeX Warning: Reference `c:experimentalmethods' on page 72 undefined on input 
-line 206.
-
-
-<./Chapters/Rectangular-Chapter/figure-shallow-bigrating-700.png, id=1081, 1505
+<./Chapters/Rectangular-Chapter/figure-shallow-bigrating-700.png, id=2021, 1505
 .625pt x 1204.5pt>
 File: ./Chapters/Rectangular-Chapter/figure-shallow-bigrating-700.png Graphic f
 ile (type png)
@@ -3467,7 +2323,7 @@ Package pdftex.def Info: ./Chapters/Rectangular-Chapter/figure-shallow-bigratin
 g-700.png used on input line 210.
 (pdftex.def)             Requested size: 202.15909pt x 161.71828pt.
 
-<./Chapters/Rectangular-Chapter/figure-deep-bigrating-700.png, id=1082, 1505.62
+<./Chapters/Rectangular-Chapter/figure-deep-bigrating-700.png, id=2022, 1505.62
 5pt x 1204.5pt>
 File: ./Chapters/Rectangular-Chapter/figure-deep-bigrating-700.png Graphic file
  (type png)
@@ -3476,22 +2332,6 @@ File: ./Chapters/Rectangular-Chapter/figure-deep-bigrating-700.png Graphic file
 Package pdftex.def Info: ./Chapters/Rectangular-Chapter/figure-deep-bigrating-7
 00.png used on input line 211.
 (pdftex.def)             Requested size: 202.15909pt x 161.71828pt.
-
-
-LaTeX Warning: Reference `fig:rectscattFlatteneing' on page 72 undefined on inp
-ut line 216.
-
-
-LaTeX Warning: Reference `fig:rectscattFlatteneingA' on page 72 undefined on in
-put line 216.
-
-
-LaTeX Warning: Reference `fig:rectscattFlatteneingA' on page 72 undefined on in
-put line 216.
-
-
-LaTeX Warning: Reference `fig:isofreq-deformation-cartoon' on page 72 undefined
- on input line 216.
 
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
@@ -3516,21 +2356,8 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
 [73 <./Chapters/Rectangular-Chapter/figure-isofrequency-deformation.pdf> <./Cha
 pters/Rectangular-Chapter/figure-shallow-bigrating-700.png> <./Chapters/Rectang
 ular-Chapter/figure-deep-bigrating-700.png>]
-
-LaTeX Warning: Reference `fig:rectscattFlatteneingB' on page 74 undefined on in
-put line 218.
-
-
-LaTeX Warning: Reference `fig:rectscattFlatteneing' on page 74 undefined on inp
-ut line 222.
-
-
-LaTeX Warning: Reference `fig:rectdispersionshallowdeep' on page 74 undefined o
-n input line 222.
-
-
 <./Chapters/Rectangular-Chapter/experimental-dispersions/figure-40nm-rectbigrat
-ing-dispersion.pdf, id=1106, 361.35pt x 289.08pt>
+ing-dispersion.pdf, id=2049, 361.35pt x 289.08pt>
 File: ./Chapters/Rectangular-Chapter/experimental-dispersions/figure-40nm-rectb
 igrating-dispersion.pdf Graphic file (type pdf)
 
@@ -3541,7 +2368,7 @@ s/figure-40nm-rectbigrating-dispersion.pdf used on input line 227.
 (pdftex.def)             Requested size: 202.15909pt x 161.7293pt.
 
 <./Chapters/Rectangular-Chapter/experimental-dispersions/figure-80nm-rectbigrat
-ing-dispersion.pdf, id=1107, 361.35pt x 289.08pt>
+ing-dispersion.pdf, id=2050, 361.35pt x 289.08pt>
 File: ./Chapters/Rectangular-Chapter/experimental-dispersions/figure-80nm-rectb
 igrating-dispersion.pdf Graphic file (type pdf)
 
@@ -3551,7 +2378,7 @@ Package pdftex.def Info: ./Chapters/Rectangular-Chapter/experimental-dispersion
 s/figure-80nm-rectbigrating-dispersion.pdf used on input line 228.
 (pdftex.def)             Requested size: 202.15909pt x 161.7293pt.
 
-<./Chapters/Rectangular-Chapter/figure-rectbigrating-rshift.pdf, id=1108, 289.0
+<./Chapters/Rectangular-Chapter/figure-rectbigrating-rshift.pdf, id=2051, 289.0
 8pt x 289.08pt>
 File: ./Chapters/Rectangular-Chapter/figure-rectbigrating-rshift.pdf Graphic fi
 le (type pdf)
@@ -3561,7 +2388,7 @@ Package pdftex.def Info: ./Chapters/Rectangular-Chapter/figure-rectbigrating-rs
 hift.pdf used on input line 229.
 (pdftex.def)             Requested size: 202.15909pt x 202.15611pt.
 
-<./Chapters/Rectangular-Chapter/figure-rectbi-dispersionALL.pdf, id=1109, 289.0
+<./Chapters/Rectangular-Chapter/figure-rectbi-dispersionALL.pdf, id=2052, 289.0
 8pt x 289.08pt>
 File: ./Chapters/Rectangular-Chapter/figure-rectbi-dispersionALL.pdf Graphic fi
 le (type pdf)
@@ -3570,25 +2397,6 @@ le (type pdf)
 Package pdftex.def Info: ./Chapters/Rectangular-Chapter/figure-rectbi-dispersio
 nALL.pdf used on input line 230.
 (pdftex.def)             Requested size: 202.15909pt x 202.15611pt.
-
-
-LaTeX Warning: Reference `fig:rectdispersionshallowdeepA' on page 74 undefined 
-on input line 235.
-
-
-LaTeX Warning: Reference `fig:rectdispersionshallowdeepB' on page 74 undefined 
-on input line 235.
-
-
-Package natbib Warning: Citation `Pendry2004' on page 74 undefined on input lin
-e 238.
-
-
-Package natbib Warning: Citation `Hibbins2005' on page 74 undefined on input li
-ne 238.
-
-
-LaTeX Warning: Reference `c:zigzag' on page 74 undefined on input line 238.
 
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
@@ -3620,20 +2428,7 @@ ded in a single page
 pdfTeX warning: /usr/texbin/pdflatex (file ./Chapters/Rectangular-Chapter/figur
 e-rectbi-dispersionALL.pdf): PDF inclusion: multiple pdfs with page group inclu
 ded in a single page
->]
-
-LaTeX Warning: Reference `s:rdisp' on page 76 undefined on input line 245.
-
-
-LaTeX Warning: Reference `s:rscat' on page 76 undefined on input line 247.
-
-
-LaTeX Warning: Reference `s:rpol' on page 76 undefined on input line 249.
-
-
-LaTeX Warning: Reference `s:rani' on page 76 undefined on input line 251.
-
-)
+>])
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
@@ -3642,23 +2437,13 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
 
 [76]
 Chapter 6.
-(./Chapters/Oblique-Chapter/chapter-obliques.tex
-
-LaTeX Warning: Reference `s:ob-coords' on page 77 undefined on input line 4.
-
-
-LaTeX Warning: Reference `s:ob-coupling' on page 77 undefined on input line 4.
-
-
-LaTeX Warning: Reference `s:ob-BZ' on page 77 undefined on input line 6.
-
-[77
+(./Chapters/Oblique-Chapter/chapter-obliques.tex [77
 
 ]
 (./Chapters/Oblique-Chapter/figure-oblique-coordinated-latexannotations.pdf_tex
 
 <./Chapters/Oblique-Chapter/figure-oblique-coordinated-latexannotations.pdf, id
-=1234, 293.20956pt x 239.74374pt>
+=2186, 293.20956pt x 239.74374pt>
 File: ./Chapters/Oblique-Chapter/figure-oblique-coordinated-latexannotations.pd
 f Graphic file (type pdf)
 
@@ -3669,27 +2454,14 @@ latexannotations.pdf used on input line 52.
 (pdftex.def)             Requested size: 293.20955pt x 239.75777pt.
 )
 
-LaTeX Warning: Reference `fig:obl-coords' on page 78 undefined on input line 19
-.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [78 <./Chapters/Oblique-Chapter/figure-oblique-coordinated-latexannotations.pdf
->]
-
-LaTeX Warning: Reference `fig:obl-rcpspace' on page 79 undefined on input line 
-21.
-
-(./Chapters/Oblique-Chapter/figure-75degObliqueLattice.tex)
-
-LaTeX Warning: Reference `c:experimentalmethods' on page 79 undefined on input 
-line 26.
-
-<./Chapters/Oblique-Chapter/pic_019.jpg, id=1243, 1027.84pt x 946.53625pt>
+>] (./Chapters/Oblique-Chapter/figure-75degObliqueLattice.tex)
+<./Chapters/Oblique-Chapter/pic_019.jpg, id=2196, 1027.84pt x 946.53625pt>
 File: ./Chapters/Oblique-Chapter/pic_019.jpg Graphic file (type jpg)
 
 <use ./Chapters/Oblique-Chapter/pic_019.jpg>
@@ -3698,26 +2470,13 @@ ine 29.
 (pdftex.def)             Requested size: 165.02345pt x 151.96884pt.
 
 
-LaTeX Warning: Reference `c:experimentalmethods' on page 79 undefined on input 
-line 33.
-
-
-LaTeX Warning: Reference `fig:obl-sample' on page 79 undefined on input line 33
-.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [79]
-
-LaTeX Warning: Reference `c:rectangular' on page 80 undefined on input line 36.
-
-
-
-<./Chapters/Oblique-Chapter/figure-chandezon-oblique-700nm.png, id=1250, 1204.5
+<./Chapters/Oblique-Chapter/figure-chandezon-oblique-700nm.png, id=2204, 1204.5
 pt x 1204.5pt>
 File: ./Chapters/Oblique-Chapter/figure-chandezon-oblique-700nm.png Graphic fil
 e (type png)
@@ -3727,7 +2486,7 @@ Package pdftex.def Info: ./Chapters/Oblique-Chapter/figure-chandezon-oblique-70
 0nm.png used on input line 42.
 (pdftex.def)             Requested size: 202.15909pt x 202.15245pt.
 
-<./Chapters/Oblique-Chapter/figure-scatter-oblique-700nm.png, id=1251, 1204.5pt
+<./Chapters/Oblique-Chapter/figure-scatter-oblique-700nm.png, id=2205, 1204.5pt
  x 1204.5pt>
 File: ./Chapters/Oblique-Chapter/figure-scatter-oblique-700nm.png Graphic file 
 (type png)
@@ -3737,48 +2496,12 @@ m.png used on input line 43.
 (pdftex.def)             Requested size: 202.15909pt x 202.15245pt.
 
 
-LaTeX Warning: Reference `c:experimentalmethods' on page 80 undefined on input 
-line 45.
-
-
-LaTeX Warning: Reference `c:experimentalmethods' on page 80 undefined on input 
-line 45.
-
-
-LaTeX Warning: Reference `fig:oblique-chandezon-exp-comparison' on page 80 unde
-fined on input line 48.
-
-
-LaTeX Warning: Reference `fig:oblique-chandezon-exp-comparisonA' on page 80 und
-efined on input line 48.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [80 <./Chapters/Oblique-Chapter/pic_019.jpg>]
-
-Package natbib Warning: Citation `Nash1996' on page 81 undefined on input line 
-53.
-
-
-LaTeX Warning: Reference `fig:oblique-chandezon-exp-comparisonB' on page 81 und
-efined on input line 55.
-
-
-LaTeX Warning: Reference `c:experimentalmethods' on page 81 undefined on input 
-line 55.
-
-
-Package natbib Warning: Citation `Bryan-Brown1990' on page 81 undefined on inpu
-t line 55.
-
-
-LaTeX Warning: Reference `c:experimentalmethods' on page 81 undefined on input 
-line 55.
-
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
@@ -3787,20 +2510,7 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
 
 [81 <./Chapters/Oblique-Chapter/figure-chandezon-oblique-700nm.png> <./Chapters
 /Oblique-Chapter/figure-scatter-oblique-700nm.png>]
-
-LaTeX Warning: Reference `fig:oblique-chandezon-exp-comparisonA' on page 82 und
-efined on input line 57.
-
-
-LaTeX Warning: Reference `fig:oblique-chandezon-exp-comparisonB' on page 82 und
-efined on input line 57.
-
-
-LaTeX Warning: Reference `fig:oblique-chandezon-exp-comparisonA' on page 82 und
-efined on input line 59.
-
-
-<./Chapters/Oblique-Chapter/figure-oblique-RssAtPhi90-colourcoded.png, id=1270,
+<./Chapters/Oblique-Chapter/figure-oblique-RssAtPhi90-colourcoded.png, id=2233,
  325.215pt x 289.08pt>
 File: ./Chapters/Oblique-Chapter/figure-oblique-RssAtPhi90-colourcoded.png Grap
 hic file (type png)
@@ -3809,42 +2519,6 @@ hic file (type png)
 Package pdftex.def Info: ./Chapters/Oblique-Chapter/figure-oblique-RssAtPhi90-c
 olourcoded.png used on input line 67.
 (pdftex.def)             Requested size: 247.54149pt x 220.04272pt.
-
-
-LaTeX Warning: Reference `tbl:obliquecouping' on page 82 undefined on input lin
-e 69.
-
-
-LaTeX Warning: Reference `tbl:obliquecouping' on page 82 undefined on input lin
-e 69.
-
-
-LaTeX Warning: Reference `fig:obliquedispcoloured' on page 82 undefined on inpu
-t line 86.
-
-
-LaTeX Warning: Reference `fig:obliquedispcoloured' on page 82 undefined on inpu
-t line 86.
-
-
-LaTeX Warning: Reference `fig:obliquedispcoloured' on page 82 undefined on inpu
-t line 86.
-
-
-LaTeX Warning: Reference `fig:obliquedispcoloured' on page 82 undefined on inpu
-t line 86.
-
-
-LaTeX Warning: Reference `c:experimentalmethods' on page 82 undefined on input 
-line 89.
-
-
-LaTeX Warning: Reference `fig:obliquedispcoloured' on page 82 undefined on inpu
-t line 89.
-
-
-LaTeX Warning: Reference `tbl:obliquecouping' on page 82 undefined on input lin
-e 89.
 
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
@@ -3860,16 +2534,7 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
  This may cause the page layout to be inconsistent, however.
 
 [83 <./Chapters/Oblique-Chapter/figure-oblique-RssAtPhi90-colourcoded.png>]
-
-LaTeX Warning: Reference `fig:oblique-chandezon-exp-comparison' on page 84 unde
-fined on input line 95.
-
-
-LaTeX Warning: Reference `fig:oblique-polcov' on page 84 undefined on input lin
-e 99.
-
-
-<./Chapters/Oblique-Chapter/figure-oblique-RppAtPhi75-Rss.pdf, id=1285, 325.215
+<./Chapters/Oblique-Chapter/figure-oblique-RppAtPhi75-Rss.pdf, id=2258, 325.215
 pt x 289.08pt>
 File: ./Chapters/Oblique-Chapter/figure-oblique-RppAtPhi75-Rss.pdf Graphic file
  (type pdf)
@@ -3879,7 +2544,7 @@ Package pdftex.def Info: ./Chapters/Oblique-Chapter/figure-oblique-RppAtPhi75-R
 ss.pdf used on input line 103.
 (pdftex.def)             Requested size: 202.15909pt x 179.6997pt.
 
-<./Chapters/Oblique-Chapter/figure-oblique-RppAtPhi75-Rsp.pdf, id=1286, 325.215
+<./Chapters/Oblique-Chapter/figure-oblique-RppAtPhi75-Rsp.pdf, id=2259, 325.215
 pt x 289.08pt>
 File: ./Chapters/Oblique-Chapter/figure-oblique-RppAtPhi75-Rsp.pdf Graphic file
  (type pdf)
@@ -3890,23 +2555,12 @@ sp.pdf used on input line 104.
 (pdftex.def)             Requested size: 202.15909pt x 179.6997pt.
 
 
-LaTeX Warning: Reference `fig:oblique-polcovA' on page 84 undefined on input li
-ne 109.
-
-
-LaTeX Warning: Reference `fig:oblique-polcovB' on page 84 undefined on input li
-ne 109.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [84]
-
-Package natbib Warning: Citation `Iva' on page 85 undefined on input line 114.
-
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
@@ -3920,12 +2574,7 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./Chapters/Oblique-Chapter/figure-ob
 lique-RppAtPhi75-Rsp.pdf): PDF inclusion: multiple pdfs with page group include
 d in a single page
 >]
-
-LaTeX Warning: Reference `c:rectangular' on page 86 undefined on input line 132
-.
-
-
-<./Chapters/Oblique-Chapter/figure-650nm-scattergram-withBZ.png, id=1354, 1355.
+<./Chapters/Oblique-Chapter/figure-650nm-scattergram-withBZ.png, id=2329, 1355.
 0625pt x 1053.9375pt>
 File: ./Chapters/Oblique-Chapter/figure-650nm-scattergram-withBZ.png Graphic fi
 le (type png)
@@ -3935,7 +2584,7 @@ Package pdftex.def Info: ./Chapters/Oblique-Chapter/figure-650nm-scattergram-wi
 thBZ.png used on input line 136.
 (pdftex.def)             Requested size: 288.7942pt x 224.61409pt.
 
-<./Chapters/Oblique-Chapter/figure-650nm-scattergram-withBZ-zoom1.png, id=1355,
+<./Chapters/Oblique-Chapter/figure-650nm-scattergram-withBZ-zoom1.png, id=2330,
  1355.0625pt x 1053.9375pt>
 File: ./Chapters/Oblique-Chapter/figure-650nm-scattergram-withBZ-zoom1.png Grap
 hic file (type png)
@@ -3945,7 +2594,7 @@ Package pdftex.def Info: ./Chapters/Oblique-Chapter/figure-650nm-scattergram-wi
 thBZ-zoom1.png used on input line 143.
 (pdftex.def)             Requested size: 198.0294pt x 154.0151pt.
 
-<./Chapters/Oblique-Chapter/figure-650nm-scattergram-withBZ-zoom2.png, id=1356,
+<./Chapters/Oblique-Chapter/figure-650nm-scattergram-withBZ-zoom2.png, id=2331,
  1355.0625pt x 1053.9375pt>
 File: ./Chapters/Oblique-Chapter/figure-650nm-scattergram-withBZ-zoom2.png Grap
 hic file (type png)
@@ -3954,22 +2603,6 @@ hic file (type png)
 Package pdftex.def Info: ./Chapters/Oblique-Chapter/figure-650nm-scattergram-wi
 thBZ-zoom2.png used on input line 144.
 (pdftex.def)             Requested size: 198.0294pt x 154.0151pt.
-
-
-LaTeX Warning: Reference `fig:ob-650scatterALL' on page 86 undefined on input l
-ine 146.
-
-
-LaTeX Warning: Reference `fig:ob-650scatterALL' on page 86 undefined on input l
-ine 146.
-
-
-LaTeX Warning: Reference `fig:ob-650scatterALL' on page 86 undefined on input l
-ine 149.
-
-
-Package natbib Warning: Citation `kittel1996introduction' on page 86 undefined 
-on input line 149.
 
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
@@ -3987,30 +2620,14 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
 [87 <./Chapters/Oblique-Chapter/figure-650nm-scattergram-withBZ.png> <./Chapter
 s/Oblique-Chapter/figure-650nm-scattergram-withBZ-zoom1.png> <./Chapters/Obliqu
 e-Chapter/figure-650nm-scattergram-withBZ-zoom2.png>]
-
-LaTeX Warning: Reference `fig:obl-scattZoom' on page 88 undefined on input line
- 151.
-
-
-LaTeX Warning: Reference `fig:obl-scattZoomA' on page 88 undefined on input lin
-e 151.
-
-
-LaTeX Warning: Reference `fig:obl-scattZoomB' on page 88 undefined on input lin
-e 153.
-
 (./Chapters/Oblique-Chapter/figure-possibleBZoblique.tex
-<thesis-pics.pdf, id=1376, page=11, 180.675pt x 165.61874pt>
+<thesis-pics.pdf, id=2357, page=11, 180.675pt x 165.61874pt>
 File: thesis-pics.pdf Graphic file (type pdf)
 
 <use thesis-pics.pdf, page 11>
 Package pdftex.def Info: thesis-pics.pdf, page11 used on input line 6.
 (pdftex.def)             Requested size: 180.67455pt x 165.61833pt.
 )
-
-LaTeX Warning: Reference `fig:highsysmpoints-oblique' on page 88 undefined on i
-nput line 162.
-
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
@@ -4021,20 +2638,11 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-
-
-Package natbib Warning: Citation `Newnham2005' on page 89 undefined on input li
-ne 166.
-
-
-LaTeX Warning: Reference `fig:ob-vecorfields' on page 89 undefined on input lin
-e 167.
-
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-(./Chapters/Oblique-Chapter/figure-symmetryofrecandoblique1.tex
-<thesis-pics.pdf, id=1383, page=12, 263.98625pt x 134.5025pt>
+ (./Chapters/Oblique-Chapter/figure-symmetryofrecandoblique1.tex
+<thesis-pics.pdf, id=2367, page=12, 263.98625pt x 134.5025pt>
 File: thesis-pics.pdf Graphic file (type pdf)
 
 <use thesis-pics.pdf, page 12>
@@ -4049,22 +2657,13 @@ Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
 
-LaTeX Warning: Reference `c:rectangular' on page 89 undefined on input line 172
-.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [89 <./thesis-pics.pdf>]
-
-LaTeX Warning: Reference `fig:ob-vecorfields' on page 90 undefined on input lin
-e 174.
-
-
-<./Chapters/Oblique-Chapter/figure-oblique-RppAtPhi0.pdf, id=1396, 325.215pt x 
+<./Chapters/Oblique-Chapter/figure-oblique-RppAtPhi0.pdf, id=2381, 325.215pt x 
 289.08pt>
 File: ./Chapters/Oblique-Chapter/figure-oblique-RppAtPhi0.pdf Graphic file (typ
 e pdf)
@@ -4073,7 +2672,7 @@ Package pdftex.def Info: ./Chapters/Oblique-Chapter/figure-oblique-RppAtPhi0.pd
 f used on input line 179.
 (pdftex.def)             Requested size: 202.15909pt x 179.6997pt.
 
-<./Chapters/Oblique-Chapter/figure-oblique-RssAtPhi90.pdf, id=1397, 325.215pt x
+<./Chapters/Oblique-Chapter/figure-oblique-RssAtPhi90.pdf, id=2382, 325.215pt x
  289.08pt>
 File: ./Chapters/Oblique-Chapter/figure-oblique-RssAtPhi90.pdf Graphic file (ty
 pe pdf)
@@ -4081,18 +2680,6 @@ pe pdf)
 Package pdftex.def Info: ./Chapters/Oblique-Chapter/figure-oblique-RssAtPhi90.p
 df used on input line 180.
 (pdftex.def)             Requested size: 202.15909pt x 179.6997pt.
-
-
-LaTeX Warning: Reference `fig:highsysmpoints-oblique' on page 90 undefined on i
-nput line 184.
-
-
-LaTeX Warning: Reference `fig:highsysmpoints-oblique' on page 90 undefined on i
-nput line 184.
-
-
-LaTeX Warning: Reference `fig:obl-dispersionaroundhighsym' on page 90 undefined
- on input line 184.
 
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
@@ -4115,64 +2702,12 @@ lique-RssAtPhi90.pdf): PDF inclusion: multiple pdfs with page group included in
  a single page
 >]
 Chapter 7.
-(./Chapters/Zig-Zag-Chapter/chapter-zigzag.tex
-
-Package natbib Warning: Citation `Kleemann2005' on page 92 undefined on input l
-ine 5.
-
-
-Package natbib Warning: Citation `Ribot2007' on page 92 undefined on input line
- 5.
-
-
-Package natbib Warning: Citation `Palmer2005' on page 92 undefined on input lin
-e 5.
-
-
-Package natbib Warning: Citation `Bai2009' on page 92 undefined on input line 5
-.
-
-
-Package natbib Warning: Citation `Zheludev2010' on page 92 undefined on input l
-ine 5.
-
-[92
+(./Chapters/Zig-Zag-Chapter/chapter-zigzag.tex [92
 
 ]
-
-Package natbib Warning: Citation `Chen2009' on page 93 undefined on input line 
-7.
-
-
-Package natbib Warning: Citation `Schwanecke2007' on page 93 undefined on input
- line 7.
-
-
-Package natbib Warning: Citation `Kim2008' on page 93 undefined on input line 7
-.
-
-
-LaTeX Warning: Reference `sec:zztheory' on page 93 undefined on input line 9.
-
-
-LaTeX Warning: Reference `sec:TEexciatation' on page 93 undefined on input line
- 9.
-
-
-LaTeX Warning: Reference `sec:TMexciatation' on page 93 undefined on input line
- 9.
-
-
-LaTeX Warning: Reference `sec:bandgap-character' on page 93 undefined on input 
-line 9.
-
-
-LaTeX Warning: Reference `sec:anisotropic' on page 93 undefined on input line 9
-.
-
 (./Chapters/Zig-Zag-Chapter/figure-zigzag-coordinated-latexannotations.pdf_tex
 <./Chapters/Zig-Zag-Chapter/figure-zigzag-coordinated-latexannotations.pdf, id=
-1476, 293.20956pt x 239.74374pt>
+2475, 293.20956pt x 239.74374pt>
 File: ./Chapters/Zig-Zag-Chapter/figure-zigzag-coordinated-latexannotations.pdf
  Graphic file (type pdf)
 
@@ -4181,16 +2716,13 @@ Package pdftex.def Info: ./Chapters/Zig-Zag-Chapter/figure-zigzag-coordinated-l
 atexannotations.pdf used on input line 52.
 (pdftex.def)             Requested size: 293.20955pt x 239.75777pt.
 )
-
-LaTeX Warning: Reference `fig:zz-coorinatesystem' on page 93 undefined on input
- line 20.
-
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ò in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
+
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
@@ -4199,29 +2731,20 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
 
 [93]
 
-Package natbib Warning: Citation `Watts1997' on page 94 undefined on input line
- 27.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [94 <./Chapters/Zig-Zag-Chapter/figure-zigzag-coordinated-latexannotations.pdf>
-]
-
-LaTeX Warning: Reference `fig:zzEnormal' on page 95 undefined on input line 42.
-
-
-<thesis-pics.pdf, id=1492, page=13, 145.54375pt x 146.5475pt>
+] <thesis-pics.pdf, id=2495, page=13, 145.54375pt x 146.5475pt>
 File: thesis-pics.pdf Graphic file (type pdf)
 
 <use thesis-pics.pdf, page 13>
 Package pdftex.def Info: thesis-pics.pdf, page13 used on input line 46.
 (pdftex.def)             Requested size: 145.54338pt x 146.54712pt.
 
-<thesis-pics.pdf, id=1493, page=14, 145.54375pt x 147.55125pt>
+<thesis-pics.pdf, id=2496, page=14, 145.54375pt x 147.55125pt>
 File: thesis-pics.pdf Graphic file (type pdf)
 
 <use thesis-pics.pdf, page 14>
@@ -4235,50 +2758,17 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
  This may cause the page layout to be inconsistent, however.
 
 [95 <./thesis-pics.pdf> <./thesis-pics.pdf>]
-
-LaTeX Warning: Reference `fig:e-te-and-e-tm' on page 96 undefined on input line
- 57.
-
 (./Chapters/Zig-Zag-Chapter/figure-E-xdirection-plots.tex)
-
-LaTeX Warning: Reference `eq:zz-tmcouping' on page 96 undefined on input line 6
-9.
-
-
-LaTeX Warning: Reference `eq:zz-tecoupling' on page 96 undefined on input line 
-69.
-
-
-LaTeX Warning: Reference `sec:TEexciatation' on page 96 undefined on input line
- 69.
-
-
-LaTeX Warning: Reference `sec:TMexciatation' on page 96 undefined on input line
- 69.
-
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[96]
-
-LaTeX Warning: Reference `fig:coupling-cartoon' on page 97 undefined on input l
-ine 71.
-
-(./Chapters/Zig-Zag-Chapter/figure-coupling-cartoon.tex)
+[96] (./Chapters/Zig-Zag-Chapter/figure-coupling-cartoon.tex)
 Overfull \hbox (21.05504pt too wide) in paragraph at lines 921--75
  [] 
  []
-
-
-LaTeX Warning: Reference `fig:coupling-cartoon' on page 97 undefined on input l
-ine 78.
-
-
-LaTeX Warning: Reference `fig:zz-coorinatesystem' on page 97 undefined on input
- line 81.
 
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -4287,15 +2777,7 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
 
-LaTeX Warning: Reference `c:experimentalmethods' on page 97 undefined on input 
-line 82.
-
-
-LaTeX Warning: Reference `fig:sem-master' on page 97 undefined on input line 82
-.
-
-
-<./Chapters/Zig-Zag-Chapter/sems/RIE_area1_008.jpg, id=1523, 1027.84pt x 946.53
+<./Chapters/Zig-Zag-Chapter/sems/RIE_area1_008.jpg, id=2535, 1027.84pt x 946.53
 625pt>
 File: ./Chapters/Zig-Zag-Chapter/sems/RIE_area1_008.jpg Graphic file (type jpg)
 
@@ -4304,7 +2786,7 @@ Package pdftex.def Info: ./Chapters/Zig-Zag-Chapter/sems/RIE_area1_008.jpg used
  on input line 86.
 (pdftex.def)             Requested size: 132.0238pt x 121.58084pt.
 
-<./Chapters/Zig-Zag-Chapter/sems/zigzag1_003.jpg, id=1524, 1027.84pt x 946.5362
+<./Chapters/Zig-Zag-Chapter/sems/zigzag1_003.jpg, id=2536, 1027.84pt x 946.5362
 5pt>
 File: ./Chapters/Zig-Zag-Chapter/sems/zigzag1_003.jpg Graphic file (type jpg)
  <use ./Chapters/Zig-Zag-Chapter/sems/zigzag1_003.jpg>
@@ -4312,17 +2794,13 @@ Package pdftex.def Info: ./Chapters/Zig-Zag-Chapter/sems/zigzag1_003.jpg used o
 n input line 87.
 (pdftex.def)             Requested size: 132.0238pt x 121.58084pt.
 
-<./Chapters/Zig-Zag-Chapter/pic_003.jpg, id=1525, 1027.84pt x 946.53625pt>
+<./Chapters/Zig-Zag-Chapter/pic_003.jpg, id=2537, 1027.84pt x 946.53625pt>
 File: ./Chapters/Zig-Zag-Chapter/pic_003.jpg Graphic file (type jpg)
 
 <use ./Chapters/Zig-Zag-Chapter/pic_003.jpg>
 Package pdftex.def Info: ./Chapters/Zig-Zag-Chapter/pic_003.jpg used on input l
 ine 88.
 (pdftex.def)             Requested size: 132.0238pt x 121.58084pt.
-
-
-LaTeX Warning: Reference `c:experimentalmethods' on page 97 undefined on input 
-line 93.
 
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
@@ -4339,14 +2817,6 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
 
 [98]
 
-LaTeX Warning: Reference `fig:sem-polymer' on page 99 undefined on input line 9
-5.
-
-
-Package natbib Warning: Citation `Kovacs1978' on page 99 undefined on input lin
-e 97.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
@@ -4354,17 +2824,8 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
 
 [99 <./Chapters/Zig-Zag-Chapter/sems/RIE_area1_008.jpg> <./Chapters/Zig-Zag-Cha
 pter/sems/zigzag1_003.jpg> <./Chapters/Zig-Zag-Chapter/pic_003.jpg>]
-
-LaTeX Warning: Reference `c:experimentalmethods' on page 100 undefined on input
- line 101.
-
-
-LaTeX Warning: Reference `fig:TEdiseprsionInAir' on page 100 undefined on input
- line 101.
-
-
 <./Chapters/Zig-Zag-Chapter/dispersionplots-air/figure-zigzag-air-disperison-ex
-periement-rss.pdf, id=1545, 361.35pt x 289.08pt>
+periement-rss.pdf, id=2558, 361.35pt x 289.08pt>
 File: ./Chapters/Zig-Zag-Chapter/dispersionplots-air/figure-zigzag-air-disperis
 on-experiement-rss.pdf Graphic file (type pdf)
 
@@ -4375,7 +2836,7 @@ zigzag-air-disperison-experiement-rss.pdf used on input line 105.
 (pdftex.def)             Requested size: 202.15909pt x 161.7293pt.
 
 <./Chapters/Zig-Zag-Chapter/dispersionplots-air/figure-zigzag-air-disperison-th
-eory-rss.pdf, id=1546, 361.35pt x 289.08pt>
+eory-rss.pdf, id=2559, 361.35pt x 289.08pt>
 File: ./Chapters/Zig-Zag-Chapter/dispersionplots-air/figure-zigzag-air-disperis
 on-theory-rss.pdf Graphic file (type pdf)
 
@@ -4384,22 +2845,6 @@ n-theory-rss.pdf>
 Package pdftex.def Info: ./Chapters/Zig-Zag-Chapter/dispersionplots-air/figure-
 zigzag-air-disperison-theory-rss.pdf used on input line 106.
 (pdftex.def)             Requested size: 202.15909pt x 161.7293pt.
-
-
-LaTeX Warning: Reference `eq:zz-tecoupling' on page 100 undefined on input line
- 112.
-
-
-LaTeX Warning: Reference `fig:TEdiseprsionInAira' on page 100 undefined on inpu
-t line 112.
-
-
-LaTeX Warning: Reference `fig:TEdiseprsionInAirb' on page 100 undefined on inpu
-t line 112.
-
-
-Package natbib Warning: Citation `Nash1996' on page 100 undefined on input line
- 112.
 
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
@@ -4414,28 +2859,7 @@ zigzag-air-disperison-theory-rss.pdf
 pdfTeX warning: /usr/texbin/pdflatex (file ./Chapters/Zig-Zag-Chapter/dispersio
 nplots-air/figure-zigzag-air-disperison-theory-rss.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
->]
-
-LaTeX Warning: Reference `fig:anglescan' on page 101 undefined on input line 11
-4.
-
-(./Chapters/Zig-Zag-Chapter/figure-anglescan-expmnt.tex)
-
-Package natbib Warning: Citation `Herminghaus:94' on page 101 undefined on inpu
-t line 121.
-
-
-LaTeX Warning: Reference `sec:zztheory' on page 101 undefined on input line 121
-.
-
-
-LaTeX Warning: Reference `fig:anglescan' on page 101 undefined on input line 12
-1.
-
-
-LaTeX Warning: Reference `fig:sem-polymer' on page 101 undefined on input line 
-121.
-
+>] (./Chapters/Zig-Zag-Chapter/figure-anglescan-expmnt.tex)
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
@@ -4443,7 +2867,7 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
  This may cause the page layout to be inconsistent, however.
 
 [101]
-<./Chapters/Zig-Zag-Chapter/figure-fieldplot-SPPonZigzag.pdf, id=1614, 292.7296
+<./Chapters/Zig-Zag-Chapter/figure-fieldplot-SPPonZigzag.pdf, id=2635, 292.7296
 1pt x 216.81pt>
 File: ./Chapters/Zig-Zag-Chapter/figure-fieldplot-SPPonZigzag.pdf Graphic file 
 (type pdf)
@@ -4454,31 +2878,13 @@ g.pdf used on input line 124.
 (pdftex.def)             Requested size: 292.7289pt x 216.80946pt.
 
 
-LaTeX Warning: Reference `fig:anglescan' on page 102 undefined on input line 12
-5.
+Package Fancyhdr Warning: \headheight is too small (10.743pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-
-LaTeX Warning: Reference `fig:anglescan' on page 102 undefined on input line 12
-5.
-
-
-LaTeX Warning: Reference `fig:zzfield-plot-expt' on page 102 undefined on input
- line 128.
-
-
-LaTeX Warning: Reference `sec:bandgap-character' on page 102 undefined on input
- line 128.
-
-
-LaTeX Warning: Reference `eq:zz-tecoupling' on page 102 undefined on input line
- 130.
-
-
-LaTeX Warning: Reference `fig:shallowzz-dispersion-expt' on page 102 undefined 
-on input line 132.
-
-
-<./Chapters/Zig-Zag-Chapter/figure-TEdispersion-symZZ-Exp.pdf, id=1615, 292.733
+[102 <./Chapters/Zig-Zag-Chapter/figure-fieldplot-SPPonZigzag.pdf>]
+<./Chapters/Zig-Zag-Chapter/figure-TEdispersion-symZZ-Exp.pdf, id=2665, 292.733
 66pt x 289.08pt>
 File: ./Chapters/Zig-Zag-Chapter/figure-TEdispersion-symZZ-Exp.pdf Graphic file
  (type pdf)
@@ -4488,7 +2894,7 @@ Package pdftex.def Info: ./Chapters/Zig-Zag-Chapter/figure-TEdispersion-symZZ-E
 xp.pdf used on input line 135.
 (pdftex.def)             Requested size: 202.15909pt x 199.64185pt.
 
-<./Chapters/Zig-Zag-Chapter/figure-TEdispersion-symZZ-HFSS.pdf, id=1616, 292.73
+<./Chapters/Zig-Zag-Chapter/figure-TEdispersion-symZZ-HFSS.pdf, id=2666, 292.73
 366pt x 289.08pt>
 File: ./Chapters/Zig-Zag-Chapter/figure-TEdispersion-symZZ-HFSS.pdf Graphic fil
 e (type pdf)
@@ -4510,42 +2916,10 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[102 <./Chapters/Zig-Zag-Chapter/figure-fieldplot-SPPonZigzag.pdf>]
-
-LaTeX Warning: Reference `eq:zz-tecoupling' on page 103 undefined on input line
- 141.
-
-
-LaTeX Warning: Reference `fig:anglescan' on page 103 undefined on input line 14
-1.
-
-
-LaTeX Warning: Reference `fig:shallowzz-dispersion-theory' on page 103 undefine
-d on input line 141.
-
-
-Package natbib Warning: Citation `Nash1996' on page 103 undefined on input line
- 141.
-
-
-Package Fancyhdr Warning: \headheight is too small (10.743pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 [103 <./Chapters/Zig-Zag-Chapter/figure-TEdispersion-symZZ-Exp.pdf> <./Chapters
 /Zig-Zag-Chapter/figure-TEdispersion-symZZ-HFSS.pdf>]
-
-LaTeX Warning: Reference `sec:zztheory' on page 104 undefined on input line 147
-.
-
-
-LaTeX Warning: Reference `fig:zz2ndordermodesSpectraAt53Degrees' on page 104 un
-defined on input line 149.
-
-
 <./Chapters/Zig-Zag-Chapter/2nd-order-mode/figure-TM-2ndorder-mode-spectra-exp.
-pdf, id=1686, 289.08pt x 289.08pt>
+pdf, id=2717, 289.08pt x 289.08pt>
 File: ./Chapters/Zig-Zag-Chapter/2nd-order-mode/figure-TM-2ndorder-mode-spectra
 -exp.pdf Graphic file (type pdf)
 
@@ -4556,7 +2930,7 @@ dorder-mode-spectra-exp.pdf used on input line 153.
 (pdftex.def)             Requested size: 289.07928pt x 289.07928pt.
 
 <./Chapters/Zig-Zag-Chapter/2nd-order-mode/figure-TM-2ndorder-mode-RssDivRpp-ex
-p.pdf, id=1687, 289.08pt x 289.08pt>
+p.pdf, id=2718, 289.08pt x 289.08pt>
 File: ./Chapters/Zig-Zag-Chapter/2nd-order-mode/figure-TM-2ndorder-mode-RssDivR
 pp-exp.pdf Graphic file (type pdf)
 
@@ -4567,7 +2941,7 @@ dorder-mode-RssDivRpp-exp.pdf used on input line 160.
 (pdftex.def)             Requested size: 202.15909pt x 202.15611pt.
 
 <./Chapters/Zig-Zag-Chapter/2nd-order-mode/figure-zigzag-air-secondordermode-th
-eoryAndExperiment-Rpp.pdf, id=1688, 289.08pt x 289.08pt>
+eoryAndExperiment-Rpp.pdf, id=2719, 289.08pt x 289.08pt>
 File: ./Chapters/Zig-Zag-Chapter/2nd-order-mode/figure-zigzag-air-secondordermo
 de-theoryAndExperiment-Rpp.pdf Graphic file (type pdf)
 
@@ -4578,29 +2952,13 @@ g-air-secondordermode-theoryAndExperiment-Rpp.pdf used on input line 161.
 (pdftex.def)             Requested size: 202.15909pt x 202.15611pt.
 
 
-LaTeX Warning: Reference `fig:RppDivRss' on page 104 undefined on input line 16
-6.
-
-
-LaTeX Warning: Reference `fig:Plot2ndOrderDispersionComparison' on page 104 und
-efined on input line 166.
-
-
-LaTeX Warning: Reference `fig:TEdiseprsionInAir' on page 104 undefined on input
- line 166.
-
-
-LaTeX Warning: Reference `sec:zztheory' on page 104 undefined on input line 166
-.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [104]
-<./Chapters/Zig-Zag-Chapter/figure-TMdispersion-symZZ-Exp.pdf, id=1694, 292.733
+<./Chapters/Zig-Zag-Chapter/figure-TMdispersion-symZZ-Exp.pdf, id=2730, 292.733
 66pt x 289.08pt>
 File: ./Chapters/Zig-Zag-Chapter/figure-TMdispersion-symZZ-Exp.pdf Graphic file
  (type pdf)
@@ -4610,7 +2968,7 @@ Package pdftex.def Info: ./Chapters/Zig-Zag-Chapter/figure-TMdispersion-symZZ-E
 xp.pdf used on input line 170.
 (pdftex.def)             Requested size: 185.65297pt x 183.3432pt.
 
-<./Chapters/Zig-Zag-Chapter/figure-TMdispersion-symZZ-HFSS.pdf, id=1695, 292.73
+<./Chapters/Zig-Zag-Chapter/figure-TMdispersion-symZZ-HFSS.pdf, id=2731, 292.73
 366pt x 289.08pt>
 File: ./Chapters/Zig-Zag-Chapter/figure-TMdispersion-symZZ-HFSS.pdf Graphic fil
 e (type pdf)
@@ -4625,10 +2983,6 @@ Missing character: There is no í in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no à in font cmr10!
 Missing character: There is no í in font cmr10!
-
-
-LaTeX Warning: Reference `fig:shallowzz-dispersion-TM-both' on page 105 undefin
-ed on input line 176.
 
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
@@ -4654,25 +3008,6 @@ sion: multiple pdfs with page group included in a single page
 > <./Chapters/Zig-Zag-Chapter/figure-TMdispersion-symZZ-Exp.pdf> <./Chapters/Zi
 g-Zag-Chapter/figure-TMdispersion-symZZ-HFSS.pdf>]
 
-LaTeX Warning: Reference `sec:anisotropic' on page 107 undefined on input line 
-178.
-
-
-LaTeX Warning: Reference `c:azigzag' on page 107 undefined on input line 180.
-
-
-LaTeX Warning: Reference `sec:anisotropic' on page 107 undefined on input line 
-180.
-
-
-Package natbib Warning: Citation `Barnes1995' on page 107 undefined on input li
-ne 183.
-
-
-Package natbib Warning: Citation `Barnes1996' on page 107 undefined on input li
-ne 183.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
@@ -4692,12 +3027,8 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 189.
 
 
-LaTeX Warning: Reference `fig:no-interacting-scattergram' on page 108 undefined
- on input line 190.
-
-
 <./Chapters/Zig-Zag-Chapter/scattergrams/figure-580nm-scattergram-withaxes.png,
- id=1825, 1355.0625pt x 1053.9375pt>
+ id=2862, 1355.0625pt x 1053.9375pt>
 File: ./Chapters/Zig-Zag-Chapter/scattergrams/figure-580nm-scattergram-withaxes
 .png Graphic file (type png)
 
@@ -4706,25 +3037,8 @@ png>
 Package pdftex.def Info: ./Chapters/Zig-Zag-Chapter/scattergrams/figure-580nm-s
 cattergram-withaxes.png used on input line 193.
 (pdftex.def)             Requested size: 288.7942pt x 224.61409pt.
-
-
-LaTeX Warning: Reference `fig:zzbandgapcartoon-kx0' on page 108 undefined on in
-put line 199.
-
-(./Chapters/Zig-Zag-Chapter/figure-standingwave-solution-kx0-one.tex)
+ (./Chapters/Zig-Zag-Chapter/figure-standingwave-solution-kx0-one.tex)
 (./Chapters/Zig-Zag-Chapter/figure-standingwave-solution-kx0-two.tex)
-
-LaTeX Warning: Reference `fig:zzbandgapcartoon-kx0A' on page 108 undefined on i
-nput line 207.
-
-
-LaTeX Warning: Reference `fig:zzbandgapcartoon-kx0B' on page 108 undefined on i
-nput line 207.
-
-
-LaTeX Warning: Reference `fig:zzbandgapfieldskgkg' on page 108 undefined on inp
-ut line 207.
-
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
@@ -4733,7 +3047,7 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
 
 [108 <./Chapters/Zig-Zag-Chapter/scattergrams/figure-580nm-scattergram-withaxes
 .png>]
-<./Chapters/Zig-Zag-Chapter/band-gap-figures/kg-kg-mode1-zEq41nm.pdf, id=1834, 
+<./Chapters/Zig-Zag-Chapter/band-gap-figures/kg-kg-mode1-zEq41nm.pdf, id=2873, 
 289.08pt x 216.81pt>
 File: ./Chapters/Zig-Zag-Chapter/band-gap-figures/kg-kg-mode1-zEq41nm.pdf Graph
 ic file (type pdf)
@@ -4743,7 +3057,7 @@ Package pdftex.def Info: ./Chapters/Zig-Zag-Chapter/band-gap-figures/kg-kg-mode
 1-zEq41nm.pdf used on input line 211.
 (pdftex.def)             Requested size: 202.15909pt x 151.61708pt.
 
-<./Chapters/Zig-Zag-Chapter/band-gap-figures/kg-kg-mode1.pdf, id=1835, page=2, 
+<./Chapters/Zig-Zag-Chapter/band-gap-figures/kg-kg-mode1.pdf, id=2874, page=2, 
 289.08pt x 216.81pt>
 File: ./Chapters/Zig-Zag-Chapter/band-gap-figures/kg-kg-mode1.pdf Graphic file 
 (type pdf)
@@ -4753,7 +3067,7 @@ Package pdftex.def Info: ./Chapters/Zig-Zag-Chapter/band-gap-figures/kg-kg-mode
 1.pdf, page2 used on input line 212.
 (pdftex.def)             Requested size: 202.15909pt x 151.61708pt.
 
-<./Chapters/Zig-Zag-Chapter/band-gap-figures/kg-kg-mode2-zEq41nm.pdf, id=1836, 
+<./Chapters/Zig-Zag-Chapter/band-gap-figures/kg-kg-mode2-zEq41nm.pdf, id=2875, 
 289.08pt x 216.81pt>
 File: ./Chapters/Zig-Zag-Chapter/band-gap-figures/kg-kg-mode2-zEq41nm.pdf Graph
 ic file (type pdf)
@@ -4763,7 +3077,7 @@ Package pdftex.def Info: ./Chapters/Zig-Zag-Chapter/band-gap-figures/kg-kg-mode
 2-zEq41nm.pdf used on input line 213.
 (pdftex.def)             Requested size: 202.15909pt x 151.61708pt.
 
-<./Chapters/Zig-Zag-Chapter/band-gap-figures/kg-kg-mode2.pdf, id=1837, page=2, 
+<./Chapters/Zig-Zag-Chapter/band-gap-figures/kg-kg-mode2.pdf, id=2876, page=2, 
 289.08pt x 216.81pt>
 File: ./Chapters/Zig-Zag-Chapter/band-gap-figures/kg-kg-mode2.pdf Graphic file 
 (type pdf)
@@ -4772,30 +3086,6 @@ File: ./Chapters/Zig-Zag-Chapter/band-gap-figures/kg-kg-mode2.pdf Graphic file
 Package pdftex.def Info: ./Chapters/Zig-Zag-Chapter/band-gap-figures/kg-kg-mode
 2.pdf, page2 used on input line 214.
 (pdftex.def)             Requested size: 202.15909pt x 151.61708pt.
-
-
-Package natbib Warning: Citation `Nash1996' on page 109 undefined on input line
- 219.
-
-
-LaTeX Warning: Reference `fig:zzbandgapfieldskgkgB' on page 109 undefined on in
-put line 219.
-
-
-LaTeX Warning: Reference `fig:zzbandgapfieldskgkgD' on page 109 undefined on in
-put line 219.
-
-
-LaTeX Warning: Reference `fig:zzbandgapfieldskgkgA' on page 109 undefined on in
-put line 219.
-
-
-LaTeX Warning: Reference `fig:zzbandgapfieldskgkgC' on page 109 undefined on in
-put line 219.
-
-
-LaTeX Warning: Reference `fig:zzbandgapfieldskgkgA' on page 109 undefined on in
-put line 219.
 
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
@@ -4828,7 +3118,7 @@ figures/kg-kg-mode2.pdf): PDF inclusion: multiple pdfs with page group included
  in a single page
 >]
 <./Chapters/Zig-Zag-Chapter/./band-gap-figures/figure-symmetric-unitcell.pdf, i
-d=1933, 325.215pt x 216.81pt>
+d=2976, 325.215pt x 216.81pt>
 File: ./Chapters/Zig-Zag-Chapter/./band-gap-figures/figure-symmetric-unitcell.p
 df Graphic file (type pdf)
 
@@ -4839,7 +3129,7 @@ ymmetric-unitcell.pdf used on input line 230.
 (pdftex.def)             Requested size: 165.02345pt x 110.01915pt.
 
 <./Chapters/Zig-Zag-Chapter/./band-gap-figures/figure-kgkgbandgap-0offset-dispe
-rsion.pdf, id=1934, 289.08pt x 289.08pt>
+rsion.pdf, id=2977, 289.08pt x 289.08pt>
 File: ./Chapters/Zig-Zag-Chapter/./band-gap-figures/figure-kgkgbandgap-0offset-
 dispersion.pdf Graphic file (type pdf)
 
@@ -4850,7 +3140,7 @@ gkgbandgap-0offset-dispersion.pdf used on input line 230.
 (pdftex.def)             Requested size: 165.02345pt x 165.01991pt.
 
 <./Chapters/Zig-Zag-Chapter/./band-gap-figures/figure-symmetric-highamp-unitcel
-l.pdf, id=1935, 325.215pt x 216.81pt>
+l.pdf, id=2978, 325.215pt x 216.81pt>
 File: ./Chapters/Zig-Zag-Chapter/./band-gap-figures/figure-symmetric-highamp-un
 itcell.pdf Graphic file (type pdf)
 
@@ -4861,7 +3151,7 @@ ymmetric-highamp-unitcell.pdf used on input line 236.
 (pdftex.def)             Requested size: 165.02345pt x 110.01915pt.
 
 <./Chapters/Zig-Zag-Chapter/./band-gap-figures/figure-kgkgbandgap-150yoffset-di
-spersion.pdf, id=1936, 289.08pt x 289.08pt>
+spersion.pdf, id=2979, 289.08pt x 289.08pt>
 File: ./Chapters/Zig-Zag-Chapter/./band-gap-figures/figure-kgkgbandgap-150yoffs
 et-dispersion.pdf Graphic file (type pdf)
 
@@ -4870,28 +3160,6 @@ t-dispersion.pdf>
 Package pdftex.def Info: ./Chapters/Zig-Zag-Chapter/./band-gap-figures/figure-k
 gkgbandgap-150yoffset-dispersion.pdf used on input line 236.
 (pdftex.def)             Requested size: 165.02345pt x 165.01991pt.
-
-
-LaTeX Warning: Reference `fig:0kx-bandgap-amplitude-dependence' on page 111 und
-efined on input line 241.
-
-
-Package natbib Warning: Citation `Nash1996' on page 111 undefined on input line
- 242.
-
-
-LaTeX Warning: Reference `c:azigzag' on page 111 undefined on input line 242.
-
-
-<./Chapters/Zig-Zag-Chapter/band-gap-figures/2kg-kg-dispersion.pdf, id=1937, 28
-9.08pt x 216.81pt>
-File: ./Chapters/Zig-Zag-Chapter/band-gap-figures/2kg-kg-dispersion.pdf Graphic
- file (type pdf)
-
-<use ./Chapters/Zig-Zag-Chapter/band-gap-figures/2kg-kg-dispersion.pdf>
-Package pdftex.def Info: ./Chapters/Zig-Zag-Chapter/band-gap-figures/2kg-kg-dis
-persion.pdf used on input line 248.
-(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
@@ -4919,37 +3187,15 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./Chapters/Zig-Zag-Chapter/./band-ga
 p-figures/figure-kgkgbandgap-150yoffset-dispersion.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
 >]
+<./Chapters/Zig-Zag-Chapter/band-gap-figures/2kg-kg-dispersion.pdf, id=3069, 28
+9.08pt x 216.81pt>
+File: ./Chapters/Zig-Zag-Chapter/band-gap-figures/2kg-kg-dispersion.pdf Graphic
+ file (type pdf)
 
-Package natbib Warning: Citation `Barnes1996' on page 112 undefined on input li
-ne 253.
-
-
-LaTeX Warning: Reference `fig:TEdiseprsionInAir' on page 112 undefined on input
- line 253.
-
-
-LaTeX Warning: Reference `fig:shallowzz-dispersion-expt' on page 112 undefined 
-on input line 253.
-
-
-LaTeX Warning: Reference `fig:TEdiseprsionInAir' on page 112 undefined on input
- line 253.
-
-
-LaTeX Warning: Reference `fig:shallowzz-dispersion-theory' on page 112 undefine
-d on input line 253.
-
-
-LaTeX Warning: Reference `fig:shallowzz-dispersion-expt' on page 112 undefined 
-on input line 257.
-
-
-LaTeX Warning: Reference `fig:zzeigen1stBZ' on page 112 undefined on input line
- 257.
-
-
-Package natbib Warning: Citation `Nash1996' on page 112 undefined on input line
- 257.
+<use ./Chapters/Zig-Zag-Chapter/band-gap-figures/2kg-kg-dispersion.pdf>
+Package pdftex.def Info: ./Chapters/Zig-Zag-Chapter/band-gap-figures/2kg-kg-dis
+persion.pdf used on input line 248.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
@@ -4958,22 +3204,9 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
  This may cause the page layout to be inconsistent, however.
 
 [112 <./Chapters/Zig-Zag-Chapter/band-gap-figures/2kg-kg-dispersion.pdf>]
-
-LaTeX Warning: Reference `fig:zzbandgapcartoon' on page 113 undefined on input 
-line 259.
-
 (./Chapters/Zig-Zag-Chapter/figure-standingwave-solution-1BZ-one.tex)
 (./Chapters/Zig-Zag-Chapter/figure-standingwave-solution-1BZ-two.tex)
-
-LaTeX Warning: Reference `fig:zzbandgapfields2' on page 113 undefined on input 
-line 267.
-
-
-LaTeX Warning: Reference `fig:zzeigen1stBZ' on page 113 undefined on input line
- 267.
-
-
-<./Chapters/Zig-Zag-Chapter/band-gap-figures/2kg-kg-mode1-zEq41nm.pdf, id=2058,
+<./Chapters/Zig-Zag-Chapter/band-gap-figures/2kg-kg-mode1-zEq41nm.pdf, id=3113,
  289.08pt x 216.81pt>
 File: ./Chapters/Zig-Zag-Chapter/band-gap-figures/2kg-kg-mode1-zEq41nm.pdf Grap
 hic file (type pdf)
@@ -4983,7 +3216,7 @@ Package pdftex.def Info: ./Chapters/Zig-Zag-Chapter/band-gap-figures/2kg-kg-mod
 e1-zEq41nm.pdf used on input line 270.
 (pdftex.def)             Requested size: 202.15909pt x 151.61708pt.
 
-<./Chapters/Zig-Zag-Chapter/band-gap-figures/2kg-kg-mode2-zEq41nm.pdf, id=2059,
+<./Chapters/Zig-Zag-Chapter/band-gap-figures/2kg-kg-mode2-zEq41nm.pdf, id=3114,
  289.08pt x 216.81pt>
 File: ./Chapters/Zig-Zag-Chapter/band-gap-figures/2kg-kg-mode2-zEq41nm.pdf Grap
 hic file (type pdf)
@@ -5000,12 +3233,7 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
  This may cause the page layout to be inconsistent, however.
 
 [113]
-
-LaTeX Warning: Reference `fig:zzbandgapfields' on page 114 undefined on input l
-ine 276.
-
-
-<./Chapters/Zig-Zag-Chapter/band-gap-figures/2kg-kg-mode1.pdf, id=2067, page=1,
+<./Chapters/Zig-Zag-Chapter/band-gap-figures/2kg-kg-mode1.pdf, id=3122, page=1,
  289.08pt x 216.81pt>
 File: ./Chapters/Zig-Zag-Chapter/band-gap-figures/2kg-kg-mode1.pdf Graphic file
  (type pdf)
@@ -5015,7 +3243,7 @@ Package pdftex.def Info: ./Chapters/Zig-Zag-Chapter/band-gap-figures/2kg-kg-mod
 e1.pdf, page1 used on input line 279.
 (pdftex.def)             Requested size: 202.15909pt x 151.61708pt.
 
-<./Chapters/Zig-Zag-Chapter/band-gap-figures/2kg-kg-mode1.pdf, id=2068, page=2,
+<./Chapters/Zig-Zag-Chapter/band-gap-figures/2kg-kg-mode1.pdf, id=3123, page=2,
  289.08pt x 216.81pt>
 File: ./Chapters/Zig-Zag-Chapter/band-gap-figures/2kg-kg-mode1.pdf Graphic file
  (type pdf)
@@ -5025,7 +3253,7 @@ Package pdftex.def Info: ./Chapters/Zig-Zag-Chapter/band-gap-figures/2kg-kg-mod
 e1.pdf, page2 used on input line 280.
 (pdftex.def)             Requested size: 202.15909pt x 151.61708pt.
 
-<./Chapters/Zig-Zag-Chapter/band-gap-figures/2kg-kg-mode2.pdf, id=2069, page=1,
+<./Chapters/Zig-Zag-Chapter/band-gap-figures/2kg-kg-mode2.pdf, id=3124, page=1,
  289.08pt x 216.81pt>
 File: ./Chapters/Zig-Zag-Chapter/band-gap-figures/2kg-kg-mode2.pdf Graphic file
  (type pdf)
@@ -5035,7 +3263,7 @@ Package pdftex.def Info: ./Chapters/Zig-Zag-Chapter/band-gap-figures/2kg-kg-mod
 e2.pdf, page1 used on input line 281.
 (pdftex.def)             Requested size: 202.15909pt x 151.61708pt.
 
-<./Chapters/Zig-Zag-Chapter/band-gap-figures/2kg-kg-mode2.pdf, id=2070, page=2,
+<./Chapters/Zig-Zag-Chapter/band-gap-figures/2kg-kg-mode2.pdf, id=3125, page=2,
  289.08pt x 216.81pt>
 File: ./Chapters/Zig-Zag-Chapter/band-gap-figures/2kg-kg-mode2.pdf Graphic file
  (type pdf)
@@ -5044,45 +3272,6 @@ File: ./Chapters/Zig-Zag-Chapter/band-gap-figures/2kg-kg-mode2.pdf Graphic file
 Package pdftex.def Info: ./Chapters/Zig-Zag-Chapter/band-gap-figures/2kg-kg-mod
 e2.pdf, page2 used on input line 282.
 (pdftex.def)             Requested size: 202.15909pt x 151.61708pt.
-
-
-LaTeX Warning: Reference `fig:zzbandgapfieldsB' on page 114 undefined on input 
-line 286.
-
-
-LaTeX Warning: Reference `fig:zzbandgapfieldsD' on page 114 undefined on input 
-line 286.
-
-
-LaTeX Warning: Reference `fig:zzbandgapfieldsA' on page 114 undefined on input 
-line 286.
-
-
-LaTeX Warning: Reference `fig:zzbandgapfieldsC' on page 114 undefined on input 
-line 286.
-
-
-LaTeX Warning: Reference `fig:zzbandgapcartoon' on page 114 undefined on input 
-line 286.
-
-
-LaTeX Warning: Reference `fig:zzbandgapfieldsB' on page 114 undefined on input 
-line 286.
-
-
-LaTeX Warning: Reference `fig:zzbandgapfieldsD' on page 114 undefined on input 
-line 286.
-
-
-LaTeX Warning: Reference `c:azigzag' on page 114 undefined on input line 288.
-
-
-Package natbib Warning: Citation `Ozbay2006a' on page 114 undefined on input li
-ne 294.
-
-
-Package natbib Warning: Citation `Zayats2005' on page 114 undefined on input li
-ne 294.
 
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
@@ -5097,14 +3286,6 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./Chapters/Zig-Zag-Chapter/band-gap-
 figures/2kg-kg-mode2-zEq41nm.pdf): PDF inclusion: multiple pdfs with page group
  included in a single page
 >]
-
-Package natbib Warning: Citation `Ogawa2005' on page 115 undefined on input lin
-e 296.
-
-
-Package natbib Warning: Citation `Kosaka1999' on page 115 undefined on input li
-ne 296.
-
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
@@ -5129,35 +3310,13 @@ figures/2kg-kg-mode2.pdf): PDF inclusion: multiple pdfs with page group include
 d in a single page
 >]
 
-Package natbib Warning: Citation `Kim2011' on page 116 undefined on input line 
-298.
+Package Fancyhdr Warning: \headheight is too small (10.743pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-
-Package natbib Warning: Citation `Stein2012' on page 116 undefined on input lin
-e 298.
-
-
-Package natbib Warning: Citation `Luo2002' on page 116 undefined on input line 
-298.
-
-
-Package natbib Warning: Citation `Ruan2006' on page 116 undefined on input line
- 298.
-
-
-Package natbib Warning: Citation `Stein2012' on page 116 undefined on input lin
-e 298.
-
-
-LaTeX Warning: Reference `fig:anisotropic-dispersion-diagrams' on page 116 unde
-fined on input line 304.
-
-
-LaTeX Warning: Reference `fig:anisotropic-dispersion-diagrams' on page 116 unde
-fined on input line 304.
-
-
-<./Chapters/Zig-Zag-Chapter/figure-symzz-AIR-dispersion-rss.pdf, id=2167, 361.3
+[116]
+<./Chapters/Zig-Zag-Chapter/figure-symzz-AIR-dispersion-rss.pdf, id=3248, 361.3
 5pt x 289.08pt>
 File: ./Chapters/Zig-Zag-Chapter/figure-symzz-AIR-dispersion-rss.pdf Graphic fi
 le (type pdf)
@@ -5167,7 +3326,7 @@ Package pdftex.def Info: ./Chapters/Zig-Zag-Chapter/figure-symzz-AIR-dispersion
 -rss.pdf used on input line 308.
 (pdftex.def)             Requested size: 185.65297pt x 148.52277pt.
 
-<./Chapters/Zig-Zag-Chapter/figure-symzz-AIR-dispersion-rpp-90azi.pdf, id=2168,
+<./Chapters/Zig-Zag-Chapter/figure-symzz-AIR-dispersion-rpp-90azi.pdf, id=3249,
  361.35pt x 289.08pt>
 File: ./Chapters/Zig-Zag-Chapter/figure-symzz-AIR-dispersion-rpp-90azi.pdf Grap
 hic file (type pdf)
@@ -5177,20 +3336,8 @@ Package pdftex.def Info: ./Chapters/Zig-Zag-Chapter/figure-symzz-AIR-dispersion
 -rpp-90azi.pdf used on input line 309.
 (pdftex.def)             Requested size: 185.65297pt x 148.52277pt.
 
-
-Package Fancyhdr Warning: \headheight is too small (10.743pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[116]
-
-LaTeX Warning: Reference `fig:anistropic-zigzag-scattergrams' on page 117 undef
-ined on input line 316.
-
-
 <./Chapters/Zig-Zag-Chapter/scattergrams/figure-650nm-scattergram-withaxes.png,
- id=2173, 1355.0625pt x 1053.9375pt>
+ id=3251, 1355.0625pt x 1053.9375pt>
 File: ./Chapters/Zig-Zag-Chapter/scattergrams/figure-650nm-scattergram-withaxes
 .png Graphic file (type png)
 
@@ -5201,7 +3348,7 @@ cattergram-withaxes.png used on input line 319.
 (pdftex.def)             Requested size: 205.0658pt x 159.48291pt.
 
 <./Chapters/Zig-Zag-Chapter/scattergrams/figure-600nm-scattergram-withaxes.png,
- id=2174, 1355.0625pt x 1053.9375pt>
+ id=3252, 1355.0625pt x 1053.9375pt>
 File: ./Chapters/Zig-Zag-Chapter/scattergrams/figure-600nm-scattergram-withaxes
 .png Graphic file (type png)
 
@@ -5220,7 +3367,7 @@ cattergram-withaxes.png used on input line 321.
 (pdftex.def)             Requested size: 205.0658pt x 159.48291pt.
 
 <./Chapters/Zig-Zag-Chapter/scattergrams/figure-550nm-scattergram-withaxes.png,
- id=2175, 1355.0625pt x 1053.9375pt>
+ id=3253, 1355.0625pt x 1053.9375pt>
 File: ./Chapters/Zig-Zag-Chapter/scattergrams/figure-550nm-scattergram-withaxes
 .png Graphic file (type png)
 
@@ -5231,7 +3378,7 @@ cattergram-withaxes.png used on input line 322.
 (pdftex.def)             Requested size: 205.0658pt x 159.48291pt.
 
 <./Chapters/Zig-Zag-Chapter/scattergrams/figure-500nm-scattergram-withaxes.png,
- id=2176, 1355.0625pt x 1053.9375pt>
+ id=3254, 1355.0625pt x 1053.9375pt>
 File: ./Chapters/Zig-Zag-Chapter/scattergrams/figure-500nm-scattergram-withaxes
 .png Graphic file (type png)
 
@@ -5242,7 +3389,7 @@ cattergram-withaxes.png used on input line 323.
 (pdftex.def)             Requested size: 205.0658pt x 159.48291pt.
 
 <./Chapters/Zig-Zag-Chapter/scattergrams/figure-450nm-scattergram-withaxes.png,
- id=2177, 1355.0625pt x 1053.9375pt>
+ id=3255, 1355.0625pt x 1053.9375pt>
 File: ./Chapters/Zig-Zag-Chapter/scattergrams/figure-450nm-scattergram-withaxes
 .png Graphic file (type png)
 
@@ -5251,18 +3398,6 @@ png>
 Package pdftex.def Info: ./Chapters/Zig-Zag-Chapter/scattergrams/figure-450nm-s
 cattergram-withaxes.png used on input line 324.
 (pdftex.def)             Requested size: 205.0658pt x 159.48291pt.
-
-
-LaTeX Warning: Reference `sec:TEexciatation' on page 117 undefined on input lin
-e 328.
-
-
-LaTeX Warning: Reference `sec:TEexciatation' on page 117 undefined on input lin
-e 328.
-
-
-LaTeX Warning: Reference `fig:450scatter' on page 117 undefined on input line 3
-30.
 
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
@@ -5289,8 +3424,8 @@ s.png> <./Chapters/Zig-Zag-Chapter/scattergrams/figure-550nm-scattergram-withax
 es.png> <./Chapters/Zig-Zag-Chapter/scattergrams/figure-500nm-scattergram-witha
 xes.png> <./Chapters/Zig-Zag-Chapter/scattergrams/figure-450nm-scattergram-with
 axes.png>]
-<./Chapters/Zig-Zag-Chapter/scattergrams/figure-450nm-collimatedSPPs.png, id=22
-56, 1355.0625pt x 1053.9375pt>
+<./Chapters/Zig-Zag-Chapter/scattergrams/figure-450nm-collimatedSPPs.png, id=33
+35, 1355.0625pt x 1053.9375pt>
 File: ./Chapters/Zig-Zag-Chapter/scattergrams/figure-450nm-collimatedSPPs.png G
 raphic file (type png)
 
@@ -5300,21 +3435,6 @@ ollimatedSPPs.png used on input line 334.
 (pdftex.def)             Requested size: 247.54149pt x 192.53096pt.
 
 
-LaTeX Warning: Reference `c:oblique' on page 119 undefined on input line 339.
-
-
-LaTeX Warning: Reference `fig:450scatter' on page 119 undefined on input line 3
-39.
-
-
-Package natbib Warning: Citation `Stein2012' on page 119 undefined on input lin
-e 339.
-
-
-LaTeX Warning: Reference `fig:450scatter' on page 119 undefined on input line 3
-41.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
@@ -5322,16 +3442,12 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
 
 [119 <./Chapters/Zig-Zag-Chapter/scattergrams/figure-450nm-collimatedSPPs.png>]
 
-LaTeX Warning: Reference `c:azigzag' on page 120 undefined on input line 350.
-
-)
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[120]
+[120])
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
@@ -5340,92 +3456,13 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
 
 [121]
 Chapter 8.
-(./Chapters/Azigzag-chapter/chapter-Azigzag.tex
-
-LaTeX Warning: Reference `c:zigzag' on page 122 undefined on input line 3.
-
-
-LaTeX Warning: Reference `c:zigzag' on page 122 undefined on input line 3.
-
-
-Package natbib Warning: Citation `Plum2010' on page 122 undefined on input line
- 5.
-
-
-Package natbib Warning: Citation `Genet2008' on page 122 undefined on input lin
-e 5.
-
-
-Package natbib Warning: Citation `Schwanecke2008' on page 122 undefined on inpu
-t line 5.
-
-
-Package natbib Warning: Citation `Kao2010' on page 122 undefined on input line 
-5.
-
-
-Package natbib Warning: Citation `Fedotov2007a' on page 122 undefined on input 
-line 5.
-
-
-Package natbib Warning: Citation `Popov2008' on page 122 undefined on input lin
-e 7.
-
-
-Package natbib Warning: Citation `Hibbins1998' on page 122 undefined on input l
-ine 7.
-
-
-Package natbib Warning: Citation `Watts1996' on page 122 undefined on input lin
-e 7.
-
-
-Package natbib Warning: Citation `Bonod2008' on page 122 undefined on input lin
-e 7.
-
-
-Package natbib Warning: Citation `Ozbay2006a' on page 122 undefined on input li
-ne 7.
-
-[122
+(./Chapters/Azigzag-chapter/chapter-Azigzag.tex [122
 
 ]
-
-LaTeX Warning: Reference `sec:asym-bandstructure' on page 123 undefined on inpu
-t line 9.
-
-
-LaTeX Warning: Reference `sec:asym-bandstructure' on page 123 undefined on inpu
-t line 9.
-
-
-LaTeX Warning: Reference `c:zigzag' on page 123 undefined on input line 9.
-
-
-Package natbib Warning: Citation `Okamoto2004' on page 123 undefined on input l
-ine 11.
-
-
-Package natbib Warning: Citation `H'Dhili2011' on page 123 undefined on input l
-ine 11.
-
-
-Package natbib Warning: Citation `Okamoto2008' on page 123 undefined on input l
-ine 11.
-
-
-Package natbib Warning: Citation `Berini2011' on page 123 undefined on input li
-ne 11.
-
-
-Package natbib Warning: Citation `Kitson1996' on page 123 undefined on input li
-ne 11.
-
-
 (./Chapters/Azigzag-chapter/figure-asymmetric-zigzag-coordinated-latexannotatio
 ns.pdf_tex
 <./Chapters/Azigzag-chapter/figure-asymmetric-zigzag-coordinated-latexannotatio
-ns.pdf, id=2278, 293.20956pt x 239.74374pt>
+ns.pdf, id=3377, 293.20956pt x 239.74374pt>
 File: ./Chapters/Azigzag-chapter/figure-asymmetric-zigzag-coordinated-latexanno
 tations.pdf Graphic file (type pdf)
 
@@ -5439,12 +3476,8 @@ ordinated-latexannotations.pdf used on input line 52.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `fig:asymzz-coords' on page 123 undefined on input lin
-e 22.
-
-
-<./Chapters/Azigzag-chapter/./hfss-bandgaps/figure-symmetric-unitcell.pdf, id=2
-279, 325.215pt x 216.81pt>
+<./Chapters/Azigzag-chapter/./hfss-bandgaps/figure-symmetric-unitcell.pdf, id=3
+379, 325.215pt x 216.81pt>
 File: ./Chapters/Azigzag-chapter/./hfss-bandgaps/figure-symmetric-unitcell.pdf 
 Graphic file (type pdf)
 
@@ -5453,7 +3486,7 @@ Package pdftex.def Info: ./Chapters/Azigzag-chapter/./hfss-bandgaps/figure-symm
 etric-unitcell.pdf used on input line 27.
 (pdftex.def)             Requested size: 185.65297pt x 123.77155pt.
 
-<./Chapters/Azigzag-chapter/figure-asymmetric-unitcell-extralabels.pdf, id=2280
+<./Chapters/Azigzag-chapter/figure-asymmetric-unitcell-extralabels.pdf, id=3380
 , 325.215pt x 216.81pt>
 File: ./Chapters/Azigzag-chapter/figure-asymmetric-unitcell-extralabels.pdf Gra
 phic file (type pdf)
@@ -5464,26 +3497,13 @@ extralabels.pdf used on input line 29.
 (pdftex.def)             Requested size: 185.65297pt x 123.77155pt.
 
 
-LaTeX Warning: Reference `c:zigzag' on page 123 undefined on input line 31.
-
-
-LaTeX Warning: Reference `c:zigzag' on page 123 undefined on input line 31.
-
-
-LaTeX Warning: Reference `c:zigzag' on page 123 undefined on input line 34.
-
-
-LaTeX Warning: Reference `fig:azz-unitcells' on page 123 undefined on input lin
-e 34.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [123]
-<./Chapters/Azigzag-chapter/sem-master.jpg, id=2286, 1027.84pt x 946.53625pt>
+<./Chapters/Azigzag-chapter/sem-master.jpg, id=3392, 1027.84pt x 946.53625pt>
 File: ./Chapters/Azigzag-chapter/sem-master.jpg Graphic file (type jpg)
 
 <use ./Chapters/Azigzag-chapter/sem-master.jpg>
@@ -5491,33 +3511,13 @@ Package pdftex.def Info: ./Chapters/Azigzag-chapter/sem-master.jpg used on inpu
 t line 38.
 (pdftex.def)             Requested size: 202.15909pt x 186.15533pt.
 
-<./Chapters/Azigzag-chapter/pic_016.jpg, id=2287, 1027.84pt x 946.53625pt>
+<./Chapters/Azigzag-chapter/pic_016.jpg, id=3393, 1027.84pt x 946.53625pt>
 File: ./Chapters/Azigzag-chapter/pic_016.jpg Graphic file (type jpg)
 
 <use ./Chapters/Azigzag-chapter/pic_016.jpg>
 Package pdftex.def Info: ./Chapters/Azigzag-chapter/pic_016.jpg used on input l
 ine 39.
 (pdftex.def)             Requested size: 202.15909pt x 186.15533pt.
-
-
-LaTeX Warning: Reference `c:experimentalmethods' on page 124 undefined on input
- line 43.
-
-
-LaTeX Warning: Reference `fig:azz-sems' on page 124 undefined on input line 43.
-
-
-
-LaTeX Warning: Reference `fig:azz-sems' on page 124 undefined on input line 45.
-
-
-
-LaTeX Warning: Reference `fig:azz-unitcells' on page 124 undefined on input lin
-e 47.
-
-
-LaTeX Warning: Reference `fig:azz-unitcells' on page 124 undefined on input lin
-e 47.
 
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
@@ -5540,25 +3540,8 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./Chapters/Azigzag-chapter/figure-as
 ymmetric-unitcell-extralabels.pdf): PDF inclusion: multiple pdfs with page grou
 p included in a single page
 > <./Chapters/Azigzag-chapter/sem-master.jpg> <./Chapters/Azigzag-chapter/pic_0
-16.jpg>]
-
-LaTeX Warning: Reference `c:zigzag' on page 126 undefined on input line 52.
-
-
-LaTeX Warning: Reference `c:zigzag' on page 126 undefined on input line 52.
-
-
-LaTeX Warning: Reference `eq:etm' on page 126 undefined on input line 52.
-
-
-LaTeX Warning: Reference `eq:ete' on page 126 undefined on input line 52.
-
-
-LaTeX Warning: Reference `fig:asymcouplingcartoon' on page 126 undefined on inp
-ut line 54.
-
-(./Chapters/Azigzag-chapter/figure-asymzz-coupling.pdf_tex
-<./Chapters/Azigzag-chapter/figure-asymzz-coupling.pdf, id=2346, 582.06412pt x 
+16.jpg>] (./Chapters/Azigzag-chapter/figure-asymzz-coupling.pdf_tex
+<./Chapters/Azigzag-chapter/figure-asymzz-coupling.pdf, id=3460, 582.06412pt x 
 375.40407pt>
 File: ./Chapters/Azigzag-chapter/figure-asymzz-coupling.pdf Graphic file (type 
 pdf)
@@ -5567,10 +3550,6 @@ Package pdftex.def Info: ./Chapters/Azigzag-chapter/figure-asymzz-coupling.pdf
 used on input line 52.
 (pdftex.def)             Requested size: 412.56496pt x 266.08049pt.
 )
-
-LaTeX Warning: Reference `fig:asymcouplingcartoon' on page 126 undefined on inp
-ut line 64.
-
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
@@ -5585,17 +3564,6 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
  This may cause the page layout to be inconsistent, however.
 
 [127 <./Chapters/Azigzag-chapter/figure-asymzz-coupling.pdf>]
-
-LaTeX Warning: Reference `c:zigzag' on page 128 undefined on input line 68.
-
-
-LaTeX Warning: Reference `fig:as-piecewisefuncs' on page 128 undefined on input
- line 71.
-
-
-LaTeX Warning: Reference `fig:as-piecewisefuncs' on page 128 undefined on input
- line 79.
-
 (./Chapters/Azigzag-chapter/fig-asy-functions.tex)
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
@@ -5603,48 +3571,22 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[128]
-
-LaTeX Warning: Reference `fig:as-maxEwithdelta' on page 129 undefined on input 
-line 95.
-
-(./Chapters/Azigzag-chapter/figure-asymzz-emax-with-offset.tex)
-
-Package natbib Warning: Citation `Goodman2005' on page 129 undefined on input l
-ine 104.
-
+[128] (./Chapters/Azigzag-chapter/figure-asymzz-emax-with-offset.tex)
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[129]
-
-LaTeX Warning: Reference `fig:as-fouriers' on page 130 undefined on input line 
-108.
-
-(./Chapters/Azigzag-chapter/figure-azz-fourier-coeffs-TE.tex)
+[129] (./Chapters/Azigzag-chapter/figure-azz-fourier-coeffs-TE.tex)
 (./Chapters/Azigzag-chapter/figure-azz-fourier-coeffs-TM.tex)
 
-LaTeX Warning: Reference `c:zigzag' on page 130 undefined on input line 119.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[130]
-
-LaTeX Warning: Reference `fig:azz-teandtmR' on page 131 undefined on input line
- 122.
-
-(./Chapters/Azigzag-chapter/figure-asymzz-anglescan.tex)
-
-LaTeX Warning: Reference `c:experimentalmethods' on page 131 undefined on input
- line 129.
-
+[130] (./Chapters/Azigzag-chapter/figure-asymzz-anglescan.tex)
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
@@ -5653,25 +3595,13 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
 
 [131]
 
-LaTeX Warning: Reference `fig:as-fouriers' on page 132 undefined on input line 
-135.
-
-
-LaTeX Warning: Reference `fig:azz-dispersion' on page 132 undefined on input li
-ne 137.
-
-
-LaTeX Warning: Reference `c:experimentalmethods' on page 132 undefined on input
- line 137.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [132]
-<./Chapters/Azigzag-chapter/figure-asym-zz-TE-dispersion.pdf, id=2402, 361.35pt
+<./Chapters/Azigzag-chapter/figure-asym-zz-TE-dispersion.pdf, id=3520, 361.35pt
  x 289.08pt>
 File: ./Chapters/Azigzag-chapter/figure-asym-zz-TE-dispersion.pdf Graphic file 
 (type pdf)
@@ -5680,7 +3610,7 @@ Package pdftex.def Info: ./Chapters/Azigzag-chapter/figure-asym-zz-TE-dispersio
 n.pdf used on input line 141.
 (pdftex.def)             Requested size: 202.15909pt x 161.7293pt.
 
-<./Chapters/Azigzag-chapter/figure-asym-zz-TM-dispersion.pdf, id=2403, 361.35pt
+<./Chapters/Azigzag-chapter/figure-asym-zz-TM-dispersion.pdf, id=3521, 361.35pt
  x 289.08pt>
 File: ./Chapters/Azigzag-chapter/figure-asym-zz-TM-dispersion.pdf Graphic file 
 (type pdf)
@@ -5689,27 +3619,7 @@ Package pdftex.def Info: ./Chapters/Azigzag-chapter/figure-asym-zz-TM-dispersio
 n.pdf used on input line 142.
 (pdftex.def)             Requested size: 202.15909pt x 161.7293pt.
 
-
-LaTeX Warning: Reference `fig:azz-dispersionTE' on page 133 undefined on input 
-line 147.
-
-
-LaTeX Warning: Reference `fig:azz-dispersionTM' on page 133 undefined on input 
-line 147.
-
-
-LaTeX Warning: Reference `fig:as-fouriers' on page 133 undefined on input line 
-147.
-
-
-LaTeX Warning: Reference `c:zigzag' on page 133 undefined on input line 147.
-
-
-LaTeX Warning: Reference `fig:azz-dispersion' on page 133 undefined on input li
-ne 147.
-
-
-<./Chapters/Azigzag-chapter/figure-asym-zz-noPol-dispersion.pdf, id=2404, 361.3
+<./Chapters/Azigzag-chapter/figure-asym-zz-noPol-dispersion.pdf, id=3527, 361.3
 5pt x 289.08pt>
 File: ./Chapters/Azigzag-chapter/figure-asym-zz-noPol-dispersion.pdf Graphic fi
 le (type pdf)
@@ -5718,22 +3628,6 @@ le (type pdf)
 Package pdftex.def Info: ./Chapters/Azigzag-chapter/figure-asym-zz-noPol-disper
 sion.pdf used on input line 151.
 (pdftex.def)             Requested size: 247.54149pt x 198.03183pt.
-
-
-LaTeX Warning: Reference `fig:azz-dispersionUPOL' on page 133 undefined on inpu
-t line 156.
-
-
-Package natbib Warning: Citation `Epstein2012' on page 133 undefined on input l
-ine 156.
-
-
-Package natbib Warning: Citation `Boltasseva2006' on page 133 undefined on inpu
-t line 156.
-
-
-Package natbib Warning: Citation `Jestl1988' on page 133 undefined on input lin
-e 156.
 
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
@@ -5748,9 +3642,6 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./Chapters/Azigzag-chapter/figure-as
 ym-zz-TM-dispersion.pdf): PDF inclusion: multiple pdfs with page group included
  in a single page
 >]
-
-LaTeX Warning: Reference `c:zigzag' on page 134 undefined on input line 160.
-
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
@@ -5772,7 +3663,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 
 <./Chapters/Azigzag-chapter/../Zig-Zag-Chapter/scattergrams/figure-550nm-scatte
-rgram-withaxes.png, id=2498, 1355.0625pt x 1053.9375pt>
+rgram-withaxes.png, id=3627, 1355.0625pt x 1053.9375pt>
 File: ./Chapters/Azigzag-chapter/../Zig-Zag-Chapter/scattergrams/figure-550nm-s
 cattergram-withaxes.png Graphic file (type png)
 
@@ -5783,7 +3674,7 @@ rams/figure-550nm-scattergram-withaxes.png used on input line 168.
 (pdftex.def)             Requested size: 202.15909pt x 157.23146pt.
 
 <./Chapters/Azigzag-chapter/scattergrams/figure-550nm-scattergram-withaxes-andi
-nset.png, id=2499, 1355.0625pt x 1053.9375pt>
+nset.png, id=3628, 1355.0625pt x 1053.9375pt>
 File: ./Chapters/Azigzag-chapter/scattergrams/figure-550nm-scattergram-withaxes
 -andinset.png Graphic file (type png)
 
@@ -5792,15 +3683,6 @@ andinset.png>
 Package pdftex.def Info: ./Chapters/Azigzag-chapter/scattergrams/figure-550nm-s
 cattergram-withaxes-andinset.png used on input line 169.
 (pdftex.def)             Requested size: 202.15909pt x 157.23146pt.
-
-
-LaTeX Warning: Reference `c:zigzag' on page 135 undefined on input line 171.
-
-
-LaTeX Warning: Reference `c:zigzag' on page 135 undefined on input line 171.
-
-
-LaTeX Warning: Reference `c:zigzag' on page 135 undefined on input line 174.
 
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
@@ -5812,32 +3694,6 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
 cattergram-withaxes.png> <./Chapters/Azigzag-chapter/scattergrams/figure-550nm-
 scattergram-withaxes-andinset.png>]
 
-LaTeX Warning: Reference `sec:asym-about' on page 136 undefined on input line 1
-76.
-
-
-LaTeX Warning: Reference `fig:asy550scattergramsB' on page 136 undefined on inp
-ut line 176.
-
-
-LaTeX Warning: Reference `c:zigzag' on page 136 undefined on input line 176.
-
-
-LaTeX Warning: Reference `fig:asy550scattergramsA' on page 136 undefined on inp
-ut line 176.
-
-
-LaTeX Warning: Reference `fig:asy550scattergramsB' on page 136 undefined on inp
-ut line 176.
-
-
-LaTeX Warning: Reference `fig:asy550scattergramsA' on page 136 undefined on inp
-ut line 176.
-
-
-LaTeX Warning: Reference `c:zigzag' on page 136 undefined on input line 176.
-
-
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 180.
 
@@ -5848,17 +3704,6 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 180.
-
-
-LaTeX Warning: Reference `c:zigzag' on page 136 undefined on input line 182.
-
-
-LaTeX Warning: Reference `fig:azz-dispersionUPOL' on page 136 undefined on inpu
-t line 184.
-
-
-LaTeX Warning: Reference `fig:asy-bandgap-fem-unitcells' on page 136 undefined 
-on input line 186.
 
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
@@ -5875,8 +3720,8 @@ Package pdftex.def Info: ./Chapters/Azigzag-chapter/./hfss-bandgaps/figure-symm
 etric-unitcell.pdf used on input line 195.
 (pdftex.def)             Requested size: 123.77074pt x 82.51436pt.
 
-<./Chapters/Azigzag-chapter/./hfss-bandgaps/figure-symmetric-bandgaps.pdf, id=2
-517, 289.08pt x 289.08pt>
+<./Chapters/Azigzag-chapter/./hfss-bandgaps/figure-symmetric-bandgaps.pdf, id=3
+655, 289.08pt x 289.08pt>
 File: ./Chapters/Azigzag-chapter/./hfss-bandgaps/figure-symmetric-bandgaps.pdf 
 Graphic file (type pdf)
 
@@ -5886,7 +3731,7 @@ etric-bandgaps.pdf used on input line 195.
 (pdftex.def)             Requested size: 123.77074pt x 123.76823pt.
 
 <./Chapters/Azigzag-chapter/./hfss-bandgaps/figure-symmetric-highamp-unitcell.p
-df, id=2518, 325.215pt x 216.81pt>
+df, id=3656, 325.215pt x 216.81pt>
 File: ./Chapters/Azigzag-chapter/./hfss-bandgaps/figure-symmetric-highamp-unitc
 ell.pdf Graphic file (type pdf)
 
@@ -5897,7 +3742,7 @@ etric-highamp-unitcell.pdf used on input line 201.
 (pdftex.def)             Requested size: 123.77074pt x 82.51436pt.
 
 <./Chapters/Azigzag-chapter/./hfss-bandgaps/figure-symmetric-highamp-bandgaps.p
-df, id=2519, 289.08pt x 289.08pt>
+df, id=3657, 289.08pt x 289.08pt>
 File: ./Chapters/Azigzag-chapter/./hfss-bandgaps/figure-symmetric-highamp-bandg
 aps.pdf Graphic file (type pdf)
 
@@ -5908,7 +3753,7 @@ etric-highamp-bandgaps.pdf used on input line 201.
 (pdftex.def)             Requested size: 123.77074pt x 123.76823pt.
 
 <./Chapters/Azigzag-chapter/./hfss-bandgaps/figure-asymmetric-unitcell.pdf, id=
-2520, 325.215pt x 216.81pt>
+3658, 325.215pt x 216.81pt>
 File: ./Chapters/Azigzag-chapter/./hfss-bandgaps/figure-asymmetric-unitcell.pdf
  Graphic file (type pdf)
 
@@ -5918,7 +3763,7 @@ metric-unitcell.pdf used on input line 207.
 (pdftex.def)             Requested size: 123.77074pt x 82.51436pt.
 
 <./Chapters/Azigzag-chapter/./hfss-bandgaps/figure-asymmetric-bandgaps.pdf, id=
-2521, 289.08pt x 289.08pt>
+3659, 289.08pt x 289.08pt>
 File: ./Chapters/Azigzag-chapter/./hfss-bandgaps/figure-asymmetric-bandgaps.pdf
  Graphic file (type pdf)
 
@@ -5927,27 +3772,8 @@ Package pdftex.def Info: ./Chapters/Azigzag-chapter/./hfss-bandgaps/figure-asym
 metric-bandgaps.pdf used on input line 207.
 (pdftex.def)             Requested size: 123.77074pt x 123.76823pt.
 
-LaTeX Warning: Reference `fig:asy-bandgap-fem-unitcellsA' on page 137 undefined
- on input line 212.
-
-
-LaTeX Warning: Reference `c:zigzag' on page 137 undefined on input line 212.
-
-
-LaTeX Warning: Reference `fig:asy-bandgap-fem-unitcellsB' on page 137 undefined
- on input line 212.
-
-
-LaTeX Warning: Reference `fig:asy-bandgap-fem-unitcellsC' on page 137 undefined
- on input line 212.
-
-
-LaTeX Warning: Reference `fig:aszz-bandgaops-mage-xz' on page 137 undefined on 
-input line 214.
-
-
 <./Chapters/Azigzag-chapter/./hfss-bandgaps-fieldplots/figure-band1-y75nm.pdf, 
-id=2522, 361.35pt x 216.81pt>
+id=3665, 361.35pt x 216.81pt>
 File: ./Chapters/Azigzag-chapter/./hfss-bandgaps-fieldplots/figure-band1-y75nm.
 pdf Graphic file (type pdf)
 
@@ -5958,7 +3784,7 @@ figure-band1-y75nm.pdf used on input line 218.
 (pdftex.def)             Requested size: 202.15909pt x 121.29697pt.
 
 <./Chapters/Azigzag-chapter/./hfss-bandgaps-fieldplots/figure-band2-y75nm.pdf, 
-id=2523, 361.35pt x 216.81pt>
+id=3666, 361.35pt x 216.81pt>
 File: ./Chapters/Azigzag-chapter/./hfss-bandgaps-fieldplots/figure-band2-y75nm.
 pdf Graphic file (type pdf)
 
@@ -5998,13 +3824,8 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./Chapters/Azigzag-chapter/./hfss-ba
 ndgaps/figure-asymmetric-bandgaps.pdf): PDF inclusion: multiple pdfs with page 
 group included in a single page
 >]
-
-LaTeX Warning: Reference `fig:asyzz-magE-xz-41nm' on page 138 undefined on inpu
-t line 226.
-
-
 <./Chapters/Azigzag-chapter/./hfss-bandgaps-fieldplots/figure-band1-z41nm.pdf, 
-id=2636, 361.35pt x 216.81pt>
+id=3780, 361.35pt x 216.81pt>
 File: ./Chapters/Azigzag-chapter/./hfss-bandgaps-fieldplots/figure-band1-z41nm.
 pdf Graphic file (type pdf)
 
@@ -6015,7 +3836,7 @@ figure-band1-z41nm.pdf used on input line 230.
 (pdftex.def)             Requested size: 202.15909pt x 121.29697pt.
 
 <./Chapters/Azigzag-chapter/./hfss-bandgaps-fieldplots/figure-band2-z41nm.pdf, 
-id=2637, 361.35pt x 216.81pt>
+id=3781, 361.35pt x 216.81pt>
 File: ./Chapters/Azigzag-chapter/./hfss-bandgaps-fieldplots/figure-band2-z41nm.
 pdf Graphic file (type pdf)
 
@@ -6025,7 +3846,7 @@ Package pdftex.def Info: ./Chapters/Azigzag-chapter/./hfss-bandgaps-fieldplots/
 figure-band2-z41nm.pdf used on input line 231.
 (pdftex.def)             Requested size: 202.15909pt x 121.29697pt.
 
-<./Chapters/Azigzag-chapter/figure-bandgap-Asymzz-close.pdf, id=2638, page=2, 3
+<./Chapters/Azigzag-chapter/figure-bandgap-Asymzz-close.pdf, id=3782, page=2, 3
 97.485pt x 289.08pt>
 File: ./Chapters/Azigzag-chapter/figure-bandgap-Asymzz-close.pdf Graphic file (
 type pdf)
@@ -6035,7 +3856,7 @@ Package pdftex.def Info: ./Chapters/Azigzag-chapter/figure-bandgap-Asymzz-close
 .pdf, page2 used on input line 244.
 (pdftex.def)             Requested size: 132.0238pt x 96.01863pt.
 
-<./Chapters/Azigzag-chapter/figure-bandgap-Asymzz-close.pdf, id=2639, page=1, 3
+<./Chapters/Azigzag-chapter/figure-bandgap-Asymzz-close.pdf, id=3783, page=1, 3
 97.485pt x 289.08pt>
 File: ./Chapters/Azigzag-chapter/figure-bandgap-Asymzz-close.pdf Graphic file (
 type pdf)
@@ -6045,7 +3866,7 @@ Package pdftex.def Info: ./Chapters/Azigzag-chapter/figure-bandgap-Asymzz-close
 .pdf, page1 used on input line 245.
 (pdftex.def)             Requested size: 132.0238pt x 96.01863pt.
 
-<./Chapters/Azigzag-chapter/figure-bandgap-Asymzz-close.pdf, id=2640, page=3, 3
+<./Chapters/Azigzag-chapter/figure-bandgap-Asymzz-close.pdf, id=3784, page=3, 3
 97.485pt x 289.08pt>
 File: ./Chapters/Azigzag-chapter/figure-bandgap-Asymzz-close.pdf Graphic file (
 type pdf)
@@ -6054,10 +3875,6 @@ type pdf)
 Package pdftex.def Info: ./Chapters/Azigzag-chapter/figure-bandgap-Asymzz-close
 .pdf, page3 used on input line 246.
 (pdftex.def)             Requested size: 132.0238pt x 96.01863pt.
-
-
-LaTeX Warning: Reference `fig-asym-bandedges' on page 138 undefined on input li
-ne 251.
 
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
@@ -6073,10 +3890,6 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./Chapters/Azigzag-chapter/./hfss-ba
 ndgaps-fieldplots/figure-band2-y75nm.pdf): PDF inclusion: multiple pdfs with pa
 ge group included in a single page
 >]
-
-Package natbib Warning: Citation `Damask2004' on page 139 undefined on input li
-ne 253.
-
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
@@ -6106,16 +3919,7 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./Chapters/Azigzag-chapter/figure-ba
 ndgap-Asymzz-close.pdf): PDF inclusion: multiple pdfs with page group included 
 in a single page
 >]
-
-LaTeX Warning: Reference `fig:asyzz-magE-xz-41nm' on page 140 undefined on inpu
-t line 262.
-
-
-LaTeX Warning: Reference `fig:asm-overlaps' on page 140 undefined on input line
- 266.
-
-
-<./Chapters/Azigzag-chapter/overlaps/figure-overlap-intergrals.pdf, id=2742, pa
+<./Chapters/Azigzag-chapter/overlaps/figure-overlap-intergrals.pdf, id=3887, pa
 ge=1, 325.215pt x 216.81pt>
 File: ./Chapters/Azigzag-chapter/overlaps/figure-overlap-intergrals.pdf Graphic
  file (type pdf)
@@ -6125,7 +3929,7 @@ Package pdftex.def Info: ./Chapters/Azigzag-chapter/overlaps/figure-overlap-int
 ergrals.pdf, page1 used on input line 270.
 (pdftex.def)             Requested size: 202.15909pt x 134.77478pt.
 
-<./Chapters/Azigzag-chapter/overlaps/figure-overlap-intergrals.pdf, id=2743, pa
+<./Chapters/Azigzag-chapter/overlaps/figure-overlap-intergrals.pdf, id=3888, pa
 ge=2, 325.215pt x 216.81pt>
 File: ./Chapters/Azigzag-chapter/overlaps/figure-overlap-intergrals.pdf Graphic
  file (type pdf)
@@ -6135,38 +3939,14 @@ Package pdftex.def Info: ./Chapters/Azigzag-chapter/overlaps/figure-overlap-int
 ergrals.pdf, page2 used on input line 271.
 (pdftex.def)             Requested size: 202.15909pt x 134.77478pt.
 
-LaTeX Warning: Reference `fig:asm-overlaps' on page 140 undefined on input line
- 276.
-
-
-Package natbib Warning: Citation `Barnes1996' on page 140 undefined on input li
-ne 276.
-
-
-Package natbib Warning: Citation `Kitson1996' on page 140 undefined on input li
-ne 276.
-
-
-LaTeX Warning: Reference `c:experimentalmethods' on page 140 undefined on input
- line 276.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [140]
-
-LaTeX Warning: Reference `c:zigzag' on page 141 undefined on input line 287.
-
-
-LaTeX Warning: Reference `fig:asymscattergramsALL' on page 141 undefined on inp
-ut line 288.
-
-
 <./Chapters/Azigzag-chapter/scattergrams/figure-650nm-scattergram-withaxes.png,
- id=2750, 1355.0625pt x 1053.9375pt>
+ id=3901, 1355.0625pt x 1053.9375pt>
 File: ./Chapters/Azigzag-chapter/scattergrams/figure-650nm-scattergram-withaxes
 .png Graphic file (type png)
 
@@ -6177,7 +3957,7 @@ cattergram-withaxes.png used on input line 291.
 (pdftex.def)             Requested size: 205.0658pt x 159.48291pt.
 
 <./Chapters/Azigzag-chapter/scattergrams/figure-600nm-scattergram-withaxes.png,
- id=2751, 1355.0625pt x 1053.9375pt>
+ id=3902, 1355.0625pt x 1053.9375pt>
 File: ./Chapters/Azigzag-chapter/scattergrams/figure-600nm-scattergram-withaxes
 .png Graphic file (type png)
 
@@ -6188,7 +3968,7 @@ cattergram-withaxes.png used on input line 292.
 (pdftex.def)             Requested size: 205.0658pt x 159.48291pt.
 
 <./Chapters/Azigzag-chapter/scattergrams/figure-580nm-scattergram-withaxes.png,
- id=2752, 1355.0625pt x 1053.9375pt>
+ id=3903, 1355.0625pt x 1053.9375pt>
 File: ./Chapters/Azigzag-chapter/scattergrams/figure-580nm-scattergram-withaxes
 .png Graphic file (type png)
 
@@ -6199,7 +3979,7 @@ cattergram-withaxes.png used on input line 293.
 (pdftex.def)             Requested size: 205.0658pt x 159.48291pt.
 
 <./Chapters/Azigzag-chapter/scattergrams/figure-550nm-scattergram-withaxes.png,
- id=2753, 1355.0625pt x 1053.9375pt>
+ id=3904, 1355.0625pt x 1053.9375pt>
 File: ./Chapters/Azigzag-chapter/scattergrams/figure-550nm-scattergram-withaxes
 .png Graphic file (type png)
 
@@ -6210,7 +3990,7 @@ cattergram-withaxes.png used on input line 294.
 (pdftex.def)             Requested size: 205.0658pt x 159.48291pt.
 
 <./Chapters/Azigzag-chapter/scattergrams/figure-500nm-scattergram-withaxes.png,
- id=2754, 1355.0625pt x 1053.9375pt>
+ id=3905, 1355.0625pt x 1053.9375pt>
 File: ./Chapters/Azigzag-chapter/scattergrams/figure-500nm-scattergram-withaxes
 .png Graphic file (type png)
 
@@ -6221,7 +4001,7 @@ cattergram-withaxes.png used on input line 295.
 (pdftex.def)             Requested size: 205.0658pt x 159.48291pt.
 
 <./Chapters/Azigzag-chapter/scattergrams/figure-450nm-scattergram-withaxes.png,
- id=2755, 1355.0625pt x 1053.9375pt>
+ id=3906, 1355.0625pt x 1053.9375pt>
 File: ./Chapters/Azigzag-chapter/scattergrams/figure-450nm-scattergram-withaxes
 .png Graphic file (type png)
 
@@ -6230,21 +4010,6 @@ png>
 Package pdftex.def Info: ./Chapters/Azigzag-chapter/scattergrams/figure-450nm-s
 cattergram-withaxes.png used on input line 296.
 (pdftex.def)             Requested size: 205.0658pt x 159.48291pt.
-
-
-LaTeX Warning: Reference `c:zigzag' on page 141 undefined on input line 302.
-
-
-LaTeX Warning: Reference `fig:450scatter' on page 141 undefined on input line 3
-02.
-
-
-LaTeX Warning: Reference `fig:450scatterAsym' on page 141 undefined on input li
-ne 302.
-
-
-LaTeX Warning: Reference `fig:450scatterAsym' on page 141 undefined on input li
-ne 302.
 
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
@@ -6273,7 +4038,7 @@ xes.png> <./Chapters/Azigzag-chapter/scattergrams/figure-500nm-scattergram-with
 axes.png> <./Chapters/Azigzag-chapter/scattergrams/figure-450nm-scattergram-wit
 haxes.png>]
 <./Chapters/Azigzag-chapter/figure-dispersion-overlayed-woth-scatterometry.pdf,
- id=2802, 361.35pt x 289.08pt>
+ id=3954, 361.35pt x 289.08pt>
 File: ./Chapters/Azigzag-chapter/figure-dispersion-overlayed-woth-scatterometry
 .pdf Graphic file (type pdf)
 
@@ -6292,30 +4057,13 @@ cattergram-withaxes.png used on input line 307.
 (pdftex.def)             Requested size: 202.15909pt x 157.23146pt.
 
 
-LaTeX Warning: Reference `fig:asymscattergramsALL' on page 143 undefined on inp
-ut line 309.
-
-
-LaTeX Warning: Reference `fig:asymscattergramsALL' on page 143 undefined on inp
-ut line 309.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [143 <./Chapters/Azigzag-chapter/figure-dispersion-overlayed-woth-scatterometry
-.pdf>]
-
-LaTeX Warning: Reference `sec:asym-lightcoupling' on page 144 undefined on inpu
-t line 317.
-
-
-LaTeX Warning: Reference `sec:asym-bandstructure' on page 144 undefined on inpu
-t line 319.
-
-)
+.pdf>])
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
@@ -6324,70 +4072,17 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
 
 [144]
 Chapter 9.
-(./Chapters/Conclusions/chapter-conclusion.tex
-
-LaTeX Warning: Reference `c:rectangular' on page 145 undefined on input line 4.
-
-
-
-LaTeX Warning: Reference `c:oblique' on page 145 undefined on input line 4.
-
-
-LaTeX Warning: Reference `c:rectangular' on page 145 undefined on input line 4.
-
-
-
-LaTeX Warning: Reference `c:experimentalmethods' on page 145 undefined on input
- line 4.
-
-
-LaTeX Warning: Reference `c:rectangular' on page 145 undefined on input line 6.
-
-
-
-LaTeX Warning: Reference `c:oblique' on page 145 undefined on input line 8.
-
-[145
+(./Chapters/Conclusions/chapter-conclusion.tex [145
 
 ]
-
-LaTeX Warning: Reference `c:zigzag' on page 146 undefined on input line 14.
-
-
-LaTeX Warning: Reference `c:zigzag' on page 146 undefined on input line 18.
-
-
-LaTeX Warning: Reference `c:azigzag' on page 146 undefined on input line 20.
-
-
-LaTeX Warning: Reference `c:zigzag' on page 146 undefined on input line 20.
-
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[146]
-
-LaTeX Warning: Reference `c:rectangular' on page 147 undefined on input line 25
-.
-
-
-LaTeX Warning: Reference `c:zigzag' on page 147 undefined on input line 25.
-
-
-LaTeX Warning: Reference `c:azigzag' on page 147 undefined on input line 25.
-
-
-LaTeX Warning: Reference `c:zigzag' on page 147 undefined on input line 27.
-
-
-LaTeX Warning: Reference `fig:experimentforcollimation' on page 147 undefined o
-n input line 27.
-
-(./Chapters/Conclusions/selfcollimatorsvg.pdf_tex
-<./Chapters/Conclusions/selfcollimatorsvg.pdf, id=2853, 227.77267pt x 186.4569p
+[146] (./Chapters/Conclusions/selfcollimatorsvg.pdf_tex
+<./Chapters/Conclusions/selfcollimatorsvg.pdf, id=4020, 227.77267pt x 186.4569p
 t>
 File: ./Chapters/Conclusions/selfcollimatorsvg.pdf Graphic file (type pdf)
  <use ./Chapters/Conclusions/selfcollimatorsvg.pdf>
@@ -6396,39 +4091,12 @@ nput line 52.
 (pdftex.def)             Requested size: 227.77267pt x 186.46211pt.
 )
 
-LaTeX Warning: Reference `c:zigzag' on page 147 undefined on input line 34.
-
-
-Package natbib Warning: Citation `Stein2012' on page 147 undefined on input lin
-e 34.
-
-
-LaTeX Warning: Reference `c:zigzag' on page 147 undefined on input line 36.
-
-
-Package natbib Warning: Citation `Theis1983' on page 147 undefined on input lin
-e 38.
-
-
-LaTeX Warning: Reference `c:zigzag' on page 147 undefined on input line 38.
-
-
-LaTeX Warning: Reference `c:azigzag' on page 147 undefined on input line 38.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[147]
-
-LaTeX Warning: Reference `c:azigzag' on page 148 undefined on input line 40.
-
-
-LaTeX Warning: Reference `c:azigzag' on page 148 undefined on input line 40.
-
-)
+[147])
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
@@ -6444,84 +4112,177 @@ Package Fancyhdr Warning: \headheight is too small (10.743pt):
 
 [149] [150
 
-]
-
-LaTeX Warning: Reference `c:zigzag' on page 151 undefined on input line 28.
-
-
-LaTeX Warning: Reference `c:azigzag' on page 151 undefined on input line 28.
-
-) (./Other/back.tex
+]) (./Other/back.tex
 
 Package Fancyhdr Warning: \headheight is too small (10.743pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[151]
-No file thesis.bbl.
+[151] (./thesis.bbl (./thesis.brf)
+\tf@brf=\write8
+\openout8 = `thesis.brf'.
 
-Package natbib Warning: There were undefined citations.
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [152
 
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (10.743pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[153]
+
+Package Fancyhdr Warning: \headheight is too small (10.743pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[154]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+
+
+Package Fancyhdr Warning: \headheight is too small (10.743pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[155]
+
+Package Fancyhdr Warning: \headheight is too small (10.743pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[156]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+
+Package Fancyhdr Warning: \headheight is too small (10.743pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[157]
+
+Package Fancyhdr Warning: \headheight is too small (10.743pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[158]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ñ in font cmr10!
+Missing character: There is no ¢ in font cmr10!
+
+
+Package Fancyhdr Warning: \headheight is too small (10.743pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[159]
+
+Package Fancyhdr Warning: \headheight is too small (10.743pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[160]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no î in font cmr10!
+
+
+Package Fancyhdr Warning: \headheight is too small (10.743pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[161]
+
+Package Fancyhdr Warning: \headheight is too small (10.743pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[162]
+Missing character: There is no ‚ in font cmcsc10!
+Missing character: There is no Ä in font cmcsc10!
+Missing character: There is no ô in font cmcsc10!
+
+
+Package Fancyhdr Warning: \headheight is too small (10.743pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[163])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 14.
+
+
+Package Fancyhdr Warning: \headheight is too small (10.743pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[164]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 14.
-(./thesis.aux)
+ (./thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 14.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 14.
-
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: 70790D60956200CD1D6FDFA966F003FB;894
-(rerunfilecheck)             After:  A1C5A2A4E4C26A255908BA7D86375FA8;7268.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 059E78BED02CEADBFF3D65EC68DA325E;7314.
+Package rerunfilecheck Info: File `thesis.brf' has not changed.
+(rerunfilecheck)             Checksum: B9B7C3C665557B73B1ADEAA3CF089DE5;10000.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 14.
  ) ) 
 Here is how much of TeX's memory you used:
- 45775 strings out of 493311
- 864249 string characters out of 6137850
- 1019311 words of memory out of 7000000
- 47589 multiletter control sequences out of 15000+600000
- 28278 words of font info for 154 fonts, out of 8000000 for 9000
+ 46881 strings out of 493311
+ 881689 string characters out of 6137850
+ 1050424 words of memory out of 7000000
+ 48422 multiletter control sequences out of 15000+600000
+ 32515 words of font info for 204 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 51i,16n,79p,2046b,786s stack positions out of 5000i,500n,10000p,700000b,80000s
+ 51i,16n,79p,2039b,784s stack positions out of 5000i,500n,10000p,700000b,80000s
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.p
 fb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pf
 b></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb>
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
-usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
-sr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr
-/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/l
-ocal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loc
-al/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local
-/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/t
-exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/tex
-live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texli
-ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/
-2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/201
-3/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2013/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2013/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2013/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2013/texmf-dist
-/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local/texlive/2013/texmf-di
-st/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2013/texm
-f-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on thesis.pdf (160 pages, 40304108 bytes).
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
+sr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
+/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
+ocal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/loc
+al/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
+/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/t
+exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/tex
+live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texliv
+e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
+013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2013
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2013/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2013/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2013/texmf-di
+st/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local/texlive/2013/texmf-
+dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2013/te
+xmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on thesis.pdf (179 pages, 40414991 bytes).
 PDF statistics:
- 3108 PDF objects out of 3580 (max. 8388607)
- 2331 compressed objects within 24 object streams
- 558 named destinations out of 1000 (max. 500000)
- 21312 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 4583 PDF objects out of 5155 (max. 8388607)
+ 3752 compressed objects within 38 object streams
+ 727 named destinations out of 1000 (max. 500000)
+ 23992 words of extra memory for PDF output out of 24883 (max. 10000000)
 
