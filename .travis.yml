@@ -3,4 +3,5 @@ dist: trusty
 before_install:
 - sudo apt-get -qq update && sudo apt-get install -y --no-install-recommends texlive-full
 - chmod +x latex-build.sh
+- chmod +x latex-clean.sh
 script: ./latex-build.sh
