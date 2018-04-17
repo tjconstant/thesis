@@ -3,4 +3,4 @@ dist: trusty
 before_install:
 - sudo apt-get -qq update && sudo apt-get install -y --no-install-recommends texlive-full
 script:
-- pdflatex -interaction=nonstopmode -shell-escape -enable-write18 -halt-on-error *.tex
+- pdflatex -interaction=nonstopmode -shell-escape -enable-write18 -halt-on-error thesis.tex
