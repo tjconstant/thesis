@@ -2,9 +2,5 @@ sudo: required
 dist: trusty
 before_install:
 - sudo apt-get -qq update && sudo apt-get install -y --no-install-recommends texlive-full
-script:
-- pdflatex -synctex=1 -interaction=nonstopmode -shell-escape -enable-write18 thesis.tex
-- bibtex thesis
-- pdflatex -synctex=1 -interaction=nonstopmode -shell-escape -enable-write18 thesis.tex
-- pdflatex -synctex=1 -interaction=nonstopmode -shell-escape -enable-write18 thesis.tex
-- latex-clean.sh
+before_script: cd thesis
+script: build-latex.sh
