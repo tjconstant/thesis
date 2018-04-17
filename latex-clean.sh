@@ -12,3 +12,5 @@ else
          rm -f $arg.$ext
     done
 fi
+
+rm -f *-autopp.*
