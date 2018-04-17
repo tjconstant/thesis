@@ -5,6 +5,6 @@ Repository of the LaTeX package for my PhD thesis; "Optical Excitation of Surfac
 
 This thesis was submitted by Thomas James Constant to the University of Exeter as a thesis for the degree of Doctor of Philosophy in Physics, March 2013.
 
-After minor corrections, this thesis was accepted and published on the Open Research Exeter (ORE) platform, at <http://hdl.handle.net/10871/9001>.
+After minor corrections, this thesis was accepted and published on the Open Research Exeter (ORE) platform, found at <http://hdl.handle.net/10871/9001>.
 
-This repositiory contains, and may continue to include, further voluntary minor correcitons found since acceptance and publication.
+This repositiory contains, and may continue to include, further voluntary minor corrections found since acceptance and publication.
