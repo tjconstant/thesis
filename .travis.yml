@@ -1,4 +1,4 @@
 sudo: required
 dist: trusty
-before_script: cd tjconstant/thesis
+before_script: cd /tjconstant/thesis
 script: build-latex.sh
